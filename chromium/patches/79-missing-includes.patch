@@ -1,0 +1,23 @@
+diff -Naur orig/chrome/browser/apps/launch_service/launch_manager.h patched/chrome/browser/apps/launch_service/launch_manager.h
+--- orig/chrome/browser/apps/launch_service/launch_manager.h	2019-12-09 22:51:48.000000000 +0100
++++ patched/chrome/browser/apps/launch_service/launch_manager.h	2019-12-16 17:50:55.549529637 +0100
+@@ -6,6 +6,7 @@
+ #define CHROME_BROWSER_APPS_LAUNCH_SERVICE_LAUNCH_MANAGER_H_
+ 
+ #include <string>
++#include <vector>
+ 
+ #include "base/macros.h"
+ 
+diff -Naur orig/ui/gfx/font.cc patched/ui/gfx/font.cc
+--- orig/ui/gfx/font.cc	2019-12-09 22:51:59.000000000 +0100
++++ patched/ui/gfx/font.cc	2019-12-16 01:58:00.594866456 +0100
+@@ -4,6 +4,8 @@
+ 
+ #include "ui/gfx/font.h"
+ 
++#include <algorithm>
++
+ #include "base/strings/utf_string_conversions.h"
+ #include "build/build_config.h"
+ #include "ui/gfx/platform_font.h"
