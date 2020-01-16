@@ -1,5 +1,7 @@
 #!/bin/sh -eux
 
+# gtk3 build fail: https://github.com/lpereira/hardinfo/issues/410
+
 ub_compile \
     -DCMAKE_INSTALL_LIBDIR=lib \
-    -DHARDINFO_GTK3=1
+    -DHARDINFO_GTK3=OFF
