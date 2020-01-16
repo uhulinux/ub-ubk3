@@ -1,0 +1,12 @@
+diff -Naur orig/tools/meson.build patched/tools/meson.build
+--- orig/tools/meson.build	2020-01-16 22:39:13.000000000 +0100
++++ patched/tools/meson.build	2020-01-16 22:56:06.260166002 +0100
+@@ -67,7 +67,7 @@
+ 	       dependency('xrandr', required : true),
+ 	       dependency('xxf86vm', required : true),
+ 	       dependency('dri3proto', required : true),
+-	       dependency('dri', required : true),
++	       dependency('dri', required : false),
+ 	       dependency('libdrm', required : true),
+ 	     ],
+ 	     install : false)

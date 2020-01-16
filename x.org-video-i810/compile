@@ -1,7 +1,5 @@
 #!/bin/sh -eux
 
-NOCONFIGURE=1 ./autogen.sh
-
-ub_configure \
-	--with-default=dri3
-ub_make
+ub_compile \
+    -Dvalgrind=false \
+	-Ddefault-dri=3
