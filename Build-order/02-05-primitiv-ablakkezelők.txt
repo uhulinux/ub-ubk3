@@ -35,6 +35,7 @@ weston
 scdoc
 xcb-util-errors
 wlroots
+alacritty
 swaybg
 swayidle
 swaylock
