@@ -126,6 +126,7 @@ krb5-auth-dialog
 electrum
 mount-gtk
 gencfsm
+mencfsm
 ffdiaporama
 gdesklets
 bclock
