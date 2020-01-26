@@ -140,4 +140,5 @@ python-msgpack
 python-pytest-plugins
 python-pillow
 python3-matplotlib
+python3-websockets
 wxpython
