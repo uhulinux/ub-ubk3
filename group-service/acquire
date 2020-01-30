@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+${UB_VERSION}.tar.gz group-service-${UB_VERSION}/
+	https://github.com/zhuyaliang/group-service/archive/

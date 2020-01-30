@@ -1,0 +1,363 @@
+diff -Naur orig/po/hu.po patched/po/hu.po
+--- orig/po/hu.po	2019-12-18 02:27:41.000000000 +0100
++++ patched/po/hu.po	2020-01-30 18:37:10.238741608 +0100
+@@ -6,8 +6,8 @@
+ # Translators:
+ # KAMI KAMI <kami911@gmail.com>, 2019
+ # Balázs Meskó <meskobalazs@gmail.com>, 2019
+-# Rezső Páder <rezso@rezso.net>, 2019
+ # Stefano Karapetsas <stefano@karapetsas.com>, 2019
++# Rezső Páder <rezso@rezso.net>, 2020
+ # 
+ #, fuzzy
+ msgid ""
+@@ -16,7 +16,7 @@
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2019-09-19 17:39+0800\n"
+ "PO-Revision-Date: 2019-05-07 07:46+0000\n"
+-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
++"Last-Translator: Rezső Páder <rezso@rezso.net>, 2020\n"
+ "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -26,19 +26,19 @@
+ 
+ #: data/org.mate.user.admin.policy.in:11
+ msgid "Manage user accounts"
+-msgstr ""
++msgstr "Felhasználói fiókok kezelése"
+ 
+ #: data/org.mate.user.admin.policy.in:12
+ msgid "Authentication is required to change user data"
+-msgstr ""
++msgstr "Hitelesítés szükséges a felhasználó adatainak módosítások"
+ 
+ #: data/mate-user-admin.appdata.xml.in:6
+ msgid "MATE Manager"
+-msgstr ""
++msgstr "MATE felhasználó kezelő"
+ 
+ #: data/mate-user-admin.appdata.xml.in:7
+ msgid "Managing Linux Local Users and Groups"
+-msgstr ""
++msgstr "Helyi felhasználók és csoportok kezelése"
+ 
+ #: data/mate-user-admin.appdata.xml.in:9
+ msgid ""
+@@ -55,43 +55,43 @@
+ 
+ #: src/main.c:97 src/main.c:110
+ msgid "Mate User Manager"
+-msgstr ""
++msgstr "MATE felhasználó kezelő"
+ 
+ #: src/main.c:185 src/main.c:227
+ msgid "open file"
+-msgstr ""
++msgstr "fájl megnyitása"
+ 
+ #: src/main.c:185
+ msgid "Create pid file failed"
+-msgstr ""
++msgstr "PID fájl létrehozása sikertelen"
+ 
+ #: src/main.c:194
+ msgid "write file"
+-msgstr ""
++msgstr "fájl írása"
+ 
+ #: src/main.c:194
+ msgid "write pid file failed"
+-msgstr ""
++msgstr "PID fájl írása sikertelen"
+ 
+ #: src/main.c:227
+ msgid "open pid file failed"
+-msgstr ""
++msgstr "PID fájl megnyitása sikertelen"
+ 
+ #: src/main.c:232
+ msgid "read file"
+-msgstr ""
++msgstr "fájl olvasása"
+ 
+ #: src/main.c:232
+ msgid "read pid file failed"
+-msgstr ""
++msgstr "PID fájl olvasása sikertelen"
+ 
+ #: src/main.c:263
+ msgid "No such user!!!"
+-msgstr ""
++msgstr "Nincs ilyen felhasználó!"
+ 
+ #: src/user-base.c:220 src/user-admin.c:616
+ msgid "Account Type"
+-msgstr ""
++msgstr "Fiók típusa"
+ 
+ #. drop-down select boxes
+ #: src/user-base.c:224 src/user-admin.c:619
+@@ -100,7 +100,7 @@
+ 
+ #: src/user-base.c:224 src/user-admin.c:619
+ msgid "Administrators"
+-msgstr ""
++msgstr "Adminisztrátor"
+ 
+ #: src/user-base.c:235 src/user-language.c:137
+ msgid "Language"
+@@ -108,7 +108,7 @@
+ 
+ #: src/user-base.c:240 src/user-share.c:342
+ msgid "No Settings"
+-msgstr ""
++msgstr "Nincs beállítás"
+ 
+ #: src/user-base.c:255 src/user-password.c:237 src/user-admin.c:775
+ #: src/user-admin.c:796
+@@ -117,41 +117,41 @@
+ 
+ #: src/user-base.c:268
+ msgid "Automatic logon"
+-msgstr ""
++msgstr "Automatikus bejelentkezés"
+ 
+ #: src/user-base.c:283
+ msgid "Login time"
+-msgstr ""
++msgstr "Bejelentkezés ideje"
+ 
+ #: src/user-base.c:297
+ msgid "Group Manage"
+-msgstr ""
++msgstr "Csoportkezelés"
+ 
+ #: src/user-base.c:300
+ msgid "Setting Groups"
+-msgstr ""
++msgstr "Csoportok beállítása"
+ 
+ #: src/user-info.c:66
+ msgid "Account is disable"
+-msgstr ""
++msgstr "Ez a fiók le van tiltva."
+ 
+ #. 新建两个单选按钮
+ #: src/user-info.c:78 src/user-password.c:242 src/user-admin.c:780
+ msgid "Set up next time"
+-msgstr ""
++msgstr "Beállítás később"
+ 
+ #: src/user-info.c:268
+ msgid "Get User Info"
+-msgstr ""
++msgstr "Felhasználók lekérdezése"
+ 
+ #: src/user-info.c:268
+ msgid "user count is 0"
+-msgstr ""
++msgstr "nincsenek felhasználók"
+ 
+ #. create chnaged passwod dialog
+ #: src/user-password.c:210
+ msgid "Set Password"
+-msgstr ""
++msgstr "Jelszó beállítása"
+ 
+ #: src/user-password.c:219 src/user-admin.c:854 src/user-list.c:227
+ #: src/user-group.c:936 src/user-group.c:1002 src/user-group.c:1058
+@@ -165,28 +165,28 @@
+ 
+ #: src/user-password.c:251
+ msgid "Now set up"
+-msgstr ""
++msgstr "Beállítás most"
+ 
+ #: src/user-password.c:260
+ msgid "User Password"
+-msgstr ""
++msgstr "Felhasználó jelszava"
+ 
+ #: src/user-password.c:270 src/user-admin.c:809
+ msgid "generation password"
+-msgstr ""
++msgstr "jelszó generálás"
+ 
+ #: src/user-admin.c:175 src/user-admin.c:210 src/user-admin.c:216
+ #: src/user-list.c:226
+ msgid "Remove User"
+-msgstr ""
++msgstr "Felhasználó törlése"
+ 
+ #: src/user-admin.c:211
+ msgid "You cannot delete your own account."
+-msgstr ""
++msgstr "A saját fiók nem törölhető."
+ 
+ #: src/user-admin.c:217
+ msgid "Whether to remove the user's home directory"
+-msgstr ""
++msgstr "Felhasználó saját könyvtárának eltávolítása"
+ 
+ #: src/user-admin.c:313
+ msgid "Repeat of user name.Please try another"
+@@ -212,11 +212,11 @@
+ 
+ #: src/user-admin.c:520
+ msgid "Creating User"
+-msgstr ""
++msgstr "Felhasználó létrehozása"
+ 
+ #: src/user-admin.c:595 src/user-group.c:681
+ msgid "Username"
+-msgstr ""
++msgstr "Felhasználónév"
+ 
+ #: src/user-admin.c:608
+ msgid "Full Name"
+@@ -224,7 +224,7 @@
+ 
+ #: src/user-admin.c:638 src/user-share.c:564
+ msgid "The passwords entered twice are different"
+-msgstr ""
++msgstr "A két jelszó nem egyezik"
+ 
+ #: src/user-admin.c:675
+ msgid "Hybrid passwords improve security"
+@@ -232,7 +232,7 @@
+ 
+ #: src/user-admin.c:788
+ msgid "Now set the password"
+-msgstr ""
++msgstr "Jelszó beállítása most"
+ 
+ #: src/user-admin.c:864
+ msgid "Create New User"
+@@ -284,7 +284,7 @@
+ 
+ #: src/user-face.c:657
+ msgid "Change Name"
+-msgstr ""
++msgstr "Név módosítása"
+ 
+ #: src/user-face.c:657
+ msgid "Please enter a valid character"
+@@ -296,11 +296,11 @@
+ 
+ #: src/user-list.c:125
+ msgid "User List"
+-msgstr ""
++msgstr "Felhasználók listája"
+ 
+ #: src/user-list.c:225
+ msgid "Add User"
+-msgstr ""
++msgstr "Felhasználó hozzáadása"
+ 
+ #: src/user-share.c:169
+ msgid "_Return"
+@@ -422,7 +422,7 @@
+ 
+ #: src/user-group.c:355
+ msgid "Cannot remove root group"
+-msgstr ""
++msgstr "Rendszergazda csoport nem törölhető"
+ 
+ #: src/user-group.c:363
+ msgid "Whether to remove the selected group"
+@@ -430,11 +430,11 @@
+ 
+ #: src/user-group.c:640 src/user-group.c:716
+ msgid "Group Name"
+-msgstr ""
++msgstr "Csoport neve"
+ 
+ #: src/user-group.c:649 src/user-group.c:725
+ msgid "Group ID"
+-msgstr ""
++msgstr "Csoport ID"
+ 
+ #: src/user-group.c:690
+ msgid "User ID"
+@@ -482,16 +482,16 @@
+ 
+ #: src/user-group.c:832
+ msgid "Groups Manage"
+-msgstr ""
++msgstr "Csoportok kezelése"
+ 
+ #: src/user-group.c:845
+ #, c-format
+ msgid "Current user -- %s"
+-msgstr ""
++msgstr "Jelenlegi felhasználó -- %s"
+ 
+ #: src/user-group.c:975
+ msgid "New Group Name"
+-msgstr ""
++msgstr "Új csoport neve"
+ 
+ #: src/user-group.c:986
+ msgid "Please select the user to add to the new group"
+@@ -503,19 +503,19 @@
+ 
+ #: src/user-group.c:1091
+ msgid "Create Groups"
+-msgstr ""
++msgstr "Csoportok létrehozása"
+ 
+ #: src/user-group.c:1095
+ msgid "Remove Groups"
+-msgstr ""
++msgstr "Csoportok törlése"
+ 
+ #: src/user-history.c:43
+ msgid "This Week"
+-msgstr ""
++msgstr "Ez a hét"
+ 
+ #: src/user-history.c:47
+ msgid "Last Week"
+-msgstr ""
++msgstr "Utolsó hét"
+ 
+ #: src/user-history.c:149
+ msgid "Today"
+@@ -523,7 +523,7 @@
+ 
+ #: src/user-history.c:153
+ msgid "Yesterday"
+-msgstr ""
++msgstr "Tegnap"
+ 
+ #: src/user-history.c:159
+ msgid "%b %e"
+@@ -531,7 +531,7 @@
+ 
+ #: src/user-history.c:163
+ msgid "%b %e, %Y"
+-msgstr ""
++msgstr "%Y. %b %d"
+ 
+ #: src/user-history.c:246
+ msgid "Session Ended"
+@@ -544,15 +544,15 @@
+ #: src/user-history.c:290
+ #, c-format
+ msgid "%s — Account Activity"
+-msgstr ""
++msgstr "%s — fiók aktivitás"
+ 
+ #: src/user-history.c:400
+ msgid "previous"
+-msgstr ""
++msgstr "előző"
+ 
+ #: src/user-history.c:405
+ msgid "next"
+-msgstr ""
++msgstr "következő"
+ 
+ #: src/user-language.c:120
+ msgid "More…"

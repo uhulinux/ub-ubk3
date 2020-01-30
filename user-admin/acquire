@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+${UB_VERSION}.tar.gz user-admin-${UB_VERSION}/
+	https://github.com/zhuyaliang/user-admin/archive/

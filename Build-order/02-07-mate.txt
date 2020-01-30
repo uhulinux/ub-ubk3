@@ -41,4 +41,7 @@ mate-menu
 mate-tweak
 brisk-menu
 mate-calc
+group-service
+user-admin
+time-admin
 mate

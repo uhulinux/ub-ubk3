@@ -1,0 +1,16 @@
+diff -Naur orig/data/mate-user-admin/nuconfig patched/data/mate-user-admin/nuconfig
+--- orig/data/mate-user-admin/nuconfig	2019-12-18 02:27:41.000000000 +0100
++++ patched/data/mate-user-admin/nuconfig	2020-01-30 11:46:55.806953301 +0100
+@@ -2,10 +2,10 @@
+ # Default configuration for new users 
+ [nudefault]
+ #Default language for new users
+-nulanguage = en_US.utf8
++nulanguage = hu_HU.utf8
+ 
+ #Default Type for New User, 0 Ordinary User 1 Manage User
+ nutype = 0                 
+ 
+ #Default Add Groups for New Users
+-nugroups =mail;audio;video;lightdm
++nugroups =mail;audio;video;users
