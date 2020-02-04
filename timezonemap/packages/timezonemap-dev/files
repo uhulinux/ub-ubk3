@@ -1,5 +1,4 @@
 	/lib/*.a
-	/lib/pkgconfig
 @	/lib/*.so
 	/usr/bin/*-config
 	/usr/include
@@ -9,7 +8,5 @@
 	/usr/lib/pkgconfig
 @	/usr/lib/**/*.so
 	/usr/share/aclocal
-	/usr/share/devhelp
-	/usr/share/gir-1.0
 	/usr/share/man/**/man1/*-config.1*
 	/usr/share/man/**/man3
