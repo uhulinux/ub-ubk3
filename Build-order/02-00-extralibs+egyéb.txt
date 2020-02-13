@@ -23,7 +23,10 @@ cln
 libpseudo
 qtwebkit
 qtwebengine
-python-pyqt5
+python2-pyqt5
+python3-pyqt5
+python3-pyqt5-sip
+python3-pyqtwebengine
 hplip
 cups-filters
 foomatic-db-engine
