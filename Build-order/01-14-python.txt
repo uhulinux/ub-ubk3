@@ -29,13 +29,13 @@ python-wheel
 python-xlib
 python-yarl
 python-backports-shutil-get-terminal-size
-python-css-parser
+python3-css-parser
 python-cssutils
 python-funcsigs
-python-mechanize
+python3-mechanize
 python-prompt-toolkit1
 python-pysqlite
-python-regex
+python3-regex
 python-squaremap
 python3-anytree
 python3-asn1crypto
@@ -125,7 +125,7 @@ python-traitlets
 python-urllib3
 python-wcwidth
 python-webencodings
-python-html5-parser
+python3-html5-parser
 python-apsw
 python-pexpect
 python-ptyprocess
@@ -141,4 +141,5 @@ python-pytest-plugins
 python-pillow
 python3-matplotlib
 python3-websockets
+python3-soupsieve
 wxpython

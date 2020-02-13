@@ -19,7 +19,6 @@ t1utils
 txt2man
 unicode-ucd
 avfs
-beautifulsoup
 bodr
 cdrkit
 c++-gtk-utils
