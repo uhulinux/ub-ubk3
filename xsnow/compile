@@ -1,4 +1,4 @@
 #!/bin/sh -eux
 
-xmkmf
-make
+autoreconf -vif
+ub_compile
