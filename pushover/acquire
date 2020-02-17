@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 pushover-${UB_VERSION}.tar.gz pushover-${UB_VERSION}/
-	http://downloads.sourceforge.net/pushover/
+	http://ftp2.za.freebsd.org/pub/FreeBSD/ports/distfiles/
