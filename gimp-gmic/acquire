@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+gmic_${UB_VERSION}.tar.gz gmic-${UB_VERSION}/
+    https://gmic.eu/files/source/
