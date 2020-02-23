@@ -7,7 +7,6 @@ homebank
 mmex
 zbar
 qalculate-gtk
-calibre
 jmoney
 abevjava
 fet
