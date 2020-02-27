@@ -1,7 +1,7 @@
 #!/bin/sh -eux
 
-if [ $((`stat -f -c "%a" .`*`stat -f -c "%s" .`/(1024*1024*1024))) -lt 7 ]; then
-	echo "At least 7 GB free space is required!"
+if [ $((`stat -f -c "%a" .`*`stat -f -c "%s" .`/(1024*1024*1024))) -lt 15 ]; then
+	echo "At least 15 GB free space is required!"
 	exit 1
 fi
 
@@ -15,6 +15,7 @@ _google_default_client_secret=0ZChLK6AxeA3Isu96MkwqDR4
 
 _flags=("
 is_debug=false
+cc_wrapper=\"ccache\"
 is_clang=true
 clang_base_path=\"/usr\"
 clang_use_chrome_plugins=false
@@ -29,7 +30,6 @@ google_api_key=\"${_google_api_key}\"
 google_default_client_id=\"${_google_default_client_id}\"
 google_default_client_secret=\"${_google_default_client_secret}\"
 use_allocator=\"none\"
-use_jumbo_build=false
 use_gold=false
 use_lld=true
 use_sysroot=false
@@ -63,7 +63,7 @@ _syslibs=(
     fontconfig
     freetype
     harfbuzz-ng
-    icu
+#   icu
     libdrm
     libevent
     libjpeg
@@ -101,7 +101,7 @@ export LDFLAGS+="-Wl,-rpath,/usr/lib/chromium/ -Wl,--no-keep-memory"
 out/Release/gn gen out/Release -v --args=" ${_flags[@]} " --script-executable=/usr/bin/python2
 
 # gn args list - kihagyható, de segít a lehetséges opciók megadásához
-# out/Release/gn args --list $UB_COMPILEDIR/out/Release
+out/Release/gn args --list $UB_COMPILEDIR/out/Release > $UB_COMPILEDIR/out/Release/gn-args-full.list
 
 # ninja
 LC_ALL=C ninja -j 2 -C out/Release -v pdf chrome chrome_sandbox chromedriver
