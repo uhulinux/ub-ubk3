@@ -2,4 +2,4 @@
 
 cd /usr/share/games/deflektor
 
-padsp ./deflektor "$@"
+./deflektor "$@"
