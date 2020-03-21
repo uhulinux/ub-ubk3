@@ -53,7 +53,7 @@ openmortal
 fillets
 fillets-data
 frozen-bubble
-gcompris
+gcompris-qt
 ri-li
 xblast
 etracer
