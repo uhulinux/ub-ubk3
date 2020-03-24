@@ -60,3 +60,4 @@ a2png
 diffuse
 regexxer
 git-extras
+python3-future
