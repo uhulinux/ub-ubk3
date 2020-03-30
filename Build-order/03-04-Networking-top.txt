@@ -74,3 +74,4 @@ ganyremote
 kanyremote
 speedtest-cli
 google-earth
+anydesk
