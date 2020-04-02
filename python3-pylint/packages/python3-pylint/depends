@@ -1,2 +1,4 @@
 python3-astroid
-python3-logilab-common
+python3-isort
+python3-mccabe
+python3-setuptools
