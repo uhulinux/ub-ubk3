@@ -1,3 +1,0 @@
-#!/bin/sh -eux
-
-python2 /usr/bin/scons installbindir='/usr/bin' datadir='/usr/share/games/dangerdeep' .
