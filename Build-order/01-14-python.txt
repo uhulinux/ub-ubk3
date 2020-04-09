@@ -101,16 +101,16 @@ python3-pyopenssl
 python-pysmbc
 python-pytest
 python3-rencode
-python-apipkg
+python3-apipkg
 python-certifi
 python-chardet
 python-cssselect
-python-dateutil
-python-decorator
-python-dnspython
+python3-dateutil
+python3-decorator
+python3-dnspython
 python-idna
-python-itsdangerous
-python-jinja2
+python3-itsdangerous
+python3-jinja2
 python-mutagen
 python-pathlib
 python-pickleshare
@@ -139,4 +139,5 @@ python3-matplotlib
 python3-websockets
 wxpython
 python3-wxpython
+python3-kiwisolver
 
