@@ -33,7 +33,7 @@ python-cssutils
 python-funcsigs
 python-prompt-toolkit1
 python-pysqlite
-python-squaremap
+python3-squaremap
 python3-anytree
 python3-asn1crypto
 python3-asn1-modules
@@ -81,7 +81,9 @@ python3-mccabe
 python3-astroid
 python3-pylint
 python-bsddb3
+python3-pip
 python3-path.py
+python3-pathlib2
 python3-pbr
 python-pycurl
 python-pyicu
@@ -137,3 +139,4 @@ python3-matplotlib
 python3-websockets
 wxpython
 python3-wxpython
+
