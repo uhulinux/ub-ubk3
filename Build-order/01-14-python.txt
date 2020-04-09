@@ -136,3 +136,4 @@ python-pillow
 python3-matplotlib
 python3-websockets
 wxpython
+python3-wxpython
