@@ -5,9 +5,7 @@ shopt -s nullglob
 setup_fonts_cache ()
 {
 	[ -z "${UHU_PKG_QUIET+x}" ] && echo -n "  Running fc-cache ..."
-	fc-cache -s
-	mkfontscale usr/share/fonts
-	mkfontdir usr/share/fonts
+	fc-cache -s -n
 	if [ "$1" != "may_need_one_more_run" ]; then
 		true > /var/lib/uhu-pkg/fonts-cache
 		while [ ! /var/lib/uhu-pkg/fonts-cache -ot /var/lib/dpkg/info \
