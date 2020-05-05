@@ -23,7 +23,6 @@ cln
 libpseudo
 qtwebkit
 qtwebengine
-python2-pyqt5
 python3-pyqt5
 hplip
 cups-filters

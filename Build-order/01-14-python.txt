@@ -1,4 +1,3 @@
-python-cddb
 python-enum34
 python-aiohttp
 python-aiohttp-socks
@@ -28,10 +27,6 @@ python-snowballstemmer
 python-wheel
 python-xlib
 python-yarl
-python-backports-shutil-get-terminal-size
-python-cssutils
-python-funcsigs
-python-prompt-toolkit1
 python-pysqlite
 python3-squaremap
 python3-anytree
@@ -69,7 +64,6 @@ python-zope.fixers
 python-pyxdg
 sip
 python-gudev
-python-notify
 python-pybluez
 python-pylibacl
 python-pyorbit

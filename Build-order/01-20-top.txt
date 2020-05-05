@@ -70,7 +70,6 @@ mdadm
 perl-email-abstract
 perl-net-https-nb
 perl-sql-statement
-python-twill
 python-cherrypy
 python-cxfreeze
 python-pycodestyle
