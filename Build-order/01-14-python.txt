@@ -97,7 +97,6 @@ python3-rencode
 python3-apipkg
 python-certifi
 python-chardet
-python-cssselect
 python3-dateutil
 python3-decorator
 python3-dnspython
