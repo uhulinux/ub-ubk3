@@ -1,7 +1,6 @@
 icewm-themes
 pekwm-themes
 pekwm-themes-hewphoria
-pekwm-win-themes
 openbox-debian-themes
 sddm-theme-chili
 sddm-theme-futuristic
