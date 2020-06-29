@@ -2,7 +2,6 @@ libev
 confuse
 fvwm-crystal
 menumaker
-icewm-xdgmenu
 xdgmenumaker
 obmenu-generator
 st
