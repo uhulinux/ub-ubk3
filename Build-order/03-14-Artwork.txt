@@ -1,4 +1,3 @@
-icewm-themes
 pekwm-themes
 pekwm-themes-hewphoria
 openbox-debian-themes
