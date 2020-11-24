@@ -24,6 +24,7 @@ ksystemlog
 yakuake
 kdenlive
 k3b
+kolourpaint
 libkdegames
 kdegames
 #
