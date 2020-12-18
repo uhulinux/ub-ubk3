@@ -1,3 +1,5 @@
+plib
+speed-dreams
 heroes-data
 heroes-hq-sound-tracks
 heroes-sound-effects
