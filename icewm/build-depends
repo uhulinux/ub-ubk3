@@ -1,11 +1,9 @@
 alsa-lib-dev
-aom-dev
-asciidoc
-cpio
 fribidi-dev
 gdk-pixbuf-dev
 glfw-dev
-libaio-dev
+libao-dev
+librsvg-dev
 libsndfile-dev
 libxcomposite-dev
 libxdamage-dev
@@ -14,6 +12,5 @@ libxinerama-dev
 libxpm-dev
 libxrandr-dev
 libxt-dev
-linuxdoc-tools
 rpm
 x.org-font-utils
