@@ -1,6 +1,6 @@
 diff -Nur orig/autogen.sh mod/autogen.sh
---- orig/autogen.sh	2018-11-12 16:18:13.000000000 +0100
-+++ mod/autogen.sh	2018-11-16 14:43:39.762476111 +0100
+--- orig/autogen.sh	2020-05-13 15:02:01.000000000 +0200
++++ mod/autogen.sh	2020-05-17 17:13:06.402987928 +0200
 @@ -25,7 +25,6 @@
  mkdir -p m4
  
@@ -10,21 +10,18 @@ diff -Nur orig/autogen.sh mod/autogen.sh
  autoreconf --verbose --force --install || exit 1
  
 diff -Nur orig/configure.ac mod/configure.ac
---- orig/configure.ac	2018-11-12 16:18:13.000000000 +0100
-+++ mod/configure.ac	2018-11-16 14:49:26.474048145 +0100
-@@ -462,11 +462,6 @@
+--- orig/configure.ac	2020-05-13 15:02:01.000000000 +0200
++++ mod/configure.ac	2020-05-17 17:16:26.950984841 +0200
+@@ -462,8 +462,6 @@
  	CFLAGS="$CFLAGS -g -O"
  fi
  
--# Use gnome-doc-utils:
--GNOME_DOC_INIT([0.8.0])
--
 -GTK_DOC_CHECK([1.15], [--flavour no-tmpl])
 -
  AC_CHECK_DECL([GL_EXT_x11_sync_object],
                [],
                [AC_MSG_ERROR([GL_EXT_x11_sync_object definition not found, please update your GL headers])],
-@@ -486,13 +481,6 @@
+@@ -483,13 +481,6 @@
  data/Makefile
  doc/Makefile
  doc/man/Makefile
@@ -39,8 +36,8 @@ diff -Nur orig/configure.ac mod/configure.ac
  src/wm-tester/Makefile
  src/libmuffin.pc
 diff -Nur orig/doc/Makefile.am mod/doc/Makefile.am
---- orig/doc/Makefile.am	2018-11-12 16:18:13.000000000 +0100
-+++ mod/doc/Makefile.am	2018-11-16 14:49:53.734038965 +0100
+--- orig/doc/Makefile.am	2020-05-13 15:02:01.000000000 +0200
++++ mod/doc/Makefile.am	2020-05-17 17:13:41.266987391 +0200
 @@ -1,4 +1,4 @@
 -SUBDIRS = man reference
 +SUBDIRS = man

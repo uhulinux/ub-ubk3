@@ -1,0 +1,18 @@
+#!/bin/sh -eux
+
+export CC=gcc CXX=g++ PYTHON=/usr/bin/python3
+
+cd js/src
+export MOZ_OBJDIR=$UB_OBJECTDIR
+
+cd "$UB_OBJECTDIR"
+"$UB_COMPILEDIR"/js/src/configure \
+	--prefix=/usr \
+    --with-system-zlib \
+    --with-intl-api \
+    --enable-shared-js \
+    --disable-shared-icu \
+    --disable-jemalloc \
+    --disable-optimize \
+    --disable-strip
+ub_make

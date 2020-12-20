@@ -68,6 +68,6 @@ gtk-doc
 libetpan
 tslib
 libxklavier
-js52
+js78
 rpm
 fontforge

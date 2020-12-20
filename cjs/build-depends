@@ -1,5 +1,6 @@
 cairo-dev
-dbus-glib-dev
 gobject-introspection-dev
 gtk-dev
-js52-dev
+js78-dev
+readline-dev
+sysprof-dev
