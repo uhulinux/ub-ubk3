@@ -1,4 +1,5 @@
 plib
+torcs
 speed-dreams
 heroes-data
 heroes-hq-sound-tracks
