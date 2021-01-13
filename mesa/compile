@@ -1,7 +1,6 @@
 #!/bin/sh -eux
 
-# vulkan-overlay-layer: https://github.com/KhronosGroup/glslang
-
+export CFLAGS+='-DNDEBUG'
 ub_compile \
     -Dplatforms=x11,drm,wayland,surfaceless \
     -Ddri3=true \
