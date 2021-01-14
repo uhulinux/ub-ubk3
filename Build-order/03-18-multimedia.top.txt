@@ -2,6 +2,7 @@ mkvtoolnix
 dvdauthor
 dvdstyler
 audacious
+waylandpp
 kodi
 pykaraoke
 bladeenc
