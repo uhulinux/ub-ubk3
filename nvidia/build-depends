@@ -1,9 +1,7 @@
 glu-dev
-gtk2
 gtk-dev
 kernel-dev
 libxv
 libxvmc
 wayland-dev
-x.org-server
 x.org-server-dev
