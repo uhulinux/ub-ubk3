@@ -22,6 +22,8 @@ simutrans-pak128
 0ad-data
 dangerdeep
 dark-oberon
+gnustep-make
+gnustep-base
 oolite
 opendungeons
 widelands
