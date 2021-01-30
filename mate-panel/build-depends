@@ -2,7 +2,6 @@ avahi-dev
 dconf-dev
 gobject-introspection-dev
 gtk-dev
-intltool
 itstool
 libcanberra-dev
 libmateweather-dev
@@ -13,6 +12,5 @@ mate-desktop-dev
 mate-menus-dev
 networkmanager-dev
 openssl-dev
-python2-dev
 xcb-util-dev
 yelp-tools
