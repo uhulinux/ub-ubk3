@@ -42,7 +42,6 @@ gnomeradio
 orca
 planner
 aisleriot
-syncevolution
 gnome-clocks
 libsexy
 sound-juicer
