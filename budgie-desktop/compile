@@ -1,9 +1,7 @@
 #!/bin/sh -eux
 
-if [ -d .git ]; then
-git clone https://gitlab.gnome.org/GNOME/libgnome-volume-control.git subprojects/gvc
+#git clone https://github.com/GNOME/libgnome-volume-control.git@43be5d2 subprojects/gvc
 git clone https://github.com/getsolus/budgie-translations.git subprojects/translations
-fi
 
 ub_compile \
 	-Dwith-gtk-doc=false
