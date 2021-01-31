@@ -12,6 +12,7 @@ qtermwidget
 lximage-qt
 lxqt-about
 lxqt-admin
+xsettingsd
 lxqt-config
 lxqt-globalkeys
 lxqt-notificationd
@@ -27,4 +28,5 @@ lxqt-runner
 lxqt-panel
 compton
 screengrab
+lxqt-archiver
 lxqt
