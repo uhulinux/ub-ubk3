@@ -38,6 +38,7 @@ read-edid
 xdotool
 xcalib
 libp11
+librtlsdr
 rng-tools
 blktrace
 freeipmi
