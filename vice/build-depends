@@ -1,4 +1,6 @@
+dos2unix
 ffmpeg-dev
+glew-dev
 glu-dev
 gtk-dev
 libieee1284-dev
