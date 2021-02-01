@@ -6,5 +6,6 @@ intltool
 libgee06-dev
 libgnome-keyring-dev
 libice-dev
+libsecret-dev
 libsm-dev
 vala-dev
