@@ -1,7 +1,8 @@
 ghostscript-dev
-libbsd-dev
 libice-dev
 libsm-dev
 libx11-dev
 ncurses-dev
 subversion
+texinfo
+wxwidgets-dev

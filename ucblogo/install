@@ -1,6 +1,6 @@
 #!/bin/sh -eux
 
-rm -r csls/CVS
+export DESTDIR=$UB_INSTALLDIR
 make \
 	prefix=INFODIR=${UB_INSTALLDIR} \
 	INFODIR=${UB_INSTALLDIR}/usr/share/info \

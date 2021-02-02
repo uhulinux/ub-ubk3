@@ -1,10 +1,9 @@
 e2fsprogs-dev
+glibc-dev
 keyutils
 krb5-dev
 libcap-dev
 libevent-dev
-libgssapi-dev
 libtirpc-dev
 lvm-dev
 sqlite-dev
-tcp-wrappers-dev
