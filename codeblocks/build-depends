@@ -1,6 +1,6 @@
 boost-dev
 gamin-dev
-gtk2-dev
+gtk-dev
 hunspell-dev
-wxwidgets2.8-dev
+wxwidgets-dev
 zip
