@@ -72,5 +72,6 @@ d2x-rebirth
 vavoom
 tetzle
 zdoom
+libzmusic
 gzdoom
 openra
