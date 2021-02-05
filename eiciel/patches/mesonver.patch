@@ -1,0 +1,24 @@
+diff -Nur orig/meson.build mod/meson.build
+--- orig/meson.build	2021-02-05 16:38:01.000000000 +0100
++++ mod/meson.build	2021-02-05 16:45:28.151841830 +0100
+@@ -1,7 +1,7 @@
+ # Eiciel
+ project('eiciel', 'cpp',
+   version : '0.9.13',
+-  meson_version : '>=0.54',
++  meson_version : '>=0.52',
+   license: 'GPL2+')
+ 
+ package_name = 'eiciel'
+@@ -220,11 +220,4 @@
+   'img/user.png',
+   install_dir : eicieldocfiguresdir)
+ 
+-summary(
+-  {
+-    'bindir': get_option('prefix') / get_option('bindir'),
+-    'nautilus-extension-dir': nautilusextensiondir
+-  },
+-  section: 'Directories')
+-
+ # vim: sw=2 expandtab ts=2 ft=meson
