@@ -2,6 +2,8 @@ alsa-lib-dev
 fontforge
 fribidi-dev
 gperf
+imagemagick
+libimagequant-dev
 libpaper
 libpng-dev
 librsvg-dev
@@ -10,3 +12,4 @@ sdl-image-dev
 sdl-mixer-dev
 sdl-pango-dev
 sdl-ttf-dev
+xdg-utils

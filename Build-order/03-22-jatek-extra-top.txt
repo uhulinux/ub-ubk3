@@ -65,6 +65,7 @@ gnubik
 pysol-sound-server
 xboard
 rocksndiamonds
+libimagequant
 tuxpaint
 digger
 trackballs
