@@ -21,6 +21,7 @@ pekwm-menu
 blackbox
 bmpanel2
 windowmaker
+retrovol
 jwm
 idesk
 lua-lgi
