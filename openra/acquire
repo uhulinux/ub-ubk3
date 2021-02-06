@@ -52,4 +52,4 @@ Eluant.dll
     https://github.com/OpenRA/Eluant/releases/download/20160124/
 
 GeoLite2-Country.mmdb.gz
-    http://geolite.maxmind.com/download/geoip/database/
+    https://github.com/texnikru/GeoLite2-Database/raw/master/
