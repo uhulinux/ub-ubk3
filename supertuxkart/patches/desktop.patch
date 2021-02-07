@@ -1,6 +1,6 @@
-diff -Naur orig/data/supertuxkart.desktop patched/data/supertuxkart.desktop
---- orig/data/supertuxkart.desktop	2019-04-20 18:40:12.000000000 +0200
-+++ patched/data/supertuxkart.desktop	2019-12-10 23:59:16.639406411 +0100
+diff -Nur orig/data/supertuxkart.desktop mod/data/supertuxkart.desktop
+--- orig/data/supertuxkart.desktop	2020-08-28 10:16:23.000000000 +0200
++++ mod/data/supertuxkart.desktop	2021-02-07 19:16:41.501184742 +0100
 @@ -6,6 +6,7 @@
  GenericName[de]=Ein Kart-Rennspiel
  GenericName[fr]=Un jeu de karting
@@ -9,3 +9,8 @@ diff -Naur orig/data/supertuxkart.desktop patched/data/supertuxkart.desktop
  GenericName[pl]=Wyścigi gokartów
  GenericName[ro]=Un joc de curse cu carturi
  Exec=supertuxkart
+@@ -14,4 +15,3 @@
+ Type=Application
+ Categories=Game;ArcadeGame;
+ Keywords=tux;game;race;
+-PrefersNonDefaultGPU=true
