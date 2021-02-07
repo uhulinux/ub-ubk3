@@ -3,6 +3,10 @@ cowsay
 doom1-demodata
 fairymax
 figlet
+perl-class-xsaccessor
+perl-app-docmake
+rinutils
+fortune
 fortune-hu
 golems
 heretic1-demodata
@@ -15,7 +19,6 @@ wolf4sdl-shwdata-w14
 sjeng
 wolf4sdl-shwdata-w11
 clonekeen
-fortune
 xrick
 pathological
 atris
