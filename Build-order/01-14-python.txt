@@ -1,4 +1,4 @@
-python2-pycripto
+python2-pycrypto
 python3-async-timeout
 python3-backcall
 python3-cycler
