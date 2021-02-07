@@ -31,8 +31,7 @@ librsync
 libxalan
 libxnvctrl
 pam
-python-pycrypto
-python-pyxml
+python2-pycrypto
 rarian
 usbutils
 xapian
@@ -59,7 +58,7 @@ xdpyinfo
 xdriinfo
 gnome-doc-utils
 libxaw3d
-python-paramiko
+python2-paramiko
 python-pyasn1
 xfontsel
 xsetroot
