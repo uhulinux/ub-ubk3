@@ -3,4 +3,5 @@ docbook-xsl
 gtk-dev
 intltool
 libxslt-dev
+pcre2-dev
 vte-dev

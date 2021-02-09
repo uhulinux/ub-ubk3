@@ -1,0 +1,12 @@
+diff -Nur orig/src/menu.c mod/src/menu.c
+--- orig/src/menu.c	2021-02-08 21:11:24.000000000 +0100
++++ mod/src/menu.c	2021-02-09 10:09:40.180559205 +0100
+@@ -240,7 +240,7 @@
+ 
+ #ifdef WITH_ICONS
+ 	gtk_init (&argc, &argv);
+-	icon_theme = gtk_icon_theme_get_default ();
++#define icon_theme (gtk_icon_theme_get_default ())
+ #endif
+ 
+ 	if ((ob_context = configure (argc, argv)) == NULL)
