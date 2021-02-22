@@ -61,3 +61,4 @@ utf8proc
 zoo
 zziplib
 zsh
+fmt

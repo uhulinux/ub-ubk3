@@ -1,0 +1,11 @@
+diff -Nur orig/source/graphics/ParticleManager.h mod/source/graphics/ParticleManager.h
+--- orig/source/graphics/ParticleManager.h	2021-02-06 01:27:21.000000000 +0100
++++ mod/source/graphics/ParticleManager.h	2021-02-21 18:50:42.264749020 +0100
+@@ -22,6 +22,7 @@
+ #include "graphics/ParticleEmitterType.h"
+ 
+ #include <boost/random/mersenne_twister.hpp>
++#include <list>
+ #include <unordered_map>
+ 
+ class SceneCollector;

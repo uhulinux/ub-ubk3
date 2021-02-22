@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-0ad-${UB_VERSION/~/-}-unix-data.tar.xz 0ad-${UB_VERSION/~/-}/binaries/data :/usr/share/0ad/data
+0ad-${UB_VERSION/~/-}-unix-data.tar.xz .
       http://releases.wildfiregames.com/
