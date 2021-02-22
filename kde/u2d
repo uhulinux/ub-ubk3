@@ -1,2 +1,1 @@
-echo 5.17.5
-# noupdate UBK3 fix
+urllist https://download.kde.org/stable/plasma/ | grep -E '^[0-9.]+$' | sort -V | tail -n 1
