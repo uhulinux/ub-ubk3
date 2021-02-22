@@ -1,6 +1,4 @@
 #!/bin/sh -eux
 
-ub_compile \
-	-DENABLE_OMP=ON \
-	-DENABLE_TOOLS=ON \
-	-DMANDIR=share/man
+export CXXFLAGS+=' -DBOOST_BIND_GLOBAL_PLACEHOLDERS '
+ub_compile
