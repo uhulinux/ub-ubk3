@@ -33,6 +33,7 @@ dvgrab
 xvidcap
 tvtime
 acidrip
+ffnvcodec-headers
 smtube
 mp3splt-gtk
 mpv

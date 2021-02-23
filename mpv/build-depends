@@ -1,6 +1,8 @@
 alsa-lib-dev
 enca-dev
 ffmpeg-dev
+ffnvcodec-headers
+glu-dev
 gtk-dev
 jack-dev
 lcms2-dev
@@ -22,4 +24,9 @@ mesa-dev
 openal-dev
 pulseaudio-dev
 samba-dev
+sdl2-dev
+uchardet-dev
+vulkan-headers
+vulkan-loader-dev
+waf
 wayland-dev
