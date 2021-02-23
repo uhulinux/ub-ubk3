@@ -9,6 +9,7 @@ libjpeg-turbo-dev
 libpng-dev
 libraw-dev
 librsvg-dev
+libsndfile-dev
 libspectre-dev
 libtiff-dev
 libungif-dev
@@ -30,6 +31,7 @@ openssl-dev
 pango-dev
 poppler-dev
 pulseaudio-dev
+scim-dev
 wayland-dev
 xine-lib-dev
 x.org-server-dev
