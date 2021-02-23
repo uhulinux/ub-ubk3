@@ -2,9 +2,14 @@
 
 git clone https://github.com/Lukas-W/qt5-x11embed.git src/3rdparty/qt5-x11embed
 git clone https://github.com/KDE/extra-cmake-modules.git src/3rdparty/qt5-x11embed/3rdparty/ECM
-git clone https://github.com/rampantpixels/rpmalloc.git src/3rdparty/rpmalloc/rpmalloc
+#git clone https://github.com/rampantpixels/rpmalloc.git src/3rdparty/rpmalloc/rpmalloc
 
+export CXXFLAGS+=' -Wno-deprecated-declarations '
 ub_compile \
 	-DCMAKE_PREFIX_PATH=/usr/lib/qt5 \
 	-USE=vst \
-	-DWANT_QT5=ON
+	-DWANT_QT5=ON \
+	-DWANT_CARLA=OFF \
+	-DOpenGL_GL_PREFERENCE=GLVND \
+    -DWANT_SOUNDIO=OFF \
+    -DCMAKE_INSTALL_LIBDIR=lib

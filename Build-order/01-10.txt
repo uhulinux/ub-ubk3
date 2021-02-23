@@ -5,6 +5,7 @@ libidl2
 libieee1284
 libiodbc
 libisofs
+libebml
 libmatroska
 libmtp
 libmythes

@@ -9,7 +9,6 @@ libcue
 libdcadec
 libdnet
 libdvbpsi
-libebml
 libiptcdata
 liblockfile
 libmowgli
