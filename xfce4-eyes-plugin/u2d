@@ -1,1 +1,1 @@
-u2d  https://archive.xfce.org/src/panel-plugins/xfce4-eyes-plugin/$(urllist https://archive.xfce.org/src/panel-plugins/xfce4-eyes-plugin | grep -E '^[0-9]' | sort -V | tail -n 1)
+u2dxfce panel-plugins xfce4-eyes-plugin 1

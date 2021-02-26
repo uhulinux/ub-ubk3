@@ -1,1 +1,1 @@
-u2d  https://archive.xfce.org/src/panel-plugins/xfce4-genmon-plugin/$(urllist https://archive.xfce.org/src/panel-plugins/xfce4-genmon-plugin | grep -E '^[0-9]' | sort -V | tail -n 1)
+u2dxfce panel-plugins xfce4-genmon-plugin 1
