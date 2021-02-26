@@ -1,5 +1,6 @@
 dbus-glib-dev
 gobject-introspection-dev
+gtk-dev
 intltool
 libsm-dev
 libunique1-dev
