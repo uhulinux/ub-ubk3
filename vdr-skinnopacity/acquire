@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 skin-nopacity-${UB_VERSION}.tar.bz2 skin-nopacity-${UB_VERSION}/
-	https://projects.vdr-developer.org/git/skin-nopacity.git/snapshot/skin-nopacity-1.1.5.tar.bz2
+	https://projects.vdr-developer.org/git/skin-nopacity.git/snapshot/

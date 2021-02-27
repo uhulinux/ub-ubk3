@@ -30,6 +30,7 @@ vdr-plugin-skindesigner
 vdr-plugin-tvguide
 vdr-plugin-tvguideng
 vdr-plugin-vnsiserver
+vdr-skinnopacity
 p8-platform
 kodi-addon-pvr-vnsi
 w-scan
