@@ -1,9 +1,11 @@
-libdrm
-libice
-libinput
-libsm
-nss
-xcb-util-image
-xcb-util-keysyms
-xcb-util-renderutil
-xcb-util-wm
+libdrm >=
+libice >=
+libinput >=
+libsm >=
+libxdamage >=
+nss >=
+qt5 >=
+xcb-util-image >=
+xcb-util-keysyms >=
+xcb-util-renderutil >=
+xcb-util-wm >=
