@@ -31,13 +31,13 @@ ln -s /etc/xdg/etlegacy/etmain $UB_INSTALLDIR/var/lib/etlegacy-server/
 # mod
 
 # kibontás
-tar -x -f 121
-rm -f 121
+tar -x -f 234
+rm -f 234
 
 # etlegacy fájlok eljhelyezése
 cd etlegacy*
 mkdir -p $UB_INSTALLDIR/usr/lib/etlegacy/legacy
-cp legacy/{etl_bin,pak3}_v$UB_VERSION.pk3 $UB_INSTALLDIR/usr/lib/etlegacy/legacy/
+cp legacy/legacy_v$UB_VERSION.pk3 $UB_INSTALLDIR/usr/lib/etlegacy/legacy/
 cp legacy/qagame.mp.*.so $UB_INSTALLDIR/usr/lib/etlegacy/legacy/
 
 # Geiop helyadatok
