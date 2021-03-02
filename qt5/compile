@@ -1,7 +1,5 @@
 #!/bin/sh -eux
 
-# qtwebengine: külön csomag
-
 cd $UB_OBJECTDIR
 
 export LD_LIBRARY_PATH="$(pwd)"/lib
@@ -28,7 +26,6 @@ $UB_COMPILEDIR/configure \
 	\
 	-nomake examples    \
 	-nomake tests		\
-	-skip qtwebengine	\
 	\
 	-accessibility      \
 	\
@@ -53,9 +50,9 @@ $UB_COMPILEDIR/configure \
 	-glib               \
 	-gtk				\
 	-opengl             \
+	-eglfs              \
 	-no-iconv           \
 	-no-linuxfb         \
-	-no-eglfs           \
 	-no-kms             \
 	-no-libproxy		\
 	\
@@ -66,5 +63,6 @@ $UB_COMPILEDIR/configure \
 	-tslib				\
 	-xkb                \
 	-xcb-xlib			\
+	-system-webengine-icu
 
 ub_make

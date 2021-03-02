@@ -20,7 +20,6 @@ mono
 cln
 libpseudo
 qtwebkit
-qtwebengine
 python3-pyqt5
 hplip
 cups-filters
