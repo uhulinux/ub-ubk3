@@ -79,3 +79,4 @@ zdoom
 libzmusic
 gzdoom
 openra
+lac
