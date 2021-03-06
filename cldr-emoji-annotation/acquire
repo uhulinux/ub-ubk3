@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-${UB_VERSION/~/_}.tar.gz cldr-emoji-annotation-${UB_VERSION/~/_}/
+${UB_VERSION//~/_}.tar.gz cldr-emoji-annotation-${UB_VERSION//~/_}/
 	https://github.com/fujiwarat/cldr-emoji-annotation/archive/
