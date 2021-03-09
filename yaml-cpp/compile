@@ -1,4 +1,5 @@
 #!/bin/sh -eux
 
 export CXXFLAGS+="-fPIC"
-ub_compile
+ub_compile \
+    -DYAML_CPP_BUILD_TESTS=OFF

@@ -1,4 +1,5 @@
 #!/bin/sh -eux
 
+export CXXFLAGS+=' -Wno-deprecated-declarations -Wno-terminate '
 ub_compile \
 	-DSHARE_INSTALL=share/games/stuntrally
