@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-calibre-${UB_VERSION}.tar.xz calibre-${UB_VERSION}/
-	http://download.calibre-ebook.com/${UB_VERSION}/
+calibre-${UB_VERSION}-x86_64.txz
+	https://download.calibre-ebook.com/${UB_VERSION}/

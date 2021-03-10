@@ -17,4 +17,4 @@ abiword
 libreoffice
 master-pdf-editor
 scribus
-calibre-bin
+calibre

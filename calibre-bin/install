@@ -1,7 +1,0 @@
-#!/bin/sh -eux
-
-mkdir -p ${UB_INSTALLDIR}/usr/lib/calibre
-tar x -f calibre-${UB_VERSION}-x86_64.txz -C ${UB_INSTALLDIR}/usr/lib/calibre
-
-# libQt5Pdf csak Qt 5.15-től van
-rm -f ${UB_INSTALLDIR}/usr/lib/calibre/plugins/imageformats/libqpdf.so
