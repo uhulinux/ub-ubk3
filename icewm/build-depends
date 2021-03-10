@@ -1,7 +1,6 @@
 alsa-lib-dev
 fribidi-dev
 gdk-pixbuf-dev
-glfw-dev
 imlib2-dev
 libao-dev
 librsvg-dev

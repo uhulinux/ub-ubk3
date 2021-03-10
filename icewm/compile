@@ -1,6 +1,6 @@
 #!/bin/sh -eux
 
-export LDFLAGS='-lglfw -lXrandr -lXinerama'
+export LDFLAGS=' -lXrandr -lXinerama'
 
 mkdir build
 cd build
