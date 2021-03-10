@@ -1,1 +1,2 @@
-u2d https://github.com/budgie-desktop/budgie-desktop/releases/ v
+echo 10.5.1
+# noupdete: need 'glib-2.0' ['>= 2.64.0']
