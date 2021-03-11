@@ -1,5 +1,6 @@
 boost-dev
 ffmpeg-dev
+fmt-dev
 glew-dev
 glu-dev
 hdf5-dev
@@ -12,5 +13,4 @@ libxmu-dev
 opencv-dev
 openexr-dev
 openjpeg-dev
-python2-dev
 qt5-dev
