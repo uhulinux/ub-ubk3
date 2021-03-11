@@ -1,5 +1,6 @@
 #!/bin/sh -eux
 
+git submodule update --init
 export LIBS="-lpthread -lm -ldl"
 ub_compile
 make po
