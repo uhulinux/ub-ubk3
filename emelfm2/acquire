@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 emelfm2-${UB_VERSION}.tar.bz2 emelfm2-${UB_VERSION}/
-	ftp://kernel.inode.at/salix/x86_64/extra-14.2/source/system/emelfm2/
+    http://tinycorelinux.net/dCore/x86_64/import/src/emelfm2/

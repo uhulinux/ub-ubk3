@@ -19,6 +19,7 @@ xzgv
 xpaint
 geeqie
 gimp-gap
+gimp-gmic
 ipe
 limoo
 viking

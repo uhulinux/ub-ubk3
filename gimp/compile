@@ -1,6 +1,7 @@
 #!/bin/sh -eux
 
 export PYTHON=python2
+autoreconf -vif
 ub_compile \
 	--enable-python \
 	--disable-gtk-doc \
