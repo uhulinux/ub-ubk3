@@ -1,1 +1,2 @@
-u2dgnome gtkmm
+echo 3.24.1
+# noupdate elég ez a verzió
