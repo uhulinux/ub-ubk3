@@ -7,6 +7,7 @@ export GOROOT_BOOTSTRAP=/usr/lib/go
 
 mkdir -p "$UB_INSTALLDIR/usr/lib/go"
 mkdir -p "$UB_INSTALLDIR/usr/share/doc/go"
+cd go
 cp -a bin pkg src lib misc api test "$UB_INSTALLDIR/usr/lib/go"
 
 ln -sf linux_${GOARCH} ${UB_INSTALLDIR}/usr/lib/go/pkg/linux_${GOARCH}_shared

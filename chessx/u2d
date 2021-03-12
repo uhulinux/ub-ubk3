@@ -1,4 +1,4 @@
-for dir in $(sflist chessx chessx | sort -r);do
+for dir in $(sflist chessx chessx | grep -E '^([0-9.]+)' |sort -r);do
     if [ $(sflist chessx chessx/$dir | grep tgz) ];then
         echo $dir
         exit 0
