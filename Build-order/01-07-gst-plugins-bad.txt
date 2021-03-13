@@ -48,7 +48,6 @@ libcdio
 libmusicbrainz
 openexr
 tesseract
-usbmuxd
 leptonica
 libdv
 liblrdf
@@ -60,6 +59,7 @@ libbluray
 libofa
 librsvg
 libplist
+usbmuxd
 aalib
 fluidsynth
 libass
