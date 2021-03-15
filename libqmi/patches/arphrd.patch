@@ -1,0 +1,12 @@
+diff -Nur orig/src/libqmi-glib/qmi-net-port-manager-rmnet.c mod/src/libqmi-glib/qmi-net-port-manager-rmnet.c
+--- orig/src/libqmi-glib/qmi-net-port-manager-rmnet.c	2021-03-01 15:17:06.000000000 +0100
++++ mod/src/libqmi-glib/qmi-net-port-manager-rmnet.c	2021-03-15 14:14:50.813849749 +0100
+@@ -173,7 +173,7 @@
+     hdr->msghdr.nlmsg_flags = NLM_F_REQUEST | NLM_F_ACK | extra_flags;
+     hdr->ifreq.ifi_family = AF_UNSPEC;
+     if (type != RTM_DELLINK) {
+-        hdr->ifreq.ifi_type = ARPHRD_RAWIP;
++        hdr->ifreq.ifi_type = ARPHRD_CSLIP;
+         hdr->ifreq.ifi_flags = 0;
+         hdr->ifreq.ifi_change = 0xFFFFFFFF;
+     }
