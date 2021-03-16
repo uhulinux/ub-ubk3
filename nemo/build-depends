@@ -10,7 +10,6 @@ libgnomekbd-dev
 libnotify-dev
 libsm-dev
 libxml2-dev
-meson
 python3-polib
 python-pygobject-dev
 xapps-dev

@@ -11,5 +11,4 @@ libdazzle-dev
 libgweather-dev
 libical-dev
 libsoup-dev
-meson
 python3-dev

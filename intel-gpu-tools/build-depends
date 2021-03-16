@@ -5,6 +5,5 @@ libpciaccess-dev
 libunwind-dev
 libxrandr-dev
 libxv-dev
-meson
 procps-dev
 systemd-dev

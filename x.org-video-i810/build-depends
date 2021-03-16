@@ -13,7 +13,6 @@ libxscrnsaver-dev
 libxtst-dev
 libxvmc-dev
 libxxf86vm-dev
-meson
 pixman-dev
 systemd-dev
 xcb-util-dev

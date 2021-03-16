@@ -1,5 +1,4 @@
 gobject-introspection-dev
 libevdev-dev
 libgudev-dev
-meson
 vala-dev

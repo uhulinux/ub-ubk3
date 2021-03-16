@@ -23,7 +23,6 @@ libseccomp-dev
 libwacom-dev
 libxslt-dev
 libxtst-dev
-meson
 modemmanager-dev
 networkmanager-dev
 nss-dev

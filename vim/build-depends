@@ -1,5 +1,4 @@
 acl-dev
-gawk
 glib-dev
 gpm-dev
 gtk-dev

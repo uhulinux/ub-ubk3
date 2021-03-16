@@ -16,7 +16,6 @@ libseccomp-dev
 libsoup-dev
 libxshmfence-dev
 libzapojit-dev
-meson
 networkmanager-dev
 systemd-dev
 tracker-dev

@@ -2,6 +2,5 @@ clutter-gtk-dev
 gtk-dev
 intltool
 itstool
-meson
 vala-dev
 yelp-tools

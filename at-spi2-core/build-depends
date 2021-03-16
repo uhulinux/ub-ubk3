@@ -8,4 +8,3 @@ libsm-dev
 libxext-dev
 libxkbcommon-dev
 libxtst-dev
-meson

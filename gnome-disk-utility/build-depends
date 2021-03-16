@@ -9,6 +9,5 @@ libnotify-dev
 libpwquality-dev
 libsecret-dev
 libxslt
-meson
 systemd-dev
 udisks2-dev

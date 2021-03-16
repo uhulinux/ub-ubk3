@@ -16,7 +16,6 @@ libchamplain-dev
 libgudev-dev
 libnotify-dev
 librsvg-dev
-meson
 systemd-dev
 vala-dev
 wayland-dev

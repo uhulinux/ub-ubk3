@@ -5,6 +5,5 @@ gtk-dev
 intltool
 itstool
 libxslt
-meson
 systemd-dev
 webkit2gtk-dev

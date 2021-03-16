@@ -2,5 +2,4 @@ gconfmm2-dev
 gtkmm-dev
 intltool
 libglademm2-dev
-meson
 pulseaudio-dev

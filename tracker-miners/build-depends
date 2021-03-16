@@ -16,7 +16,6 @@ libosinfo-dev
 libseccomp-dev
 libtiff-dev
 libungif-dev
-meson
 poppler-glib-dev
 taglib-dev
 totem-plparser-dev

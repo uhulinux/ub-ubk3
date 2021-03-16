@@ -21,7 +21,6 @@ libxslt-dev
 libxtst-dev
 llvm
 mesa-dev
-ninja
 node
 nspr-dev
 nss-dev

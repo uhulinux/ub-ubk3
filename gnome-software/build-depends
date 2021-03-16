@@ -17,7 +17,6 @@ libsoup-dev
 libxmlb-dev
 libxslt
 libyaml-dev
-meson
 packagekit-dev
 polkit-dev
 rpm-dev

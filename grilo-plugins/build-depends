@@ -21,7 +21,6 @@ libquvi-dev
 libsoup-dev
 libxml2-dev
 lua53-dev
-meson
 rest-dev
 sqlite-dev
 totem-plparser-dev

@@ -10,6 +10,5 @@ libnotify-dev
 libseccomp-dev
 libsm-dev
 libxml2-dev
-meson
 sqlite-dev
 tracker-dev

@@ -8,6 +8,5 @@ json-glib-dev
 libarchive-dev
 libnotify-dev
 libsm-dev
-meson
 nautilus-dev
 python2-dev

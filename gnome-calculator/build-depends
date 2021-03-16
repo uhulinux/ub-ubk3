@@ -4,7 +4,6 @@ itstool
 libgee-dev
 libsoup-dev
 libxml2-dev
-meson
 mpc-dev
 mpfr-dev
 vala-dev

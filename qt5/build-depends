@@ -18,7 +18,6 @@ libxtst-dev
 llvm
 mesa-dev
 mtdev-dev
-ninja
 nss-dev
 openssl-dev
 opus-dev

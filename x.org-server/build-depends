@@ -13,7 +13,6 @@ libxres-dev
 libxtst-dev
 libxv-dev
 mesa-dev
-meson
 nettle-dev
 openssl-dev
 pixman-dev

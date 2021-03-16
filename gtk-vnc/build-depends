@@ -4,7 +4,6 @@ gobject-introspection-dev
 gtk-dev
 intltool
 libunistring-dev
-meson
 pulseaudio-dev
 systemd-dev
 vala-dev

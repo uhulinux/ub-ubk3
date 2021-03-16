@@ -7,4 +7,3 @@ libx11-dev
 libxkbcommon-dev
 libxml2-dev
 libxtst-dev
-meson

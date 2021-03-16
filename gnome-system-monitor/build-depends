@@ -8,5 +8,4 @@ itstool
 libgtop2-dev
 librsvg-dev
 libwnck-dev
-meson
 python2-dev

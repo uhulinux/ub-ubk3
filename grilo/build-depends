@@ -6,6 +6,5 @@ libarchive-dev
 liboauth-dev
 libsoup-dev
 libxml2-dev
-meson
 totem-plparser-dev
 vala-dev

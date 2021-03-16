@@ -9,5 +9,4 @@ itstool
 libcanberra-dev
 libnotify-dev
 libsm-dev
-meson
 nautilus-dev

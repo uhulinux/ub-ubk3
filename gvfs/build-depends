@@ -19,7 +19,6 @@ libsecret-dev
 libsoup-dev
 libunistring-dev
 libxslt-dev
-meson
 openssh
 polkit-dev
 samba-dev

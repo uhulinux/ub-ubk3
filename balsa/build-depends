@@ -15,7 +15,6 @@ libesmtp-dev
 libnotify-dev
 libsecret-dev
 libxshmfence-dev
-meson
 networkmanager-dev
 openldap-dev
 openssl-dev

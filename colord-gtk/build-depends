@@ -3,5 +3,4 @@ gobject-introspection-dev
 gtk-dev
 intltool
 lcms2-dev
-meson
 vala-dev

@@ -1,5 +1,4 @@
 gobject-introspection-dev
 libusb-dev
-meson
 systemd-dev
 vala-dev

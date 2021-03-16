@@ -6,7 +6,6 @@ intltool
 libjpeg-turbo-dev
 libxslt-dev
 libxt-dev
-meson
 python3-dev
 python-pygobject-dev
 sqlite-dev

@@ -6,7 +6,6 @@ libstemmer-dev
 libxml2-dev
 libyaml-dev
 lmdb-dev
-meson
 protobuf-dev
 qt5-dev
 vala-dev

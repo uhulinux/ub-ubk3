@@ -11,6 +11,5 @@ libgit2-glib-dev
 libpeas-dev
 libsecret-dev
 libsoup-dev
-meson
 python-pygobject-dev
 vala-dev

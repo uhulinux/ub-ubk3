@@ -6,7 +6,6 @@ libdbusmenu-gtk3-dev
 libgnomekbd-dev
 libx11-dev
 libxkbfile-dev
-meson
 python3-dev
 python-pygobject-dev
 vala-dev

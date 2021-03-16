@@ -10,5 +10,4 @@ json-glib-dev
 libcanberra-dev
 libgweather-dev
 libnotify-dev
-meson
 vala-dev

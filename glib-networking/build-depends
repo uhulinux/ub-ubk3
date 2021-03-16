@@ -4,5 +4,4 @@ gnutls-dev
 gsettings-desktop-schemas
 intltool
 libproxy-dev
-meson
 p11-kit-dev

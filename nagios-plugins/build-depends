@@ -1,7 +1,6 @@
 apt
 bind-utils
 fping
-inetutils
 krb5-dev
 mysql-common
 mysql-dev

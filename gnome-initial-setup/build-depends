@@ -18,7 +18,6 @@ libpwquality-dev
 librsvg-dev
 libseccomp-dev
 libxshmfence-dev
-meson
 networkmanager-dev
 nm-applet-dev
 packagekit-dev

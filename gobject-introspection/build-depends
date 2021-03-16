@@ -6,5 +6,4 @@ harfbuzz-dev
 intltool
 libffi-dev
 mesa-dev
-meson
 python3-dev

@@ -7,7 +7,6 @@ lcms2-dev
 libgudev-dev
 libgusb-dev
 libusb-dev
-meson
 polkit-dev
 sqlite-dev
 systemd-dev

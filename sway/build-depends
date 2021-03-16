@@ -4,7 +4,6 @@ json-c-dev
 libevdev-dev
 libinput-dev
 libxkbcommon-dev
-meson
 pango-dev
 pcre-dev
 scdoc

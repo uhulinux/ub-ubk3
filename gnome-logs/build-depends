@@ -1,5 +1,4 @@
 gobject-introspection-dev
 gtk-dev
 itstool
-meson
 systemd-dev

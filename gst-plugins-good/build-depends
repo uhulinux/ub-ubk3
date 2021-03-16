@@ -27,7 +27,6 @@ libvorbis-dev
 libvpx-dev
 libxml2-dev
 libxv-dev
-meson
 mpg123-dev
 orc-dev
 popt-dev

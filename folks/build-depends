@@ -6,7 +6,6 @@ gobject-introspection-dev
 intltool
 krb5-dev
 libgee-dev
-meson
 ncurses-dev
 readline-dev
 telepathy-glib-dev

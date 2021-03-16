@@ -4,7 +4,6 @@ gtk-dev
 libevdev-dev
 libgudev-dev
 libwacom-dev
-meson
 mtdev-dev
 systemd-dev
 valgrind

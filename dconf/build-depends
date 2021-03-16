@@ -4,5 +4,4 @@ gtk-dev
 intltool
 libxml2-dev
 libxslt
-meson
 vala-dev

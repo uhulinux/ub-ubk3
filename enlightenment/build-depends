@@ -1,7 +1,6 @@
 efl-dev
 libunwind-dev
 mesa-dev
-meson
 pulseaudio-dev
 wayland-dev
 weston-dev

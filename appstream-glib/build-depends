@@ -11,6 +11,5 @@ libarchive-dev
 libsoup-dev
 libstemmer-dev
 libyaml-dev
-meson
 rpm-dev
 util-linux-dev

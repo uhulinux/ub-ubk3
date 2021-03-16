@@ -3,4 +3,3 @@ gobject-introspection-dev
 gtk-dev
 intltool
 libunistring-dev
-meson

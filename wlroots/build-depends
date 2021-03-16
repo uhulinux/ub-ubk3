@@ -7,7 +7,6 @@ libpng-dev
 libxcb-dev
 libxkbcommon-dev
 mesa-dev
-meson
 pixman-dev
 scdoc
 systemd-dev

@@ -12,7 +12,6 @@ libnotify-dev
 libpeas-dev
 libwnck-dev
 libxkbfile-dev
-meson
 mutter-dev
 polkit-dev
 pulseaudio-dev

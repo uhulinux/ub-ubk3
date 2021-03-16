@@ -1,5 +1,4 @@
 libxcb-dev
-meson
 wayland-dev
 wayland-protocols
 xkeyboard-config

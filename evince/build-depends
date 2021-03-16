@@ -15,7 +15,6 @@ libsm-dev
 libspectre-dev
 libtiff-dev
 libxml2-dev
-meson
 nautilus-dev
 openjpeg-dev
 poppler-glib-dev

@@ -10,6 +10,5 @@ lcms2-dev
 libchamplain-dev
 librsvg-dev
 libtiff-dev
-meson
 wayland-dev
 webkit2gtk-dev

@@ -9,7 +9,6 @@ itstool
 libpeas-dev
 libsm-dev
 libsoup-dev
-meson
 python3-dev
 python-pygobject-dev
 vala-dev

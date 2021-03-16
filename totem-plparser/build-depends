@@ -4,4 +4,3 @@ intltool
 libarchive-dev
 libquvi-dev
 libxml2-dev
-meson

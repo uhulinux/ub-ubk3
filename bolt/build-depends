@@ -1,5 +1,4 @@
 glib-dev
 gobject-introspection-dev
-meson
 polkit-dev
 systemd-dev

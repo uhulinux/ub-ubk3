@@ -5,5 +5,4 @@ gobject-introspection-dev
 intltool
 json-glib-dev
 libpeas-dev
-meson
 rest-dev

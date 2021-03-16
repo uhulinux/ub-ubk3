@@ -22,7 +22,6 @@ libgudev-dev
 libpeas-dev
 libsm-dev
 lirc-dev
-meson
 nautilus-dev
 python3-pygobject
 python3-pylint

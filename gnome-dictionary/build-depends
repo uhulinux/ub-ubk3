@@ -5,4 +5,3 @@ gobject-introspection-dev
 gtk-dev
 intltool
 itstool
-meson

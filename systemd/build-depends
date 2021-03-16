@@ -21,7 +21,6 @@ libtasn1-dev
 libxkbcommon-dev
 libxslt
 lvm-dev
-meson
 pcre2-dev
 procps
 python2-dev

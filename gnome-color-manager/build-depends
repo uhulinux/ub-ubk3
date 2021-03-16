@@ -11,5 +11,4 @@ libexif-dev
 libjpeg-turbo-dev
 libtiff-dev
 mash-dev
-meson
 vte-dev
