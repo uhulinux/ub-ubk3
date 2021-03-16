@@ -1,4 +1,6 @@
 freetype2-dev
+libgsl-dev
+libspiro-dev
 lua53-dev
 poppler-dev
 python2-dev
