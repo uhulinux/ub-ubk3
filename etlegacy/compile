@@ -19,6 +19,5 @@ ub_compile \
     -DBUILD_MOD=0 \
     -DBUILD_MOD_PK3=0 \
     -DBUILD_PAK3_PK3=0 \
-    -DBUNDLED_LIBS=0 \
     -DFEATURE_AUTOUPDATE=0 \
     -DINSTALL_OMNIBOT=0
