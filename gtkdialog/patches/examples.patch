@@ -1,0 +1,9 @@
+diff -Nur orig/examples/miscellaneous/standalone_file mod/examples/miscellaneous/standalone_file
+--- orig/examples/miscellaneous/standalone_file	2021-03-20 12:06:56.000000000 +0100
++++ mod/examples/miscellaneous/standalone_file	2021-03-20 12:21:04.953894891 +0100
+@@ -1,4 +1,4 @@
+-#! /usr/local/bin/gtkdialog -f 
++#!/usr/bin/gtkdialog -f 
+ 
+ <window>
+ 	<vbox>
