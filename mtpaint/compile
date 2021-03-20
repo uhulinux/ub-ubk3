@@ -1,9 +1,12 @@
 #!/bin/sh -eux
 
-./configure \
+ub_compile \
     gtk3 \
-	--prefix=/usr \
-	--mandir=/usr/share/man \
-	man intl GIF jpeg tiff lcms2 jp2v2
-
-make
+    release \
+    jpeg \
+    tiff \
+    lcms2 \
+    jp2v2 \
+    jasper \
+    man \
+    intl
