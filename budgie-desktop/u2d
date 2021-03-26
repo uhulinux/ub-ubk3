@@ -1,2 +1,2 @@
 echo 10.5.1
-# noupdete: need 'glib-2.0' ['>= 2.64.0']
+# noupdate: need 'glib-2.0' ['>= 2.64.0']

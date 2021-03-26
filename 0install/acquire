@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-0install-${UB_VERSION}.tar.bz2 0install-${UB_VERSION}/
-	https://sourceforge.net/projects/zero-install/files/0install/${UB_VERSION}/
+v${UB_VERSION}.tar.gz 0install-${UB_VERSION}/
+	https://github.com/0install/0install/archive/
