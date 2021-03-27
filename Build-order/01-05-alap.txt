@@ -96,7 +96,7 @@ guile1.8
 guile2.0
 newt
 python2-pygtk
-python-numpy
+python3-numpy
 gjs
 js24
 libsndfile
