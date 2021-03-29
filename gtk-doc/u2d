@@ -1,2 +1,1 @@
-dir=$(urllist https://download.gnome.org/sources/gtk-doc/ | grep -E '^([0-9.]+)' | sort -V | tail -n 1)
-u2d https://download.gnome.org/sources/gtk-doc/$dir/ gtk-doc-
+u2dgnome gtk-doc 3.36
