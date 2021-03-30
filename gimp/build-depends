@@ -8,7 +8,8 @@ gexiv2-dev
 ghostscript-dev
 glib-networking
 gpm-dev
-gtk2-dev
+gtk-dev
+gtk-doc
 intltool
 iso-codes
 jasper-dev
