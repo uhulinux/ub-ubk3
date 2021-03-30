@@ -1,1 +1,1 @@
-urllist https://download.gnome.org/core/3.34/3.34.0/sources/ | grep pangomm-2.42 | parsever
+u2dgnome pangomm

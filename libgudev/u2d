@@ -1,1 +1,1 @@
-u2dgnome libgudev 3.34
+urllist https://download.gnome.org/sources/libgudev/ | grep -E '^[0-9.]+$' | sort -V | tail -n 1
