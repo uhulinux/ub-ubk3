@@ -6,8 +6,10 @@ geoclue-dev
 gexiv2-dev
 gnome-doc-utils
 gpsd-dev
-gtk2-dev
+gtk-dev
 intltool
+itstool
+json-glib-dev
 libexif-dev
 liboauth-dev
 nettle-dev
