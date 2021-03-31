@@ -1,5 +1,4 @@
 glib-dev
 gobject-introspection-dev
-kernel-headers
 libgudev-dev
 systemd-dev

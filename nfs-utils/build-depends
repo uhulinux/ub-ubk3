@@ -1,5 +1,4 @@
 e2fsprogs-dev
-glibc-dev
 keyutils
 krb5-dev
 libcap-dev

@@ -1,5 +1,4 @@
 autoconf2.13
-bzip2-dev
 hunspell-dev
 icu-dev
 libedit-dev
@@ -13,4 +12,3 @@ python2-dev
 readline-dev
 sqlite-dev
 zip
-zlib-dev

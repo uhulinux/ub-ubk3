@@ -1,6 +1,5 @@
 alsa-lib-dev
 aom-dev
-bzip2-dev
 celt-dev
 faac-dev
 fontconfig-dev
@@ -56,5 +55,4 @@ x265-dev
 xvid-dev
 yasm
 zeromq-dev
-zlib-dev
 zvbi-dev

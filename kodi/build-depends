@@ -2,7 +2,6 @@ alsa-lib-dev
 avahi-dev
 bluez-dev
 boost-dev
-bzip2-dev
 curl-dev
 dbus-dev
 enca-dev
@@ -74,4 +73,3 @@ waylandpp-dev
 wayland-protocols
 yasm
 zip
-zlib-dev
