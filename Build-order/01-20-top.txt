@@ -1,7 +1,6 @@
 acpitool
 aoetools
 bdfresize
-cmucl
 hdparm
 jad
 joe
