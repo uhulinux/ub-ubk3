@@ -1,0 +1,9 @@
+diff -Nur orig/zeroinstall/support/async_compat.py mod/zeroinstall/support/async_compat.py
+--- orig/zeroinstall/support/async_compat.py	2020-02-23 16:33:16.000000000 +0100
++++ mod/zeroinstall/support/async_compat.py	2021-04-01 15:13:29.672671657 +0200
+@@ -1,4 +1,4 @@
+-def async(fn):
++def asyncc(fn):
+ 	"""Decorator that turns a generator function into a function that runs the
+ 	generator as a Task and returns the Task's finished blocker.
+ 	@deprecated: use @tasks.aasync instead (async is a keyboard in Python 3.7)"""
