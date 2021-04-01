@@ -1,3 +1,6 @@
+sbcl
+maxima
+wxmaxima
 mathomatic
 euler
 socnetv
