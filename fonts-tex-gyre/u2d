@@ -1,0 +1,1 @@
+urllist http://www.gust.org.pl/projects/e-foundry/tex-gyre/whole/ | grep zip | grep otf | sed s/tg//g | sed s/otf.*//g | sed s/_/\./

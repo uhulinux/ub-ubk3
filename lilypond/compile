@@ -1,8 +1,6 @@
 #!/bin/sh -eux
 
-export GUILE=/usr/bin/guile1.8
-export GUILE_CONFIG=/usr/bin/guile-config1.8
-export LDFLAGS=" -lpthread "
 export LDFLAGS+=$(pkg-config --libs gio-2.0)
+autoconf --force --verbose
 ub_compile \
 	--disable-documentation

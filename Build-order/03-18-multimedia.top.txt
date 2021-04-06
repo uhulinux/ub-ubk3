@@ -39,6 +39,7 @@ mp3splt-gtk
 mpv
 minitube
 pasystray
+fonts-tex-gyre
 lilypond
 quvi
 paman

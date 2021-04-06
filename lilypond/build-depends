@@ -1,8 +1,9 @@
 fontforge
 fonts-ghostscript-std
+fonts-tex-gyre
 guile1.8-dev
 mftrace
 netpbm
 pango-dev
-python2-dev
+python3-dev
 zip

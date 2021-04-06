@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+tg${UB_VERSION/./_}otf.zip tg${UB_VERSION/./_}otf/
+	http://www.gust.org.pl/projects/e-foundry/tex-gyre/whole/

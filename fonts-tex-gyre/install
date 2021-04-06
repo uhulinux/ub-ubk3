@@ -1,0 +1,4 @@
+#!/bin/sh -eux
+
+mkdir -p "$UB_INSTALLDIR"/usr/share/fonts/tex-gyre
+cp *.otf "$UB_INSTALLDIR"/usr/share/fonts/tex-gyre/
