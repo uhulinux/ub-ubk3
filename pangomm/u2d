@@ -1,1 +1,2 @@
-u2dgnome pangomm
+echo 2.42.0
+# noupdate core tag, de már ez elég a gnome-3.34-hez
