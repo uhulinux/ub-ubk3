@@ -1,0 +1,12 @@
+diff -Nur orig/meson.build mod/meson.build
+--- orig/meson.build	2020-12-21 20:41:18.000000000 +0100
++++ mod/meson.build	2021-04-06 15:05:22.021996710 +0200
+@@ -166,7 +166,7 @@
+ # HTML widget
+ #
+ if html_widget == 'webkit2'
+-  html_dep = dependency('webkit2gtk-4.0', version : '>= 2.28.0')
++  html_dep = dependency('webkit2gtk-4.0', version : '>= 2.26.0')
+ 
+   html2text = find_program('python-html2text',
+                            'html2markdown',
