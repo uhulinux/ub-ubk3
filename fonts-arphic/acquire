@@ -1,7 +1,7 @@
 #!/usr/bin/env dl
 
-ttf-arphic-uming_${UB_VERSION}.orig.tar.gz . :uming
-	http://ftp.gnome.org/mirror/cdimage/snapshot/Debian/pool/main/t/ttf-arphic-uming/
+fonts-arphic-uming_${UB_VERSION}.orig.tar.bz2 ttf-arphic-uming-${UB_VERSION}/ :uming
+	https://deb.debian.org/debian/pool/main/f/fonts-arphic-uming/
 
-ttf-arphic-ukai_${UB_VERSION}.orig.tar.gz . :ukai
-	http://ftp.gnome.org/mirror/cdimage/snapshot/Debian/pool/main/t/ttf-arphic-ukai/
+fonts-arphic-ukai_${UB_VERSION}.orig.tar.bz2 fonts-arphic-ukai-${UB_VERSION}/ :ukai
+	https://deb.debian.org/debian/pool/main/f/fonts-arphic-ukai/
