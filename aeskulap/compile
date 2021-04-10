@@ -1,6 +1,6 @@
 #!/bin/sh -eux
 
 ./autogen.sh
-export CXXFLAGS="-fPIC"
+export CXXFLAGS="-fPIC -Wno-deprecated-declarations"
 export CFLAGS="-fPIC"
 ub_compile
