@@ -32,7 +32,6 @@ cgdb
 runsnakerun
 transifex-client
 hgsubversion
-gfxboot
 icon-slicer
 gtkdialog
 cppcheck
