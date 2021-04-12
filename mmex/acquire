@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-moneymanagerex-${UB_VERSION}.tar.gz moneymanagerex-e91a566/
-	git://github.com/moneymanagerex/moneymanagerex.git@e91a566
+moneymanagerex-${UB_VERSION}.tar.gz moneymanagerex-653ebf8/
+	git://github.com/moneymanagerex/moneymanagerex.git@653ebf8
