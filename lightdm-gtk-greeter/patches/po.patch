@@ -1,0 +1,27 @@
+diff -Nur orig/po/LINGUAS mod/po/LINGUAS
+--- orig/po/LINGUAS	2020-06-23 01:04:09.000000000 +0200
++++ mod/po/LINGUAS	2021-04-12 15:09:12.336048894 +0200
+@@ -3,7 +3,6 @@
+ be
+ bg
+ bn
+-bo
+ br
+ bs
+ ca
+@@ -45,7 +44,6 @@
+ ms
+ nb
+ nl
+-nn
+ oc
+ pl
+ pt_BR
+@@ -53,7 +51,6 @@
+ ro
+ ru
+ sd
+-si
+ sk
+ sl
+ sq
