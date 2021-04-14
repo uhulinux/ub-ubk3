@@ -1,1 +1,5 @@
 python2-pygame
+sdl
+sdl-image
+sdl-mixer
+sdl-ttf

@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-Sokoban_${UB_VERSION/./}.tar.gz Sokoban_Release/
-	https://download.sourceforge.net/sokoban/
+master.zip sokoban-master/usr :usr
+    https://github.com/attuska/sokoban/archive/refs/heads/master.zip
