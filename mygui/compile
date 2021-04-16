@@ -1,7 +1,5 @@
 #!/bin/sh -eux
 
-sed -i '71 i set(MYGUI_GCC_VISIBILITY_FLAGS "")' CMakeLists.txt
-sed -i 's/\${OIS_LIBRARIES}/${OIS_LIBRARIES} boost_system/g' Common/CMakeLists.txt
 ub_compile \
 	-DMYGUI_STATIC=OFF \
 	-DMYGUI_BUILD_DOCS=FALSE \
@@ -15,4 +13,5 @@ ub_compile \
 	-DMYGUI_BUILD_WRAPPER=OFF \
 	-DMYGUI_INSTALL_MEDIA=ON \
 	-DFREETYPE_INCLUDE_DIR=/usr/include/freetype2/ \
-	-DBUILD_SHARED_LIBS=TRUE
+	-DBUILD_SHARED_LIBS=TRUE \
+	-DMYGUI_RENDERSYSTEM=7
