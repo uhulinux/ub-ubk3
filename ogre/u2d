@@ -1,3 +1,1 @@
-echo "1.9.0"
-# sflist ogre ogre | sort -V | tail -n 1
-# noupdate: stuntrallynak csak ez a jó
+u2d https://github.com/OGRECave/ogre/releases/ v
