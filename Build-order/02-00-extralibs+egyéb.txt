@@ -7,10 +7,8 @@ freealut
 allegro
 dumb
 silly
-ogre
 devil
 cegui
-mygui
 alsa-plugins
 timidity
 openscenegraph
