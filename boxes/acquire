@@ -2,3 +2,16 @@
 
 v${UB_VERSION}.tar.gz boxes-${UB_VERSION}/
 	https://github.com/ascii-boxes/boxes/archive/
+
+#boxes-$UB_VERSION.tar.gz boxes-885bc9d498b98bea3bc7687f534eb528e97ab721/
+#	git://github.com/ascii-boxes/boxes.git@885bc9d498b98bea3bc7687f534eb528e97ab721
+
+# 03.21 5650f251fd70af4a4156c2d946b2f0ac09bec507 jó
+# 04.11 6427d1efde8daabc775891436e98a4bbb1f7aa9c jó
+# 04.17 af6f123c99abfde29cf84bb4cf1adda12139daf0 jó
+# 04.17 2cc2bc10210ae1d0974442f9237e7ce0b364ebbb jó
+# 04.17 aa36998f778c05d7d23c39746d719ddbd50a2b0a jó
+# 04.17 885bc9d498b98bea3bc7687f534eb528e97ab721 jó
+# 04.17 fb010bc7d6c5c9cbea162c1439beb20d086efae2 vacak
+# 04.17 a7227c8aa8d78fefd329aececfdff37f6a2b0430 vacak
+# 04.17 b3ece70317415e1e529ea5009238e2dc41d272ab vacak
