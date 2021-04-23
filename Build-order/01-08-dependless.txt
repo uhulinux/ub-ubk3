@@ -1,8 +1,6 @@
 cmark
 jitterentropy
 jxrlib
-libasyncns
-libbsd
 libburn
 libconfig
 libcue
