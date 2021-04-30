@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-gtkdialog${UB_VERSION}.tar.gz gtkdialog-af1aca3/
-	git://github.com/puppylinux-woof-CE/gtkdialog.git@af1aca3
+${UB_VERSION}.tar.gz gtkdialog-${UB_VERSION}/
+	https://github.com/puppylinux-woof-CE/gtkdialog/archive/
