@@ -3,8 +3,5 @@
 lirc-${UB_VERSION}.tar.bz2 lirc-${UB_VERSION}/
 	http://downloads.sourceforge.net/lirc/LIRC/${UB_VERSION}/
 
-#lirc-remotes-0.9.1a-4.el7.x86_64.rpm .
-#	ftp://ftp.pbone.net/mirror/download.fedora.redhat.com/pub/fedora/epel/7/x86_64/l/
-
-lirc-remotes-0.9.1a-4.fc21.x86_64.rpm .
-	ftp://ftp.pbone.net/mirror/archive.fedoraproject.org/fedora/linux/releases/21/Everything/x86_64/os/Packages/l/
+lirc-remotes.tar.gz code-2e6bf2/remotes/ :remotes
+	git+https://git.code.sf.net/p/lirc-remotes/code.git@2e6bf2
