@@ -1,4 +1,0 @@
-#!/bin/sh -eux
-
-cp -r * ${UB_INSTALLDIR}/
-rm -rf ${UB_INSTALLDIR}/usr/share/doc

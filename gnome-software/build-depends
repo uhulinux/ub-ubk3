@@ -19,5 +19,4 @@ libxslt
 libyaml-dev
 packagekit-dev
 polkit-dev
-rpm-dev
 valgrind-dev

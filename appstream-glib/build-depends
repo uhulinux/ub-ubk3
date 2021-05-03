@@ -11,5 +11,4 @@ libarchive-dev
 libsoup-dev
 libstemmer-dev
 libyaml-dev
-rpm-dev
 util-linux-dev

@@ -1,1 +1,1 @@
-urllist https://github.com/rpmsphere/noarch/tree/master/o/ | grep openbox-themes | sed s/openbox-themes-//g | sed s/-.*//g
+urllist http://archlinux.arkena.net/archive/packages/o/openbox-themes/ | grep openbox | sort -V | tail -n 1 | sed s/openbox-themes-// | sed s/-.*//
