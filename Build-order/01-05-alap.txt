@@ -117,3 +117,4 @@ gst-plugins-base
 samba
 pulseaudio
 qt5
+gpgme
