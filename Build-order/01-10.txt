@@ -47,3 +47,4 @@ webkit2gtk
 networkmanager
 gst-plugins-good
 glib-networking
+subversion
