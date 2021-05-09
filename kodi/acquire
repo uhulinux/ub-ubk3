@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-${UB_VERSION}-Matrix.tar.gz xbmc-${UB_VERSION}-Matrix/
+v${UB_VERSION}.tar.gz xbmc-${UB_VERSION}/
 	https://github.com/xbmc/xbmc/archive/
