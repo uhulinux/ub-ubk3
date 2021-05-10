@@ -1,4 +1,4 @@
-apt >= 1.1
+apt >=
 coreutils
 diffutils
 dpkg
@@ -7,4 +7,4 @@ grep
 inetutils
 sed
 tar
-uhubuild-common
+uhubuild-common >= ver

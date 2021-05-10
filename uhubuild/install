@@ -108,3 +108,7 @@ ln -s "$UB_INSTALLDIR"/usr/bin/build \
 	"$UB_INSTALLDIR"/usr/bin/build-ubk4
 # mkdir -p "$UB_INSTALLDIR"/usr/share/doc/Packages
 # cp "$UB_SRCDIR"/changelog "$UB_INSTALLDIR"/usr/share/doc/Packages
+# verzió a csomagokba
+sed "s/ver/${UB_VERSION}/g" -i ${UB_SRCDIR}/packages/uhubuild/depends
+sed "s/ver/${UB_VERSION}/g" -i ${UB_SRCDIR}/packages/uhubuild-under-chroot/depends
+sed "s/ver/${UB_VERSION}/g" -i ${UB_SRCDIR}/packages/uhubuild-here/depends

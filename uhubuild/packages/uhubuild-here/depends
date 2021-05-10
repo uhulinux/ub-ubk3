@@ -13,5 +13,5 @@ pkgconfig
 pretendroot
 sed
 tar
-uhubuild-common
+uhubuild-common >= ver
 util-linux

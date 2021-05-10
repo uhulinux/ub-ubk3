@@ -1,4 +1,4 @@
-uhubuild-common >= 1.3.1
-uhubuild-here >= 1.3.1
-uhubuild-under-chroot >= 1.3.1
-uhu-pkgutils >= 1.2.0
+uhubuild-common >= ver
+uhubuild-here >= ver
+uhubuild-under-chroot >= ver
+uhu-pkgutils >=
