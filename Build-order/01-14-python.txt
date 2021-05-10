@@ -25,7 +25,6 @@ python3-asn1-modules
 python3-attrs
 python3-automat
 python3-babel
-python3-configobj
 python3-constantly
 python3-distutils-extra
 python3-flask
@@ -86,7 +85,6 @@ python3-pysmbc
 python3-pytest
 python3-rencode
 python3-apipkg
-python-certifi
 python-chardet
 python3-dateutil
 python3-decorator
@@ -106,7 +104,6 @@ python3-setuptools-scm
 python3-simplegeneric
 python3-tornado
 python3-traitlets
-python-urllib3
 python3-wcwidth
 python3-pexpect
 python3-ptyprocess

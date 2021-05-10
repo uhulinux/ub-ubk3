@@ -52,7 +52,6 @@ id3lib
 libnetfilter-conntrack
 mercurial
 perl-net-dbus
-python3-cython
 python3-docutils
 scons
 sdl-pango
