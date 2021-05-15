@@ -1,8 +1,7 @@
 python2
-python2-numpy
-sdl
-sdl-image
-sdl-mixer
-sdl-net
-sdl-ttf
+sdl2
+sdl2-image
+sdl2-mixer
+sdl2-net
+sdl2-ttf
 smpeg
