@@ -28,7 +28,6 @@ iso-codes
 libesmtp
 librsync
 libxalan
-libxnvctrl
 pam
 python2-pycrypto
 rarian
