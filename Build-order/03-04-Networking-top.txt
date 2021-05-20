@@ -75,3 +75,4 @@ kanyremote
 speedtest-cli
 google-earth
 anydesk
+teams
