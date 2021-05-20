@@ -93,6 +93,7 @@ gst-plugins-ugly
 sdl2
 opencv
 imagemagick
+dav1d
 xine-lib
 ffmpeg
 gst-plugins-bad

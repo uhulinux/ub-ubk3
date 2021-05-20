@@ -43,6 +43,7 @@ libsrtp-dev
 libssh2-dev
 libtheora-dev
 libusb-dev
+libva-dev
 libvdpau-dev
 libvorbis-dev
 libwebp-dev
