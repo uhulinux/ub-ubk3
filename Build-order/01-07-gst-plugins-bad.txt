@@ -94,6 +94,7 @@ sdl2
 opencv
 imagemagick
 dav1d
+ffnvcodec-headers
 xine-lib
 ffmpeg
 gst-plugins-bad

@@ -1,0 +1,12 @@
+diff -Nur orig/cmake/admInstallDir.cmake mod/cmake/admInstallDir.cmake
+--- orig/cmake/admInstallDir.cmake	2021-03-07 07:18:22.000000000 +0100
++++ mod/cmake/admInstallDir.cmake	2021-05-21 12:05:08.727530686 +0200
+@@ -17,7 +17,7 @@
+         ENDIF(NOT AVIDEMUX_INSTALL_DIR )
+         SET(AVIDEMUX_BIN_DIR ${AVIDEMUX_INSTALL_DIR}/bin)
+         IF(CMAKE_C_IMPLICIT_LINK_DIRECTORIES MATCHES "\\/lib64([; ]|$)")
+-                SET(AVIDEMUX_RELATIVE_LIB_DIR lib64)
++                SET(AVIDEMUX_RELATIVE_LIB_DIR lib)
+         ELSEIF(CMAKE_C_IMPLICIT_LINK_DIRECTORIES MATCHES "\\/lib32([; ]|$)")
+                 SET(AVIDEMUX_RELATIVE_LIB_DIR lib32)
+         ELSE(CMAKE_C_IMPLICIT_LINK_DIRECTORIES MATCHES "\\/lib64([; ]|$)")

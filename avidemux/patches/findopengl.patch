@@ -1,0 +1,14 @@
+diff -Nur orig/cmake/admCheckOpenGl.cmake mod/cmake/admCheckOpenGl.cmake
+--- orig/cmake/admCheckOpenGl.cmake	2021-03-07 07:18:22.000000000 +0100
++++ mod/cmake/admCheckOpenGl.cmake	2021-05-21 13:12:18.289657884 +0200
+@@ -3,6 +3,10 @@
+ ########################################
+ OPTION(OPENGL "" ON)
+ 
++if(POLICY CMP0072)
++  cmake_policy(SET CMP0072 NEW)
++endif()
++
+ MESSAGE(STATUS "Checking for OpenGL")
+ MESSAGE(STATUS "*******************")
+ 
