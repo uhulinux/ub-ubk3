@@ -48,6 +48,5 @@ networkmanager
 gst-plugins-good
 glib-networking
 subversion
-wxwidgets2.8
 wxwidgets
 wxwidgets3.1

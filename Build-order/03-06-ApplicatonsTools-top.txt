@@ -78,7 +78,6 @@ xzoom
 cifs-utils
 nfoview
 eukleides
-discwrapper
 terminator
 recutils
 doodle
