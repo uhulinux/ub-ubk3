@@ -20,6 +20,7 @@ mate-media
 mate-power-manager
 mate-system-monitor
 atril
+caja-actions
 caja-dropbox
 caja-extensions
 engrampa
