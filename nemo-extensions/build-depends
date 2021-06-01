@@ -6,8 +6,8 @@ evince-dev
 gcr-dev
 gpg
 gpgme-dev
-gtk2-dev
-gtksourceview-dev
+gtk-dev
+gtksourceview4-dev
 gupnp-dev
 intltool
 libcryptui-dev
