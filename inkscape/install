@@ -3,3 +3,5 @@
 ub_install
 
 rm -f $UB_INSTALLDIR/usr/lib/inkscape/*.a
+# A boost-nak nincs Cmake fájlja, a 2Geom azt keresné, de a 2Geom másnak úgysem kell.
+rm $UB_INSTALLDIR/usr/lib/cmake/2Geom/*.cmake

@@ -2,6 +2,7 @@ boost-dev
 double-conversion
 gc-dev
 gdl-dev
+graphicsmagick-dev
 gsl-dev
 gtkmm-dev
 intltool
@@ -14,6 +15,8 @@ libwpg-dev
 libxslt-dev
 poppler-glib-dev
 popt-dev
+python3-cython
 python3-dev
 python3-numpy
+readline-dev
 ruby
