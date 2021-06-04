@@ -26,6 +26,8 @@ limoo
 viking
 molequeue
 avogadro2libs
+python3-periodictable
+python3-cclib
 avogadro2
 aeskulap
 gv
