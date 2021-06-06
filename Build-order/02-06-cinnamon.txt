@@ -15,5 +15,7 @@ xreader
 nemo-extensions
 cinnamon-control-center
 cinnamon-bluetooth
+bluez-tools
+blueberry
 cinnamon
 pix

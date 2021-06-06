@@ -1,0 +1,4 @@
+bluez-tools
+dbus-python3
+python3-pygobject
+python3-setproctitle
