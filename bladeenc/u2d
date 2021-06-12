@@ -1,1 +1,2 @@
-u2d ftp://ftp.neva.ru/.2/src/bladeenc/ bladeenc- -src-stable
+echo 0.94.0
+# noupdate: elavult
