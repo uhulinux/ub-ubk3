@@ -21,7 +21,6 @@ libtorrent
 mp3info
 libglademm2
 liboauth
-libode
 libraw
 libunique1
 libuser

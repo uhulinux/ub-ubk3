@@ -71,6 +71,7 @@ stuntrally
 hedgewars
 jumpnbump-levels
 jumpnbump
+libode
 x-moto
 supertux
 tsc
