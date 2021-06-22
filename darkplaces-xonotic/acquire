@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+darkplaces-${UB_VERSION}.tar.gz darkplaces-e3c6554/
+	git://github.com/xonotic/darkplaces.git@e3c6554
