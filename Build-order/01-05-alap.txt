@@ -97,7 +97,6 @@ newt
 python2-pygtk
 python3-numpy
 gjs
-js24
 libsndfile
 x.org-input-wacom
 gconf2
