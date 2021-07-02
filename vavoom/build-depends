@@ -4,7 +4,6 @@ libjpeg-turbo-dev
 libmad-dev
 libmikmod-dev
 libpng-dev
-libvorbis-dev
 openal-dev
 sdl-dev
 sdl-mixer-dev

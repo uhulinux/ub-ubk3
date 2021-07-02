@@ -49,4 +49,4 @@ gst-plugins-good
 glib-networking
 subversion
 wxwidgets
-wxwidgets3.1
+wxwidgets3.0

@@ -11,4 +11,4 @@ mesa-dev
 python2-dev
 sdl-dev
 webkit2gtk-dev
-wxwidgets-dev
+wxwidgets3.0-dev

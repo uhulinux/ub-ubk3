@@ -13,6 +13,6 @@ ub_configure \
     --with-libjpeg=sys \
     --with-libtiff=sys \
     --with-wx-config=/usr/bin/wx-config-gtk3
-
+export CFLAGS+=' -I/usr/include/wx-3.0 '
 cd wxPython
 python2 setup.py build
