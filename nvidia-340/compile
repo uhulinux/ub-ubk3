@@ -1,5 +1,12 @@
 #!/bin/bash -eux
 
+function alprogi {
+	cd $1
+    export PREFIX=/usr
+    ub_compile
+    cd -
+}
+
 #előkészület
 KVER="$(ls -1 /lib/modules | grep x86_64)"
 moduldir="$UB_COMPILEDIR/lib/modules/"$KVER"/kernel/drivers/video"
@@ -9,15 +16,18 @@ forras="NVIDIA-Linux-x86_64-${UB_VERSION}-no-compat32"
 chmod +x $forras.run
 ./"$forras".run -x
 mv $forras/* ./
-rm *.run
+rm -f $forras.run
+rm -rf $forras
 patch -Np1 < "$UB_SRCDIR"/patches/kernel-4.11.patch.skip
 patch -Np1 < "$UB_SRCDIR"/patches/kernel-5.5.patch.skip
 cd kernel
 make IGNORE_CC_MISMATCH=yes SYSSRC=/usr/src/linux-$KVER KERNEL_UNAME="$KVER" MODULE_ROOT=$moduldir module
-export UB_MAKE_PROCS=1
 cd uvm
 make SYSSRC=/usr/src/linux-$KVER KERNEL_UNAME="$KVER" MODULE_ROOT=$moduldir/uvm module
-cd ../../nvsett
+cd ../..
 export NV_USE_BUNDLED_LIBJANSSON=0
-export PREFIX=/usr
-ub_compile
+alprogi settings
+alprogi settings/src/libXNVCtrl
+alprogi xconfig
+alprogi modprobe
+alprogi persistenced
