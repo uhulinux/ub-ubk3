@@ -1,1 +1,1 @@
-u2d http://www.unix-ag.uni-kl.de/~massar/vpnc/
+curl -k -s https://raw.githubusercontent.com/streambinder/vpnc/master/Makefile | grep "VERSION " | sed 's/.* //'
