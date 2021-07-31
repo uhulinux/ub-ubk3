@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-portsmf-${UB_VERSION}.tar.gz trunk-r${UB_VERSION}/
-	svn://svn.code.sf.net/p/portmedia/code/portsmf/trunk@${UB_VERSION}
+${UB_VERSION}.tar.gz portsmf-${UB_VERSION}/
+	https://github.com/tenacityteam/portsmf/archive/
