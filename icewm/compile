@@ -1,7 +1,5 @@
 #!/bin/sh -eux
 
-export LDFLAGS=' -lXrandr -lXinerama'
-
 mkdir build
 cd build
 cmake \
