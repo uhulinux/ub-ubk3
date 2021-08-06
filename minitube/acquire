@@ -3,17 +3,20 @@
 ${UB_VERSION}.tar.gz minitube-${UB_VERSION}/
 	https://github.com/flaviotordini/minitube/archive/
 
-http.tar.gz	http-b85c564/ :lib/http
-	git://github.com/flaviotordini/http.git@b85c564
+http.tar.gz	http-68b9cf0/ :lib/http
+	git://github.com/flaviotordini/http.git@68b9cf0
 
 idle.tar.gz	idle-6aa092d/ :lib/idle
 	git://github.com/flaviotordini/idle.git@6aa092d
 
-js.tar.gz js-312d596/ :lib/js
-    git://github.com/flaviotordini/js.git@312d596
+js.tar.gz js-acf3f87/ :lib/js
+    git://github.com/flaviotordini/js.git@acf3f87
 
 media.tar.gz media-edfcc8c/ :lib/media
 	git://github.com/flaviotordini/media.git@edfcc8c
 
-updater.tar.gz updater-18ce1d0/ :lib/updater
-	git://github.com/flaviotordini/updater.git@18ce1d0
+updater.tar.gz updater-17b8f7b/ :lib/updater
+	git://github.com/flaviotordini/updater.git@17b8f7b
+
+promises.tar.gz promises-e6e5653/ :lib/promises
+	git://github.com/flaviotordini/promises.git@e6e5653
