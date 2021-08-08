@@ -1,0 +1,2 @@
+mv /usr/share/applications/google-earth-pro.desktop /usr/share/applications/google-earth-pro.desktop.old
+mv /usr/share/applications/google-earth-pro.desktop.old /usr/share/applications/google-earth-pro.desktop
