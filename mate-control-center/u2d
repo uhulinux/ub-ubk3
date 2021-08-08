@@ -1,1 +1,2 @@
-u2dmate mate-control-center
+# noupdate: A gtk-3.24.11 kevés
+echo 1.24.2
