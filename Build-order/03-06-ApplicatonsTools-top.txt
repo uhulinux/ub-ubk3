@@ -121,7 +121,6 @@ synce-connector
 mugshot
 rapidsvn
 krb5-auth-dialog
-electrum
 mount-gtk
 gencfsm
 mencfsm
