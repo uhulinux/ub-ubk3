@@ -42,12 +42,6 @@ python3-pyparsing
 python3-service-identity
 python3-setproctitle
 python3-speaklater
-python3-sphinx-alabaster-theme
-python3-sphinxcontrib-htmlhelp
-python3-sphinxcontrib-qthelp
-python3-sphinxcontrib-serializinghtml
-python3-sphinxcontrib-websupport
-python3-sphinx-rtd-theme
 python3-sqlalchemy
 python3-virtualenv
 python3-zope.fixers
@@ -112,7 +106,6 @@ python-pyxattr
 python3-pyzmq
 python-reportlab
 python3-cryptography
-python3-sphinx
 python-gst
 python3-pytest-plugins
 python-pillow
