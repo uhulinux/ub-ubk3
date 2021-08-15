@@ -8,5 +8,4 @@ libnetsnmp-dev
 libnl-dev
 openldap-dev
 openssl-dev
-python3-sphinx
 sqlite-dev
