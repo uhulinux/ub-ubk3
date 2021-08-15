@@ -80,7 +80,6 @@ python3-dateutil
 python3-decorator
 python3-dnspython
 python-idna
-python3-itsdangerous
 python3-jinja2
 python-mutagen
 python3-pathlib
