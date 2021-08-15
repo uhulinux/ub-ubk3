@@ -42,7 +42,6 @@ python3-pyparsing
 python3-service-identity
 python3-setproctitle
 python3-speaklater
-python3-sqlalchemy
 python3-virtualenv
 python3-zope.fixers
 python-pyxdg
