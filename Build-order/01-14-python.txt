@@ -13,7 +13,6 @@ python3-pam
 python3-polib
 python3-prompt-toolkit
 python3-random2
-python3-snowballstemmer
 python3-wheel
 python3-xlib
 python3-yarl
@@ -27,7 +26,6 @@ python3-automat
 python3-babel
 python3-constantly
 python3-distutils-extra
-python3-flask
 python3-hyperlink
 python3-incremental
 python3-ipython-genutils
