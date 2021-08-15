@@ -31,7 +31,7 @@ python3-ipython
 python3-pip
 python3-ply
 python3-pyatspi
-python2-pyalsa
+python3-pyalsa
 python3-pycparser
 python3-pyhamcrest
 python3-pyparsing
