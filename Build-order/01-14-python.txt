@@ -4,7 +4,6 @@ python3-backcall
 python3-cycler
 python3-distro
 python3-gnupg
-python3-imagesize
 python3-jedi
 python3-logilab-common
 python3-multidict
