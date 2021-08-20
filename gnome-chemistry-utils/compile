@@ -1,5 +1,7 @@
 #!/bin/sh -eux
 
+export openbabel_CFLAGS=$(pkg-config --cflags openbabel-3)
+export openbabel_LIBS=$(pkg-config --libs openbabel-3)
 ub_compile \
 	--disable-update-databases \
 	--disable-schemas-compile
