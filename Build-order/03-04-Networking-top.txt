@@ -65,6 +65,7 @@ node
 firefox
 seamonkey
 thunderbird
+thunderbird-bin
 chromium
 balsa
 ghetto-skype

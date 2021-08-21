@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+thunderbird-${UB_VERSION/~/}.tar.bz2 thunderbird/
+	https://ftp.mozilla.org/pub/thunderbird/releases/${UB_VERSION/~/}/linux-x86_64/hu/
