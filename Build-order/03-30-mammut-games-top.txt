@@ -18,6 +18,7 @@ openttd-opengfx
 openttd-opensfx
 simutrans
 simutrans-pak128
+libfmt
 0ad
 0ad-data
 dangerdeep
