@@ -71,6 +71,8 @@ perl-strictures
 perl-sub-exporter-progressive
 perl-sub-install
 perl-sub-uplevel
+perl-sub-quote
+perl-moo
 perl-test-nowarnings
 perl-test-requires
 perl-text-csv
