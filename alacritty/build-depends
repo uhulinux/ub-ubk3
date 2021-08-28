@@ -3,5 +3,6 @@ freetype2-dev
 gdb
 libxcb-dev
 libxcursor-dev
+libxkbcommon-dev
 libxrandr-dev
 rust
