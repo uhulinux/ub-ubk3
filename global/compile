@@ -1,4 +1,7 @@
 #!/bin/sh -eux
 
+sed -i 's/\.la/.so/g' gtags.conf.in
+sed -i 's/usable("lid")/usable("lid-idutils")/g' global/global.c
+autoreconf -vif
 ub_compile \
 	--with-exuberant-ctags=/usr/bin/ctags
