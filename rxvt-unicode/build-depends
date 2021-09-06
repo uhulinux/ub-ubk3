@@ -1,5 +1,6 @@
 gdk-pixbuf-dev
 libx11-dev
 libxft-dev
+libxt-dev
 perl-gtk2
 terminfo

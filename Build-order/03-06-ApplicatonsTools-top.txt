@@ -107,7 +107,7 @@ gtklp
 fbreader
 synergy
 gammu
-python2-gammu
+python3-gammu
 wammu
 unibrow
 hardinfo
