@@ -8,8 +8,9 @@ ub_compile \
 	--without-pacemaker \
 	--without-heartbeat \
 	--without-83support \
-	--without-84support \
+	--with-84support \
 	--without-xen \
 	--with-initscripttype=systemd \
 	--sbindir=/usr/sbin \
-	--libdir=/usr/lib
+	--libdir=/usr/lib \
+	--without-manual
