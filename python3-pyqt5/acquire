@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 PyQt5-${UB_VERSION}.tar.gz PyQt5-${UB_VERSION}/
-	https://www.riverbankcomputing.com/static/Downloads/PyQt5/${UB_VERSION}/
+	https://files.pythonhosted.org/packages/8e/a4/d5e4bf99dd50134c88b95e926d7b81aad2473b47fde5e3e4eac2c69a8942/
