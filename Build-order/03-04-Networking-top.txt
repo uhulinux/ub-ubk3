@@ -5,6 +5,7 @@ gufw
 lzop
 clamav
 amavisd-new
+qlam
 adzapper
 corkscrew
 finger
