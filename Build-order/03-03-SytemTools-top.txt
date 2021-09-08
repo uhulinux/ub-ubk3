@@ -61,3 +61,5 @@ open-vm-tools
 hwinfo
 libva-utils
 epson-printer-utility
+tlp
+inxi
