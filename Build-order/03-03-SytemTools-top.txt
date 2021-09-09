@@ -5,7 +5,6 @@ cdctl
 chkrootkit
 convmv
 ddrescue
-ebtables
 ethtool
 hashalot
 lde
