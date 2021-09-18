@@ -1,5 +1,6 @@
 gtkmm-dev
 intltool
+json-glib-dev
 libcanberra-dev
 libsigc++-dev
 pulseaudio-dev
