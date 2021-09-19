@@ -2,3 +2,4 @@
 
 install/linux/install.sh --install-prefix=$UB_INSTALLDIR
 rm -rf ${UB_INSTALLDIR}/usr/share/doublecmd/doc
+rm -rf ${UB_INSTALLDIR}/usr/share/doublecmd/pixmaps/dctheme/20x20/apps

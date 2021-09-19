@@ -1,0 +1,8 @@
+diff -Nur orig/install/linux/doublecmd.desktop mod/install/linux/doublecmd.desktop
+--- orig/install/linux/doublecmd.desktop	2016-03-19 12:30:13.000000000 +0100
++++ mod/install/linux/doublecmd.desktop	2021-09-19 11:08:20.000000000 +0200
+@@ -9,3 +9,4 @@
+ Categories=Utility;FileTools;FileManager;
+ Keywords=folder;manager;explore;disk;filesystem;orthodox;copy;queue;queuing;operations;
+ Comment[ru]=Double Commander — это кроссплатформенный двухпанельный файловый менеджер с открытым кодом.
++Comment[hu]=Kétpaneles fájlkezelő
