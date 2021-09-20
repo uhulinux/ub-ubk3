@@ -4,6 +4,28 @@ export UB_PYTHON=3
 
 ub_install
 
+mkdir -p ${UB_INSTALLDIR}/usr/share/icons/hicolor/48x48/apps/ ${UB_INSTALLDIR}/usr/share/icons/hicolor/scalable/apps
+mv data/icons/48x48/apps/gufw.png ${UB_INSTALLDIR}/usr/share/icons/hicolor/48x48/apps/gufw.png
+mv data/icons/scalable/apps/gufw* ${UB_INSTALLDIR}/usr/share/icons/hicolor/scalable/apps/
+
+#desktop
+mkdir -p ${UB_INSTALLDIR}/usr/share/applications
+cat >${UB_INSTALLDIR}/usr/share/applications/gufw.desktop <<EOF
+[Desktop Entry]
+Type=Application
+Icon=gufw
+Exec=gufw
+Name=Gufw
+GenericName=Gufw
+Comment=Customize the firewall
+Comment[hu]=Tűzfal beállítás
+Terminal=false
+StartupNotify=false
+Categories=System;Settings;
+EOF
+
 mv $UB_INSTALLDIR/usr/bin/gufw-pkexec $UB_INSTALLDIR/usr/sbin/gufw
+ver=$(ls -d /usr/lib/python3* | sed s/.*\\.//)
+sed "s/ver/$ver/g" -i $UB_INSTALLDIR/usr/sbin/gufw
 rm $UB_INSTALLDIR/usr/bin/gufw
 rm -rf ${UB_INSTALLDIR}/usr/share/doc/gufw
