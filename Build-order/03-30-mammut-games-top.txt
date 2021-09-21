@@ -32,8 +32,6 @@ lincity-ng
 bzflag
 megaglest
 megaglest-data
-megaglest
-megaglest-data
 angband
 freeciv
 wesnoth
