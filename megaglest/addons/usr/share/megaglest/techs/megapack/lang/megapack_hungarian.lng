@@ -81,9 +81,9 @@ CommandName_speedup_priest_production=Pap képzés gyorsítása
 CommandName_heal=gyógyítás
 CommandName_produce_mummy=Múmia képzés
 CommandName_produce_anubis_warrior=Anubis harcos képzés
-CommandName_ice_nova=Vasnova
+CommandName_ice_nova=Jég nova
 ; -------------------------------------
-UnitTypeName_pyramid=Pyramis
+UnitTypeName_pyramid=Piramis
 ; --------------------
 CommandName_produce_slave=Rabszolga képzés
 ; -------------------------------------
@@ -97,7 +97,7 @@ CommandName_dung_attack=Ganaj támadás
 ; -------------------------------------
 UnitTypeName_slave=Rabszolga
 ; --------------------
-CommandName_build_basic=Kalyiba
+CommandName_build_basic=Építés
 CommandName_repair=Javítás
 CommandName_mine=Bányászás
 CommandName_harvest_wood=Favágás
@@ -114,7 +114,7 @@ UnitTypeName_sphinx=Sphinx
 ; -------------------------------------
 UnitTypeName_temple=Templom
 ; --------------------
-CommandName_produce_priest=Pap kiképzés
+CommandName_produce_priest=Pap képzés
 CommandName_research_scarab=Szkarabeusz kutatás
 CommandName_research_ibis=Ibis kutatás
 CommandName_get_power_of_ra=Ra erő szerzés
@@ -123,7 +123,7 @@ CommandName_get_power_of_ra=Ra erő szerzés
 FactionName_indian=Indián
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_iron=Vas finomítás
+UpgradeTypeName_advanced_iron=Acél
 UpgradeTypeName_bull_food=Bullenfutter
 UpgradeTypeName_iron=Vas
 UpgradeTypeName_petroleum=Petróleum
@@ -147,9 +147,9 @@ UnitTypeName_bull=Bika
 ; -------------------------------------
 UnitTypeName_campfire=Tábortűz
 ; --------------------
-CommandName_produce_fire_golem=Tűz gólem képzés
+CommandName_produce_fire_golem=Tűzelő gólem képzés
 CommandName_research_iron=Vas keresés
-CommandName_research_advanced_iron=vas felkutatás
+CommandName_research_advanced_iron=acél kereséss
 ; -------------------------------------
 UnitTypeName_fire_archer=Nyilazó
 ; -------------------------------------
@@ -186,8 +186,8 @@ CommandName_build_beehive=Méhkas képzés
 ; -------------------------------------
 ; Unit > lándzsás
 ; --------------------
-LevelName_guardian=Wächter
-LevelName_chief=Häuptling
+LevelName_guardian=Védő
+LevelName_chief=Főnök
 ; -------------------------------------
 UnitTypeName_stickfighter=Botharcos
 ; -------------------------------------
@@ -294,43 +294,43 @@ UnitTypeName_wicker_behemoth=Behemótbaba
 CommandName_promote_to_behemoth=Behemótra változás
 ; -----------------------------------------------------------------------------
 ; Faction
-FactionName_norsemen=Normannen
+FactionName_norsemen=Normannok
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_arrow=Pfeil
-UpgradeTypeName_holy_valkyrie=Heilige Walküre
-UpgradeTypeName_mead=Met
-UpgradeTypeName_root=Wurzel
+UpgradeTypeName_arrow=Íj
+UpgradeTypeName_holy_valkyrie=Valkűr
+UpgradeTypeName_mead=Mézsör
+UpgradeTypeName_root=Gyökér
 ; -------------------------------------
-UnitTypeName_battleaxe=Axtkämpfer
+UnitTypeName_battleaxe=Baltás
 ; --------------------
 CommandName_promote_to_battleaxe_berserk=Baltássá változás
 ; -------------------------------------
-UnitTypeName_battleaxe_berserk=Axtkampfberserker
+UnitTypeName_battleaxe_berserk=Vad baltás
 ; -------------------------------------
-UnitTypeName_blacksmith=Schmiede
+UnitTypeName_blacksmith=Kovácsműhely
 ; --------------------
-CommandName_upgrade_iron=Eisen verbessern
-CommandName_upgrade_arrow=Pfeile verbessern
-CommandName_upgrade_advanced_iron=Eisen optimieren
-CommandName_produce_crossbow=produziere Armbrust
+CommandName_upgrade_iron=Vasr váltás
+CommandName_upgrade_arrow=Íjak feljavítása
+CommandName_upgrade_advanced_iron=Acélra váltás
+CommandName_produce_crossbow=Íjpuska készítés
 ; -------------------------------------
-UnitTypeName_bone_tent=Knochenzelt
+UnitTypeName_bone_tent=Csontkor
 ; --------------------
-CommandName_produce_swordman=produziere Schwertkämpfer
-CommandName_produce_battleaxe=produziere Axtkämpfer
+CommandName_produce_swordman=Kardforgató képzés
+CommandName_produce_battleaxe=Baltás képzés
 ; -------------------------------------
 UnitTypeName_castle=Vár
 ; --------------------
-CommandName_produce_thrall=produziere Thrull
+CommandName_produce_thrall=Thrull képzés
 ; -------------------------------------
 UnitTypeName_cow=Tehén
 ; -------------------------------------
 UnitTypeName_crossbow=Mellvért
 ; --------------------
-CommandName_attack_arrow=Angriff Pfeil
+CommandName_attack_arrow=Támadó íj
 ; -------------------------------------
-UnitTypeName_cudgel_lady=Bunkós hölgy
+UnitTypeName_cudgel_lady=Furkós nő
 ; --------------------
 CommandName_cudgel=Bunkó
 ; -------------------------------------
@@ -338,54 +338,54 @@ CommandName_cudgel=Bunkó
 ; --------------------
 CommandName_produce_cow=Tehén készítés
 ; -------------------------------------
-UnitTypeName_flying_valkyrie=Fliegende Walküre
+UnitTypeName_flying_valkyrie=Repülő valkürök
 ; -------------------------------------
-UnitTypeName_house=Haus
+UnitTypeName_house=Ház
 ; --------------------
-CommandName_produce_cudgel_lady=produziere Keulenlady
+CommandName_produce_cudgel_lady=Furkós nő képzés
 ; -------------------------------------
-UnitTypeName_mead_bar=Met Bar
+UnitTypeName_mead_bar=Méhsör ivó
 ; --------------------
-CommandName_research_mead=erfinde Met
+CommandName_research_mead=Méhsür keresés
 ; -------------------------------------
-UnitTypeName_mistletoe_tree=Mistelbaum
+UnitTypeName_mistletoe_tree=Fagyöngy
 ; --------------------
-CommandName_research_root=Wurzel erforschen
-CommandName_resurrect_wild_sow=erschaffe Wildsau
+CommandName_research_root=Gyökér keresés
+CommandName_resurrect_wild_sow=Vaddisznó teremtés
 ; -------------------------------------
-; Unit > spearman
+; Unit > Lándzsás
 ; --------------------
-CommandName_promote_to_spearman_berserk=Lándzsássá változás
+CommandName_promote_to_spearman_berserk=Lándzsás képzés
 ; -------------------------------------
-UnitTypeName_spearman_berserk=Speerkampfberserker
+UnitTypeName_spearman_berserk=Vad lánzsás
 ; -------------------------------------
-UnitTypeName_swordman=Schwertkämpfer
+UnitTypeName_swordman=Kardforgató
 ; --------------------
-CommandName_promote_to_swordman_berserk=Kardforgatóra változás
+CommandName_promote_to_swordman_berserk=Kardforgató képzés
 ; -------------------------------------
-UnitTypeName_swordman_berserk=Schwertkampfberserker
+UnitTypeName_swordman_berserk=Vad kardforgató
 ; -------------------------------------
 UnitTypeName_thor=Thor
 ; --------------------
-LevelName_advanced=optimiert
+LevelName_advanced=haladó
 ; -------------------------------------
-UnitTypeName_thor_totem=Thor-Totem
+UnitTypeName_thor_totem=Thor totem
 ; --------------------
-CommandName_build_thor=Thorstatue errichten
+CommandName_build_thor=Thor készítés
 ; -------------------------------------
-UnitTypeName_thrall=Thrull
+UnitTypeName_thrall=Rabszolga
 ; -------------------------------------
 UnitTypeName_valhalla=Valhalla
 ; --------------------
-CommandName_produce_flying_valkyrie=produziere fliegende Walküre
-CommandName_produce_valkyrie=produziere Walküre
-CommandName_research_holy_valkyrie=Heilige Walküren erforschen
+CommandName_produce_flying_valkyrie=repülő Valkür képzés
+CommandName_produce_valkyrie=Valkür képzés
+CommandName_research_holy_valkyrie=Szent valkür keresés
 ; -------------------------------------
-UnitTypeName_valkyrie=Walküre
+UnitTypeName_valkyrie=Valkürök
 ; --------------------
-CommandName_airattack=Luftangriff
+CommandName_airattack=Légi támadásf
 ; -------------------------------------
-UnitTypeName_wild_sow=Wildsau
+UnitTypeName_wild_sow=Vaddisznó
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_persian=Perser

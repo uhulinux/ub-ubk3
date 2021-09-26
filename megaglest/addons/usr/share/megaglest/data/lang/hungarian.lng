@@ -21,7 +21,7 @@ AISwitchTeamAcceptPercent=CPU használat (%)
 AlreadyUpgraded=Már frissített
 All=Mind
 allowMultiBoost=többszörös boost
-AllowNativeLanguageTechtree=Techtree fordítás
+AllowNativeLanguageTechtree=Technológia fa nyelve
 AllowObservers=nézők engedve
 AllowPlayerJoinTeam=A [%s] játékos csapata csatlakozhat más csapatokhoz
 AllowInGameJoinPlayer=A játékos csatlakozhat folyó játékhoz
@@ -272,7 +272,7 @@ LogScreenGameLoadingUnitType=Egység típus: %s
 LogScreenGameLoadingUnitTypeSkills=Egység típus: %s - Nehézség: %d
 LogScreenGameLoadingResourceType=Forrás típus: %s
 LogScreenGameLoadingTechtree=Technológiai fa: %s
-LogScreenGameUnLoadingTechtree=Fejlettség vissza
+LogScreenGameUnLoadingTechtreeTechnológiai fa töltése
 LogScreenGameLoadingUpgradeType=Váltás típusa: %s
 LogScreenGameUnLoadingMapCells=Térkép elemek ürítése
 LogScreenGameUnLoadingMap=Térkép ürítése
