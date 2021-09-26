@@ -8,4 +8,4 @@ ub_compile \
 
 cd data
 ub_compile \
-    --DMEGAGLEST_ICON_INSTALL_PATH=/usr/share/icons
+    -DMEGAGLEST_ICON_INSTALL_PATH=/usr/share/icons
