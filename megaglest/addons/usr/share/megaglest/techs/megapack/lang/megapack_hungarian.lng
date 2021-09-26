@@ -55,13 +55,13 @@ UnitTypeName_chicken=Csirke
 ; -------------------------------------
 UnitTypeName_desert_camp=Sivatagi sátor
 ; --------------------
-CommandName_produce_spearthrower=Lánzsavető képzés
-CommandName_produce_spearman=Lánzsás harcos képzés
+CommandName_produce_spearthrower=Lándzsavető életre hívás
+CommandName_produce_spearman=Lándzsás harcos életre hívás 
 CommandName_upgrade_spear_weapons=Lánzsák feljavítása
 ; -------------------------------------
 UnitTypeName_farm=Tanya
 ; --------------------
-CommandName_produce_chicken=Csirke nevelés
+CommandName_produce_chicken=Csirke életre hívás
 ; -------------------------------------
 UnitTypeName_ibis=Ibis
 ; --------------------
@@ -71,21 +71,21 @@ UnitTypeName_mummy=Múmia
 ; -------------------------------------
 UnitTypeName_obelisk=Obeliszk
 ; --------------------
-CommandName_produce_scarab=Szkarabeusz képzés 
-CommandName_produce_snake=Kígyó képzés
-CommandName_produce_ibis=Ibis képzés
+CommandName_produce_scarab=Szkarabeusz életre hívás 
+CommandName_produce_snake=Kígyó életre hívás
+CommandName_produce_ibis=Ibis létrehozás
 ; -------------------------------------
 UnitTypeName_priest=Pap
 ; --------------------
-CommandName_speedup_priest_production=Pap képzés gyorsítása
+CommandName_speedup_priest_production=Pap létrehozás gyorsítása
 CommandName_heal=gyógyítás
-CommandName_produce_mummy=Múmia képzés
-CommandName_produce_anubis_warrior=Anubis harcos képzés
+CommandName_produce_mummy=Múmia létrehozás
+CommandName_produce_anubis_warrior=Anubis harcos létrehozás
 CommandName_ice_nova=Jég nova
 ; -------------------------------------
 UnitTypeName_pyramid=Piramis
 ; --------------------
-CommandName_produce_slave=Rabszolga képzés
+CommandName_produce_slave=Rabszolga létrehozás
 ; -------------------------------------
 UnitTypeName_scarab=Szkarabeusz
 ; --------------------
@@ -114,7 +114,7 @@ UnitTypeName_sphinx=Sphinx
 ; -------------------------------------
 UnitTypeName_temple=Templom
 ; --------------------
-CommandName_produce_priest=Pap képzés
+CommandName_produce_priest=Pap létrehozás
 CommandName_research_scarab=Szkarabeusz kutatás
 CommandName_research_ibis=Ibis kutatás
 CommandName_get_power_of_ra=Ra erő szerzés
@@ -140,14 +140,14 @@ UnitTypeName_beehive=Méhkas
 ; -------------------------------------
 UnitTypeName_big_tent=Nagy sátor
 ; --------------------
-CommandName_produce_stickfighter=Botharcos képzés
-CommandName_produce_archer=Íjász képzés
+CommandName_produce_stickfighter=Rúdharcos létrehozás
+CommandName_produce_archer=Íjász létrehozás
 ; -------------------------------------
 UnitTypeName_bull=Bika
 ; -------------------------------------
 UnitTypeName_campfire=Tábortűz
 ; --------------------
-CommandName_produce_fire_golem=Tűzelő gólem képzés
+CommandName_produce_fire_golem=Tűzelő gólem létrehozás
 CommandName_research_iron=Vas keresés
 CommandName_research_advanced_iron=acél kereséss
 ; -------------------------------------
@@ -157,15 +157,15 @@ UnitTypeName_fire_golem=gólem vető
 ; -------------------------------------
 UnitTypeName_horse_farm=Lovastanya
 ; --------------------
-CommandName_produce_horseman=Lovas képzés
-CommandName_produce_bull=Bika képzés
+CommandName_produce_horseman=Lovas létrehozás
+CommandName_produce_bull=Bika létrehozás
 CommandName_research_stables=Istállósítás
 ; -------------------------------------
 UnitTypeName_horseman=Lovas
 ; -------------------------------------
 UnitTypeName_main_teepee=Tipi
 ; --------------------
-CommandName_produce_worker=Munkás képzés
+CommandName_produce_worker=Munkás létrehozás
 ; -------------------------------------
 UnitTypeName_reed=Nád
 ; --------------------
@@ -173,23 +173,23 @@ CommandName_research_bull_food=Bikatáp keresés
 ; -------------------------------------
 UnitTypeName_round_tent=Körsátor
 ; --------------------
-CommandName_produce_axe_indian=Baltás képzés
-CommandName_produce_axe_thrower=Baltavető képzés
-CommandName_produce_fire_archer=íjász képzés
-CommandName_create_training_field=Gyakorlóhely képzés
+CommandName_produce_axe_indian=Baltás létrehozás
+CommandName_produce_axe_thrower=Baltavető létrehozás
+CommandName_produce_fire_archer=íjász létrehozás
+CommandName_create_training_field=Gyakorlóhely készítés
 ; -------------------------------------
 UnitTypeName_shaman=Sámán
 ; --------------------
 CommandName_molotov=Molotov
-CommandName_produce_thunderbird=Galamb képzés
-CommandName_build_beehive=Méhkas képzés
+CommandName_produce_thunderbird=Galamb létrehozás
+CommandName_build_beehive=Méhkas építés
 ; -------------------------------------
 ; Unit > lándzsás
 ; --------------------
 LevelName_guardian=Védő
 LevelName_chief=Főnök
 ; -------------------------------------
-UnitTypeName_stickfighter=Botharcos
+UnitTypeName_stickfighter=Rúdharcos
 ; -------------------------------------
 UnitTypeName_tent=Sátor
 ; -------------------------------------
@@ -202,7 +202,7 @@ UnitTypeName_totem=Totem
 ; --------------------
 CommandName_air_on=Légicsapás be
 CommandName_research_petroleum=Petróleum keresés
-CommandName_produce_shaman=Sámán képzés
+CommandName_produce_shaman=Sámán létrehozás
 ; -------------------------------------
 UnitTypeName_worker=Munkás
 ; -----------------------------------------------------------------------------
@@ -270,7 +270,7 @@ CommandName_research_hell_gate=Pokolkapu
 ; -------------------------------------
 UnitTypeName_mage_tower=Varázslók tornya
 ; --------------------
-CommandName_produce_initiate=beavatott képzés
+CommandName_produce_initiate=beavatott létrehozás
 ; -------------------------------------
 UnitTypeName_power_golem=Hatalmas gólem
 ; -------------------------------------
@@ -283,9 +283,9 @@ CommandName_summon_wingless_dragon=Futó sárkány idézés
 ; -------------------------------------
 UnitTypeName_summoner_guild=Boszorka tanya
 ; --------------------
-CommandName_produce_summoner=boszorka képzés
+CommandName_produce_summoner=boszorka létrehozás
 CommandName_research_ancient_summoning=Ősök idézése
-CommandName_speed_up_movement=Bewegung verbessern
+CommandName_speed_up_movement=Bewegung feljavítás
 ; -------------------------------------
 UnitTypeName_tower_of_souls=Lelkek tornya
 ; -------------------------------------
@@ -317,12 +317,12 @@ CommandName_produce_crossbow=Íjpuska készítés
 ; -------------------------------------
 UnitTypeName_bone_tent=Csontkor
 ; --------------------
-CommandName_produce_swordman=Kardforgató képzés
-CommandName_produce_battleaxe=Baltás képzés
+CommandName_produce_swordman=Kardforgató létrehozás
+CommandName_produce_battleaxe=Baltás létrehozás
 ; -------------------------------------
 UnitTypeName_castle=Vár
 ; --------------------
-CommandName_produce_thrall=Thrull képzés
+CommandName_produce_thrall=Thrull létrehozás
 ; -------------------------------------
 UnitTypeName_cow=Tehén
 ; -------------------------------------
@@ -336,13 +336,13 @@ CommandName_cudgel=Bunkó
 ; -------------------------------------
 ; Unit > farm
 ; --------------------
-CommandName_produce_cow=Tehén készítés
+CommandName_produce_cow=Tehén létrehozás
 ; -------------------------------------
 UnitTypeName_flying_valkyrie=Repülő valkürök
 ; -------------------------------------
 UnitTypeName_house=Ház
 ; --------------------
-CommandName_produce_cudgel_lady=Furkós nő képzés
+CommandName_produce_cudgel_lady=Furkós nő létrehozás
 ; -------------------------------------
 UnitTypeName_mead_bar=Méhsör ivó
 ; --------------------
@@ -377,9 +377,9 @@ UnitTypeName_thrall=Rabszolga
 ; -------------------------------------
 UnitTypeName_valhalla=Valhalla
 ; --------------------
-CommandName_produce_flying_valkyrie=repülő Valkür képzés
-CommandName_produce_valkyrie=Valkür képzés
-CommandName_research_holy_valkyrie=Szent valkür keresés
+CommandName_produce_flying_valkyrie=repülő Valkür létrehozás
+CommandName_produce_valkyrie=Valkür létrehozás
+CommandName_research_holy_valkyrie=Szent valkür
 ; -------------------------------------
 UnitTypeName_valkyrie=Valkürök
 ; --------------------
@@ -388,229 +388,229 @@ CommandName_airattack=Légi támadásf
 UnitTypeName_wild_sow=Vaddisznó
 ; -----------------------------------------------------------------------------
 ; Faction
-FactionName_persian=Perser
+FactionName_persian=Perzsa
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_corn_and_wicker=Korn und Korbwaren
-UpgradeTypeName_magic_level_1=Magie Level 1
-UpgradeTypeName_magic_level_2=Magie Level 2
-UpgradeTypeName_nails=Nägel
-UpgradeTypeName_shield=Schild
-UpgradeTypeName_weapons=Waffen
+UpgradeTypeName_corn_and_wicker=gabona és gabonatároló
+UpgradeTypeName_magic_level_1=Mágus szint 1
+UpgradeTypeName_magic_level_2=Mágus szint 2
+UpgradeTypeName_nails=Szög
+UpgradeTypeName_shield=Páncél
+UpgradeTypeName_weapons=Fegyver
 ; -------------------------------------
 ; Unit > blacksmith
 ; --------------------
-CommandName_upgrade_weapons=Waffen verbessern
-CommandName_upgrade_nails=Nägel verbessern
-CommandName_upgrade_shield=Schild verbessern
+CommandName_upgrade_weapons=Fegyver feljavítás
+CommandName_upgrade_nails=Nägel feljavítás
+CommandName_upgrade_shield=Schild feljavítás
 ; -------------------------------------
-UnitTypeName_elephant=Elefant
+UnitTypeName_elephant=Elefént
 ; -------------------------------------
-UnitTypeName_elephant_cage=Elefantenkäfig
+UnitTypeName_elephant_cage=Elefántkosár
 ; --------------------
-CommandName_produce_elephant=produziere Elefant
+CommandName_produce_elephant=Elefánt létrehozás
 ; -------------------------------------
-UnitTypeName_fakir=Fakir
+UnitTypeName_fakir=Fakír
 ; -------------------------------------
-; Unit > farm
+; Unit > tanya
 ; --------------------
-CommandName_produce_sheep=produziere Schaf
-CommandName_research_corn_and_wicker=Korn und Korbwaren erforschen
+CommandName_produce_sheep=Birka létrehozás
+CommandName_research_corn_and_wicker=Gabona és gabonatároló megcélzása
 ; -------------------------------------
-UnitTypeName_flying_carpet=fliegender Teppich
+UnitTypeName_flying_carpet=Repülő szőnyeg
 ; --------------------
-CommandName_magic_attack=Magieangriff
+CommandName_magic_attack=Mágikus támadás
 ; -------------------------------------
-UnitTypeName_genie=Flaschengeist
+UnitTypeName_genie=Palackszellem
 ; -------------------------------------
 ; Unit > house
 ; --------------------
-CommandName_produce_fakir=produziere Fakir
+CommandName_produce_fakir=Fakír létrehozás
 ; -------------------------------------
-UnitTypeName_magician=Magier
+UnitTypeName_magician=Mágus
 ; --------------------
-CommandName_build_snake_basket=Schlangenkorb erstellen
+CommandName_build_snake_basket=Kígyókosár készítés
 ; -------------------------------------
-UnitTypeName_minaret=Minarett
+UnitTypeName_minaret=Minaret
 ; -------------------------------------
-UnitTypeName_palace=Palast
+UnitTypeName_palace=Palota
 ; -------------------------------------
-UnitTypeName_princess=Prinzessin
+UnitTypeName_princess=Hercegnő
 ; -------------------------------------
-UnitTypeName_sheep=Schaf
+UnitTypeName_sheep=Birka
 ; -------------------------------------
-UnitTypeName_snake_basket=Schlangenkorb
+UnitTypeName_snake_basket=Kígyókosár
 ; -------------------------------------
 ; Unit > temple
 ; --------------------
-CommandName_produce_princess=produziere Prinzessin
+CommandName_produce_princess=Hercegnő létrehívás
 ; -------------------------------------
 ; Unit > tent
 ; --------------------
-CommandName_produce_genie=produziere Flaschengeist
-CommandName_produce_flying_carpet=produziere fliegenden Teppich
-CommandName_produce_magician=produziere Magier
-CommandName_upgrade_magic_level_1=Auf Magie Level 1 aufrüsten
-CommandName_upgrade_magic_level_2=Auf Magie Level 2 aufrüsten
+CommandName_produce_genie=Palackszellem létrehozás
+CommandName_produce_flying_carpet=Repülő szőnyeg készítés
+CommandName_produce_magician=Mágus létrehozás
+CommandName_upgrade_magic_level_1=Mágia szint 1 megcélzása
+CommandName_upgrade_magic_level_2=Mágia szint 2 megcélzása
 ; -----------------------------------------------------------------------------
 ; Faction
-FactionName_romans=Römer
+FactionName_romans=Rómaiak
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_architecture=Fortschrittliche Architektur
-UpgradeTypeName_bless_of_minerva=Segen der Minerva
-UpgradeTypeName_enlarge_shields=Schilde vergrößern
-UpgradeTypeName_formations=Formationen
+UpgradeTypeName_advanced_architecture=Haladó építészet
+UpgradeTypeName_bless_of_minerva=Minerva áldása
+UpgradeTypeName_enlarge_shields=Nagyobb páncél
+UpgradeTypeName_formations=Alakzatok
 UpgradeTypeName_jupiter=Jupiter
-UpgradeTypeName_reinforce_armor=Verstärke Rüstung
-UpgradeTypeName_sharpen_points=Spitzen schärfen
-UpgradeTypeName_sign_of_mars=Zeichen des Mars
-UpgradeTypeName_strengthen_swords=Verstärke Schwerter
+UpgradeTypeName_reinforce_armor=Erősebb fegyverzet
+UpgradeTypeName_sharpen_points=Hegyezés
+UpgradeTypeName_sign_of_mars=Mars jelei
+UpgradeTypeName_strengthen_swords=Erősebb páncélzat
 ; -------------------------------------
 ; Unit > archer
 ; --------------------
-CommandName_get_fire_arrows=Brandpfeile entwickeln
+CommandName_get_fire_arrows=Tüzes nyilak fejlesztése
 ; -------------------------------------
-UnitTypeName_axe_man=Axtkämpfer
+UnitTypeName_axe_man=Baltás
 ; -------------------------------------
-UnitTypeName_ballista=Ballista
+UnitTypeName_=Katapult
 ; -------------------------------------
-UnitTypeName_battering_ram=Belagerungsramme
+UnitTypeName_battering_ram=Ostromgép
 ; --------------------
-CommandName_attack_land=Angriff Land
-CommandName_attack_air=Angriff Luft
+CommandName_attack_land=Földi támadás
+CommandName_attack_air=Légi támadás
 ; -------------------------------------
-UnitTypeName_blacksmith_shop=Schmiedladen
+UnitTypeName_blacksmith_shop=Kovácstermék bolt
 ; --------------------
-CommandName_strengthen_swords=Verstärke Schwerter
-CommandName_sharpen_points=Spitzen schärfen
-CommandName_reinforce_armor=Rüstung verstärken
-CommandName_enlarge_shields=Schilde vergrößen
+CommandName_strengthen_swords=Erősebb kardok
+CommandName_sharpen_points=Hegyesebb szúróeszközök
+CommandName_reinforce_armor=Erősebb fegyverzet
+CommandName_enlarge_shields=Nagyobb páncélzat
 ; -------------------------------------
 UnitTypeName_catapult=Katapult
 ; --------------------
-CommandName_fire_ball=Feuerball
+CommandName_fire_ball=Tűzgömb
 ; -------------------------------------
-UnitTypeName_cavalry=Kavallerie
+UnitTypeName_cavalry=Lovasság
 ; --------------------
-CommandName_promote_to_tribune=Tribunra változás
+CommandName_promote_to_tribune=Tribunra váltás
 ; -------------------------------------
-UnitTypeName_eagle_pillar=Adlersäule
+UnitTypeName_eagle_pillar=Sólyomoszlop
 ; -------------------------------------
 ; Unit > fire archer
 ; --------------------
-LevelName_accurate=genau
+LevelName_accurate=pontos
 ; -------------------------------------
-UnitTypeName_forum=Forum
+UnitTypeName_forum=Fórum
 ; -------------------------------------
-UnitTypeName_general=General
+UnitTypeName_general=Genarális
 ; --------------------
-LevelName_esteemed=angesehen
-LevelName_grand=groß
+LevelName_esteemed=felbecsült
+LevelName_grand=Nagy
 ; -------------------------------------
-UnitTypeName_gladiator=Gladiator
+UnitTypeName_gladiator=Gladiátor
 ; -------------------------------------
-UnitTypeName_gladiator_school=Gladiatorenschule
+UnitTypeName_gladiator_school=Gladiátor iskola
 ; --------------------
-CommandName_train_gladiator=trainiere Gladiator
-CommandName_produce_axe_man=produziere Axtkämpfer
+CommandName_train_gladiator=Gladiátor képzés
+CommandName_produce_axe_man=Baltás létrehozás
 ; -------------------------------------
-UnitTypeName_guard=Wächter
+UnitTypeName_guard=Őr
 ; -------------------------------------
-UnitTypeName_guard_tower=Wachturm
+UnitTypeName_guard_tower=Őrtorony
 ; -------------------------------------
-UnitTypeName_military_camp=Militärcamp
+UnitTypeName_military_camp=Katonai tábor
 ; --------------------
-CommandName_produce_cavalry=produziere Kavallerie
-CommandName_produce_turtle_formation=produziere Schildkrötenformation
-CommandName_produce_general=produziere General
-CommandName_produce_mechanic=produziere Mechaniker
-CommandName_upgrade_advanced_architecture=Fortschrittliche Architektur
-CommandName_upgrade_formations=Upgrade Formationen
+CommandName_produce_cavalry=Lovasság létrehozás
+CommandName_produce_turtle_formation=Teknős alakzat kialakítás
+CommandName_produce_general=Generális létrehozás
+CommandName_produce_mechanic=Gépész létrehozás
+CommandName_upgrade_advanced_architecture=Haladóbb építkezés
+CommandName_upgrade_formations=Feljavított alakzatok
 ; -------------------------------------
-UnitTypeName_swordsman=Schwertkämpfer
+UnitTypeName_swordsman=Kardforgató
 ; -------------------------------------
 ; Unit > temple
 ; --------------------
-CommandName_research_sign_of_mars=Zeichen des Mars erforschen
-CommandName_research_jupiter=Jupiter erforschen
-CommandName_upgrade_bless_of_minerva=Segen der Minerva aufrüsten
+CommandName_research_sign_of_mars=A Mars jegyei
+CommandName_research_jupiter=A Jupiter
+CommandName_upgrade_bless_of_minerva=Feljavított Minerva áldások
 ; -------------------------------------
-UnitTypeName_training_camp=Trainingscamp
+UnitTypeName_training_camp=Gyakorlótér
 ; --------------------
-CommandName_produce_guard=produziere Wächter
-CommandName_produce_swordsman=produziere Schwertkämpfer
+CommandName_produce_guard=Őr létrehozás
+CommandName_produce_swordsman=Kardforgató létrehozás
 ; -------------------------------------
 UnitTypeName_tribune=Tribun
 ; -------------------------------------
-UnitTypeName_turtle_formation=Schildkrötenformation
+UnitTypeName_turtle_formation=Teknős alakzat
 ; -------------------------------------
-UnitTypeName_wartime_mechanic=Kriegsmechaniker
+UnitTypeName_wartime_mechanic=Harci gépész
 ; --------------------
-CommandName_build_catapult=Katapult konstruieren
-CommandName_build_battering_ram=Rammbock konstruieren
-CommandName_build_ballista=Ballista konstruieren
+CommandName_build_catapult=Katapult létesítés
+CommandName_build_battering_ram=Ostromgép létesítés
+CommandName_build_ballista=Nagy katapult létesítés
 ; -----------------------------------------------------------------------------
 ; Faction
-FactionName_tech=Tech
+FactionName_tech=Technikai
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_blade_weapons=Klingenwaffen
-UpgradeTypeName_piercing_weapons=Stichwaffen
-UpgradeTypeName_robotics=Robotik
-UpgradeTypeName_shield_level_1=Schild (Level 1)
-UpgradeTypeName_shield_level_2=Schild (Level 2)
+UpgradeTypeName_blade_weapons=Penge fegyverek
+UpgradeTypeName_piercing_weapons=Szúró fegyverek
+UpgradeTypeName_robotics=Robotika
+UpgradeTypeName_shield_level_1=Páncél (fokozat 1)
+UpgradeTypeName_shield_level_2=Páncél (fokozat 2)
 ; -------------------------------------
 UnitTypeName_aerodrome=Aerodrome
 ; --------------------
-CommandName_produce_ornithopter=produziere Ornithopter
-CommandName_produce_airship=produziere Luftschiff
+CommandName_produce_ornithopter=Csapkodó szárnyú repülő készítés
+CommandName_produce_airship=Léghajó készítés
 ; -------------------------------------
-UnitTypeName_air_ballista=Luft-Ballista
+UnitTypeName_air_ballista=Nagy légi katapult
 ; -------------------------------------
-UnitTypeName_airship=Luftschiff
+UnitTypeName_airship=Léghajó
 ; --------------------
-CommandName_missile=Rakete
+CommandName_missile=Rakéta
 ; -------------------------------------
-UnitTypeName_barracks=Kaserne
+UnitTypeName_barracks=Laktanya
 ; -------------------------------------
-UnitTypeName_battle_machine=Kampfmaschine
+UnitTypeName_battle_machine=Csatagép
 ; -------------------------------------
 ; Unit > blacksmith
 ; --------------------
-CommandName_upgrade_blade_weapons=Klingenwaffen aufrüsten
-CommandName_upgrade_piercing_weapons=Stichwaffen aufrüsten
+CommandName_upgrade_blade_weapons=Penge fegyverek feljavítása
+CommandName_upgrade_piercing_weapons=Szúró fegyverek feljavítása
 ; -------------------------------------
-UnitTypeName_defense_tower=Wachturm
+UnitTypeName_defense_tower=Őrtorony
 ; -------------------------------------
 ; Unit > farm
 ; --------------------
-CommandName_produce_pig=Disznó képzés
+CommandName_produce_pig=Disznó létrehozás
 ; -------------------------------------
-UnitTypeName_ornithopter=Ornithopter
+UnitTypeName_ornithopter=Csapkodó szárnyú repülő
 ; --------------------
-CommandName_fire_arrow=Brandpfeile
+CommandName_fire_arrow=Tüzel nyilak
 ; -------------------------------------
 UnitTypeName_pig=Disznó
 ; -------------------------------------
 ; Unit > swordman
 ; --------------------
-CommandName_promote_to_guard=Őrre változás
+CommandName_promote_to_guard=Őr alakítás
 ; -------------------------------------
-UnitTypeName_technician=Techniker
+UnitTypeName_technician=Technikusok
 ; --------------------
-CommandName_build_ultimate=Komplexe Gebäude
-CommandName_mine_gold=Gold abtragen
-CommandName_build_battle_machine=Kampfmaschine konstruieren
-CommandName_build_air_ballista=Fliegende Balliste konstruieren
+CommandName_build_ultimate=Komplex épületek építése
+CommandName_mine_gold=Arancbányászat
+CommandName_build_battle_machine=Harci gép készítés
+CommandName_build_air_ballista=Nagy légi katapult készítés
 ; -------------------------------------
 UnitTypeName_technodrome=Technodrome
 ; --------------------
-CommandName_produce_technician=produziere Techniker
-CommandName_research_advanced_architecture=Fortschrittliche Architektur erforschen
-CommandName_research_robotics=Erforsche Roboter
+CommandName_produce_technician=Technikus létrehozása
+CommandName_research_advanced_architecture=Haladó épület architektúra
+CommandName_research_robotics=Robotika
 ; -------------------------------------
 ; Unit > worker
 ; --------------------
-CommandName_build_advanced=Erweiterte Gebäude
+CommandName_build_advanced=bonyolultabb épület készítés
 ; -------------------------------------

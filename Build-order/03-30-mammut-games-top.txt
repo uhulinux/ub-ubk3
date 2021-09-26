@@ -31,7 +31,6 @@ widelands
 lincity-ng
 bzflag
 megaglest
-megaglest-data
 angband
 freeciv
 wesnoth
