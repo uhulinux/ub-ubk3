@@ -4,8 +4,6 @@ audiofile
 cppunit
 dl
 libxkbui
-libmcrypt
-mcrypt
 gccmakedep
 hyphen
 hyphen-hu
