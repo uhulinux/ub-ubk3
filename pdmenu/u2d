@@ -1,1 +1,2 @@
-u2d ftp://ftp.de.debian.org/debian/pool/main/p/pdmenu/ pdmenu_
+dir=$(urllist https://launchpad.net/ubuntu/+source/pdmenu/ | grep -E '^([0-9.]+)$')
+u2d https://launchpad.net/ubuntu/+source/pdmenu/$dir/ pdmenu_
