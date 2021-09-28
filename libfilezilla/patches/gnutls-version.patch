@@ -1,0 +1,24 @@
+diff -Nur orig/configure.ac mod/configure.ac
+--- orig/configure.ac	2021-09-14 14:31:26.000000000 +0200
++++ mod/configure.ac	2021-09-28 12:21:39.259542726 +0200
+@@ -189,7 +189,7 @@
+ # GnuTLS
+ # ------
+ 
+-PKG_CHECK_MODULES([GNUTLS], [gnutls >= 3.6.14],, [
++PKG_CHECK_MODULES([GNUTLS], [gnutls >= 3.6.9],, [
+   AC_MSG_ERROR([GnuTLS 3.6.14 or greater was not found. You can get it from https://gnutls.org/])
+ ])
+ 
+diff -Nur orig/lib/tls_layer_impl.cpp mod/lib/tls_layer_impl.cpp
+--- orig/lib/tls_layer_impl.cpp	2021-09-14 14:31:27.000000000 +0200
++++ mod/lib/tls_layer_impl.cpp	2021-09-28 12:29:53.455110996 +0200
+@@ -953,7 +953,7 @@
+ 
+ 	int extra_flags{};
+ 	if (flags & tls_server_flags::no_auto_ticket) {
+-		extra_flags |= GNUTLS_NO_AUTO_SEND_TICKET;
++		extra_flags |= GNUTLS_NO_AUTO_REKEY;
+ 	}
+ 	if (!init() || !init_session(false, extra_flags)) {
+ 		return false;
