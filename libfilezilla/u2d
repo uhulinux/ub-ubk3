@@ -1,1 +1,3 @@
-u2d https://download.filezilla-project.org/libfilezilla/ libfilezilla-
+#u2d https://download.filezilla-project.org/libfilezilla/ libfilezilla-
+echo 0.32.0
+#noupdate: a gnutls-3.6.9 már kevés, frissíteni kellene azt is
