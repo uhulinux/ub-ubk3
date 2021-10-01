@@ -1,7 +1,6 @@
 python2-pycrypto
 python3-async-timeout
 python3-backcall
-python3-cycler
 python3-distro
 python3-gnupg
 python3-jedi
@@ -76,7 +75,6 @@ python3-pytest
 python3-rencode
 python3-apipkg
 python-chardet
-python3-dateutil
 python3-decorator
 python3-dnspython
 python-idna
@@ -103,9 +101,6 @@ python3-cryptography
 python-gst
 python3-pytest-plugins
 python-pillow
-python3-matplotlib
 python3-websockets
 wxpython
 python3-wxpython
-python3-kiwisolver
-
