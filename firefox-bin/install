@@ -1,0 +1,21 @@
+#!/bin/sh -eux
+
+mkdir -p $UB_INSTALLDIR/usr/lib/firefox-bin
+cp -a * $UB_INSTALLDIR/usr/lib/firefox-bin/
+
+# Launchers
+#ln -s firefox-bin $UB_INSTALLDIR/usr/bin/firefox-bin/firefox
+
+# icons
+for i in 16x16 32x32 48x48 64x64 128x128; do
+    install -d "$UB_INSTALLDIR"/usr/share/icons/hicolor/${i}/apps/
+    ln -s /usr/lib/firefox-bin/browser/chrome/icons/default/default${i/x*}.png \
+          "$UB_INSTALLDIR"/usr/share/icons/hicolor/${i}/apps/firefox-bin.png
+done
+
+  # Use system-provided dictionaries
+  ln -Ts /usr/share/hunspell "$UB_INSTALLDIR"/usr/lib/firefox-bin/dictionaries
+  ln -Ts /usr/share/hyphen "$UB_INSTALLDIR"/usr/lib/firefox-bin/hyphenation
+
+# Use system certificates
+  ln -sf /usr/lib/libnssckbi.so "$UB_INSTALLDIR"/usr/lib/firefox-bin/libnssckbi.so

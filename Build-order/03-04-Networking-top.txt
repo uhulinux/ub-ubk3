@@ -64,6 +64,7 @@ claws-contacts
 claws-mail-themes
 node
 firefox
+firefox-bin
 seamonkey
 thunderbird
 thunderbird-bin
