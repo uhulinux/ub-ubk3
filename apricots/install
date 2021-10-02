@@ -1,0 +1,5 @@
+#!/bin/sh -eux
+
+make install prefix="$UB_INSTALLDIR/usr"
+install -Dm644 contrib/apricots.desktop -t "$UB_INSTALLDIR/usr/share/applications"
+install -Dm644 contrib/desktop-icon.png "$UB_INSTALLDIR/usr/share/icons/hicolor/24x24/apps/apricots.png"

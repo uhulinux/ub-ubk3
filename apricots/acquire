@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+v${UB_VERSION}.tar.gz apricots-${UB_VERSION}/
+	https://github.com/moggers87/apricots/archive/

@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+gnujump-${UB_VERSION}.tar.gz gnujump-${UB_VERSION}/
+	ftp://ftp.gnu.org/gnu/gnujump/

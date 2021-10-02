@@ -1,0 +1,12 @@
+diff -Nur orig/apricots/all.cpp mod/apricots/all.cpp
+--- orig/apricots/all.cpp	2021-02-13 00:45:58.000000000 +0100
++++ mod/apricots/all.cpp	2021-10-02 18:39:53.076662868 +0200
+@@ -18,7 +18,7 @@
+ 
+ // Sign function
+ 
+-inline int sign(int n) { return (0 < n) - (n < 0); }
++int sign(int n) { return (0 < n) - (n < 0); }
+ 
+ // Error message for switch statements that shouldn't ever get to default
+ 

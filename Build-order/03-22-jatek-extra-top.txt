@@ -80,3 +80,5 @@ libzmusic
 gzdoom
 openra
 lac
+apricots
+gnujump
