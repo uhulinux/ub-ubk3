@@ -1,0 +1,9 @@
+diff -Nur orig/data/supertuxkart.desktop mod/data/supertuxkart.desktop
+--- orig/data/supertuxkart.desktop	2021-09-28 12:02:26.000000000 +0200
++++ mod/data/supertuxkart.desktop	2021-10-01 22:00:01.630047604 +0200
+@@ -74,4 +74,4 @@
+ Keywords[zh_HK]=tux;game;race;
+ Keywords[zh_TW]=tux;game;race;
+ Keywords=tux;game;race;
+-PrefersNonDefaultGPU=true
++
