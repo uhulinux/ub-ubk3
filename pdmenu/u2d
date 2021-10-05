@@ -1,2 +1,1 @@
-dir=$(urllist https://launchpad.net/ubuntu/+source/pdmenu/ | grep -E '^([0-9.]+)$')
-u2d https://launchpad.net/ubuntu/+source/pdmenu/$dir/ pdmenu_
+urllist http://joeyh.name/code/pdmenu/ | grep version_ | sed s/version_// | sort -V | tail -n 1

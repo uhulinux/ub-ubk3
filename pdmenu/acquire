@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-pdmenu_${UB_VERSION}.tar.gz pdmenu/
-	https://launchpad.net/ubuntu/+source/pdmenu/${UB_VERSION}/
+pdmenu-${UB_VERSION}.tar.gz pdmenu-${UB_VERSION}/
+	https://dev.gentoo.org/~bkohler/dist/
