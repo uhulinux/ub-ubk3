@@ -7,4 +7,5 @@ libproxy-dev
 luajit-dev
 openssl-dev
 pciutils-dev
+python3-cffi
 python3-dev
