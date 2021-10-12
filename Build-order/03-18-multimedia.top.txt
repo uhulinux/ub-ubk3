@@ -16,7 +16,6 @@ youtube-dl
 mp3wrap
 opus-tools
 cdw
-playmidi
 xcdroast
 schism
 asunder
