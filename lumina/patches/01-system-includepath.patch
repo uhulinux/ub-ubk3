@@ -1,14 +1,16 @@
-diff -Naur orig/src-qt5/OS-detect.pri patched/src-qt5/OS-detect.pri
---- orig/src-qt5/OS-detect.pri	2019-04-29 14:21:12.000000000 +0200
-+++ patched/src-qt5/OS-detect.pri	2019-04-30 01:35:38.488758467 +0200
-@@ -90,7 +90,9 @@
+diff -Nur orig/src-qt5/OS-detect.pri mod/src-qt5/OS-detect.pri
+--- orig/src-qt5/OS-detect.pri	2021-10-02 21:05:49.000000000 +0200
++++ mod/src-qt5/OS-detect.pri	2021-10-13 12:25:04.290620355 +0200
+@@ -99,8 +99,10 @@
    message( $$MSG )
  
    # Setup the dirs needed to find/load libraries
 -  INCLUDEPATH +=$${PREFIX}/include 
+-  isEmpty(LIBPREFIX){ LIBPREFIX=$${PREFIX}/lib }
 +  !equals(PREFIX,"/usr"){
 +    INCLUDEPATH +=$${PREFIX}/include 
 +  }
++ isEmpty(LIBPREFIX){ LIBPREFIX=$${PREFIX}/lib }
  
    # If the detailed install variables are not set - create them from the general vars
    isEmpty(L_BINDIR){ L_BINDIR = $${PREFIX}/bin }
