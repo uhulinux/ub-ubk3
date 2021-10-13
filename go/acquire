@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-go${UB_VERSION}.src.tar.gz .
-    https://golang.org/dl/
+go${UB_VERSION}.linux-amd64.tar.gz go/
+    https://dl.google.com/go/
