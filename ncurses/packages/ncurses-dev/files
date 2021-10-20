@@ -5,9 +5,9 @@
 	/usr/lib/**/*.a
 	/usr/lib/*Conf.sh
 	/usr/lib/*/include
+@	/usr/lib/**/libpanelw.so.5
 	/usr/lib/pkgconfig
 @	/usr/lib/**/*.so
-@	/usr/lib/**/*.so.5
 	/usr/share/aclocal
 	/usr/share/doc/Packages/ncurses/*.doc
 	/usr/share/doc/Packages/ncurses/*.html
