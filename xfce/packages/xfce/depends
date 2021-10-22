@@ -8,6 +8,7 @@ libxfce4util >=
 lightdm-gtk-greeter >=
 mousepad >=
 parole >=
+pavucontrol >=
 ristretto >=
 thunar >=
 thunar-archive-plugin >=
