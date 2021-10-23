@@ -1,0 +1,12 @@
+diff -Nur orig/gnucash/gschemas/CMakeLists.txt mod/gnucash/gschemas/CMakeLists.txt
+--- orig/gnucash/gschemas/CMakeLists.txt	2021-09-28 19:23:38.000000000 +0200
++++ mod/gnucash/gschemas/CMakeLists.txt	2021-10-23 15:41:31.513382883 +0200
+@@ -29,7 +29,7 @@
+ # Provide gnucash runtime with a list of migratable preferences
+ add_custom_command(
+     OUTPUT ${DATADIR_BUILD}/${PROJECT_NAME}/migratable-prefs.xml
+-    COMMAND ${CMAKE_COMMAND} -E cat ${gschema_migration_files} > ${DATADIR_BUILD}/${PROJECT_NAME}/migratable-prefs.xml
++    COMMAND cat ${gschema_migration_files} > ${DATADIR_BUILD}/${PROJECT_NAME}/migratable-prefs.xml
+     DEPENDS ${gschema_migration_files}
+ )
+ 
