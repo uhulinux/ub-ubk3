@@ -1,1 +1,1 @@
-urllist https://github.com/fujiwarat/cldr-emoji-annotation/releases/ | grep -E '^([0-9][0-9]\.)' | grep -E '\.tar' | sort -V | tail -n 1 | sed s/_/\~/g  | sed 's/\.tar.*//'
+urllist https://github.com/fujiwarat/cldr-emoji-annotation/tags/ | grep -E '^([0-9][0-9]\.)' | grep -E '\.tar' | sort -V | tail -n 1 | sed s/_/\~/g  | sed 's/\.tar.*//'

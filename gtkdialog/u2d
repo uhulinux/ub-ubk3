@@ -1,1 +1,1 @@
-urllist https://github.com/puppylinux-woof-CE/gtkdialog/releases/ | grep tar.gz | sort -V | tail -n 1 | sed s/\.tar.*//
+urllist https://github.com/puppylinux-woof-CE/gtkdialog/tags/ | grep tar.gz | sort -V | tail -n 1 | sed s/\.tar.*//

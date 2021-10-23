@@ -1,3 +1,3 @@
-#u2d https://github.com/swaywm/wlroots/releases/
+#u2d https://github.com/swaywm/wlroots/tags/
 # noupdate: kellene wayland-1.19 wayland-protocols-1.21 libdrm-2.4.105
 echo 0.10.1

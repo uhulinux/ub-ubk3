@@ -1,1 +1,1 @@
-urllist https://github.com/knik0/faac/releases/ | grep tar.gz | sort -V | tail -n 1 | sed s/_/\./g | sed s/\.tar.*//
+urllist https://github.com/knik0/faac/tags/ | grep tar.gz | sort -V | tail -n 1 | sed s/_/\./g | sed s/\.tar.*//
