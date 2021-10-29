@@ -13,5 +13,4 @@ cmake \
 	-DFONTS_DIRS="/usr/share/fonts/truetype" \
 	-DBUILD_ENGINE_C=on \
 	..
-
 ub_make

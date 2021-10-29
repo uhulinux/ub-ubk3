@@ -1,7 +1,7 @@
 ffmpeg-dev
 fonts-dejavu
 freeglut-dev
-ghc
+ghc-static
 libx11-dev
 libxext-dev
 libxt-dev
