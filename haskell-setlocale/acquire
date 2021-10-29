@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+setlocale-${UB_VERSION}.tar.gz setlocale-${UB_VERSION}/
+	https://hackage.haskell.org/packages/archive/setlocale/${UB_VERSION}/

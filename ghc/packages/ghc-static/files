@@ -1,0 +1,5 @@
+	/usr/lib/**/*.a
+	/usr/lib/**/*.hi
+	/usr/lib/**/*.o
+	/usr/lib/**/*.p_hi
+	/usr/lib/**/*.p_o

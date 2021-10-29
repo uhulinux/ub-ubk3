@@ -1,3 +1,9 @@
 #!/bin/sh -eux
 
 make DESTDIR=$UB_INSTALLDIR install
+cd ${UB_INSTALLDIR}/
+find . -maxdepth 4 -type d -name [^\.]\* | sed 's:^\./::' | grep ghc | sed s%usr%/usr%g | sort >>$UB_SRCDIR/packages/ghc/libpath
+#cat $UB_SRCDIR/packages/ghc/libpath
+
+#libpaths=$(find . -maxdepth 4 -type d -name [^\.]\* | sed 's:^\./::' | grep ghc | sed s%usr%/usr%g)
+#echo $libpaths

@@ -1,0 +1,2 @@
+root      root       755  /usr/share/haskell/haskell-setlocale/register.sh
+root      root       755  /usr/share/haskell/haskell-setlocale/unregister.sh

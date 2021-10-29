@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+data-default-class-${UB_VERSION}.tar.gz data-default-class-${UB_VERSION}/
+	https://hackage.haskell.org/packages/archive/data-default-class/${UB_VERSION}/

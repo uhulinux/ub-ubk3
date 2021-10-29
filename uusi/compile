@@ -1,5 +1,7 @@
 #!/bin/sh -eux
 
+pkgid=uusi
+compiler=ghc-1.9.0
 runhaskell Setup configure -O --enable-shared --enable-executable-dynamic --disable-library-vanilla \
     --prefix=/usr --docdir=/usr/share/doc/uusi --disable-tests \
     --dynlibdir=/usr/lib --libsubdir=\$compiler/site-local/\$pkgid \

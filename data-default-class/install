@@ -1,0 +1,7 @@
+#!/bin/sh -eux
+
+pkgid=$(cat $UB_SRCDIR/sourcename)
+runhaskell Setup copy \
+    --destdir=${UB_INSTALLDIR}
+mkdir -p ${UB_INSTALLDIR}/usr/share/haskell/$pkgid
+mv register.sh unregister.sh ${UB_INSTALLDIR}/usr/share/haskell/$pkgid
