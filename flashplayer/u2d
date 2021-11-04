@@ -1,1 +1,2 @@
-_geturl https://get.adobe.com/flashplayer/about/ | grep Linux | sed 's/.*NPAPI //'
+# noupdate end of life!
+echo 32.0.0.303
