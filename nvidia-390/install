@@ -53,7 +53,6 @@ mv	settings/doc/nvidia-settings.png "$pixmapdir"/
 
 # felesleges gtk libek
 rm libnvidia-gtk*
-rm $cellibdir/libnvidia-gtk2*
 
 #kernelmodulok
 cp kernel/*.ko "$moduldir"/
