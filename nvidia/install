@@ -59,6 +59,9 @@ alprogi persistenced
 mv	settings/doc/nvidia-settings.desktop "$desktopdir"/
 mv	settings/doc/nvidia-settings.png "$pixmapdir"/
 
+# felesleges gtk libek
+rm libnvidia-gtk*
+
 #kernelmodulok
 cp kernel/*.ko "$moduldir"/
 
