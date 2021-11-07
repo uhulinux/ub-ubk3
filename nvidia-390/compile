@@ -24,4 +24,6 @@ export NV_USE_BUNDLED_LIBJANSSON=0
 alprogi settings
 alprogi xconfig
 alprogi modprobe
+export LDFLAGS+=$(pkg-config --libs libtirpc)
+export CFFLAGS+=$(pkg-config --cflags libtirpc)
 alprogi persistenced
