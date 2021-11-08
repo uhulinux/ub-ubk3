@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-colm-${UB_VERSION}.tar.gz colm-${UB_VERSION}/
-	http://www.colm.net/files/colm/
+${UB_VERSION}.tar.gz colm-${UB_VERSION}/
+	https://github.com/adrian-thurston/colm/archive
