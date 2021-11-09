@@ -1,1 +1,3 @@
-u2d https://github.com/lxqt/lxqt-globalkeys/tags
+# u2d https://github.com/lxqt/lxqt-globalkeys/tags
+noupdate: qt5-5.15.0 kellene
+echo 0.17.0
