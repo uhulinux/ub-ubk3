@@ -1,4 +1,5 @@
 mkvtoolnix
+cinelerra
 dvdauthor
 dvdstyler
 audacious
