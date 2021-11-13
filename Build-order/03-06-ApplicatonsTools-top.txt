@@ -109,7 +109,6 @@ synergy
 gammu
 python3-gammu
 wammu
-unibrow
 hardinfo
 eterm
 trend
