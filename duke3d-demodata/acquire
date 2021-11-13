@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-3dduke${UB_VERSION/./}.zip .
-     ftp://ftp.3drealms.com/share/
+3dduke${UB_VERSION/./}SW.zip .
+     https://dukeworld.duke4.net/2001-current/rtcm/duke3d-shareware/

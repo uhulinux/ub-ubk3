@@ -1,1 +1,1 @@
-urllist ftp://ftp.3drealms.com/share/ | splitver '^3dduke([0-9.]+).zip$' | sed s/1/1\./
+urllist https://dukeworld.duke4.net/2001-current/rtcm/duke3d-shareware/ | grep 3dduke | sort -V | tail -n 1 | sed s/.*duke// | sed s/SW.*// | sed s/1/1\./
