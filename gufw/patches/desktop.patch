@@ -1,0 +1,12 @@
+diff -Nur orig/gufw.desktop.in mod/gufw.desktop.in
+--- orig/gufw.desktop.in	2020-10-27 20:16:48.000000000 +0100
++++ mod/gufw.desktop.in	2021-11-14 11:47:13.308524268 +0100
+@@ -4,7 +4,7 @@
+ _Comment=An easy way to configure your firewall
+ Keywords=gufw;security;firewall;network;
+ Categories=GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+-Exec=gufw
++Exec=gksu /usr/lib/python3.7/site-packages/gufw/gufw.py
+ Icon=gufw
+ Terminal=false
+ Type=Application
