@@ -1,0 +1,12 @@
+diff -Nur orig/src/Makefile mod/src/Makefile
+--- orig/src/Makefile	2020-03-22 18:50:25.000000000 +0100
++++ mod/src/Makefile	2021-11-14 15:44:09.816764423 +0100
+@@ -7,7 +7,7 @@
+ 
+ DESTDIR?=/
+ PREFIX?=/usr
+-SBINDIR=$(PREFIX)/sbin
++SBINDIR=$(PREFIX)/bin
+ MANDIR=$(PREFIX)/share/man
+ DATADIR=$(PREFIX)/share
+ INSTALL?=install -p

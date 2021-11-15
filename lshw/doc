@@ -2,3 +2,5 @@ COPYING
 docs/Changelog
 docs/TODO
 README.md
+src/gui/integration/console.apps
+src/gui/integration/gtk-lshw.pam

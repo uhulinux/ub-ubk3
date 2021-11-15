@@ -4,3 +4,5 @@ ub_install
 
 ub_install \
 	install-gui
+
+rm -f "$UB_INSTALLDIR"/usr/share/lshw/{pci,usb}.ids
