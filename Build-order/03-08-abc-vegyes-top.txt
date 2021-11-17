@@ -74,3 +74,4 @@ synaptic
 gutenprint
 networkmanager-openvpn
 networkmanager-pptp
+genius
