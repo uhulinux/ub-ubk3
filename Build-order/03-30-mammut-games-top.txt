@@ -51,14 +51,12 @@ quake2-demo
 sauerbraten
 smokinguns
 openmw
-enemy-territory-data
 etlegacy
 chessx
 dreamchess-music
 dreamchess
 openmortal
 fillets
-fillets-data
 frozen-bubble
 gcompris-qt
 ri-li
