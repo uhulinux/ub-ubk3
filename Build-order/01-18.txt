@@ -27,6 +27,7 @@ fonts-hack
 fonts-noto
 glee
 gloox
+rc
 go
 goocanvas
 gtkimageview

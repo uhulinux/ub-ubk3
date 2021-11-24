@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+rc_${UB_VERSION}.orig.tar.gz rc-${UB_VERSION}/
+	http://ftp.debian.org/debian/pool/main/r/rc/
