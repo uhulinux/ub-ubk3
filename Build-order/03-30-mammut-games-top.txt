@@ -69,7 +69,6 @@ tuxracer
 ultimatestunts
 stuntrally
 hedgewars
-jumpnbump-levels
 jumpnbump
 libode
 x-moto
