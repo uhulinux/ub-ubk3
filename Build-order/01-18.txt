@@ -29,6 +29,7 @@ glee
 gloox
 rc
 go
+emptty
 goocanvas
 gtkimageview
 icon-naming-utils
