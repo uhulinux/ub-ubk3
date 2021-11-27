@@ -1,6 +1,6 @@
-diff -Naur orig/panels/color/cinnamon-color-panel.desktop.in.in mod/panels/color/cinnamon-color-panel.desktop.in.in
---- orig/panels/color/cinnamon-color-panel.desktop.in.in	2015-05-19 17:23:24.000000000 +0200
-+++ mod/panels/color/cinnamon-color-panel.desktop.in.in	2015-06-02 14:41:15.064190158 +0200
+diff -Nur orig/panels/color/cinnamon-color-panel.desktop.in.in mod/panels/color/cinnamon-color-panel.desktop.in.in
+--- orig/panels/color/cinnamon-color-panel.desktop.in.in	2021-11-15 14:01:48.000000000 +0100
++++ mod/panels/color/cinnamon-color-panel.desktop.in.in	2021-11-27 19:43:02.701547488 +0100
 @@ -4,8 +4,8 @@
  Terminal=false
  Type=Application
@@ -12,9 +12,9 @@ diff -Naur orig/panels/color/cinnamon-color-panel.desktop.in.in mod/panels/color
  X-Cinnamon-Settings-Panel=color
  # Translators: those are keywords for the color control-center panel
  _Keywords=Color;ICC;Profile;Calibrate;Printer;Display;
-diff -Naur orig/panels/display/cinnamon-display-panel.desktop.in.in mod/panels/display/cinnamon-display-panel.desktop.in.in
---- orig/panels/display/cinnamon-display-panel.desktop.in.in	2015-05-19 17:23:24.000000000 +0200
-+++ mod/panels/display/cinnamon-display-panel.desktop.in.in	2015-06-02 14:42:05.896074329 +0200
+diff -Nur orig/panels/display/cinnamon-display-panel.desktop.in.in mod/panels/display/cinnamon-display-panel.desktop.in.in
+--- orig/panels/display/cinnamon-display-panel.desktop.in.in	2021-11-15 14:01:48.000000000 +0100
++++ mod/panels/display/cinnamon-display-panel.desktop.in.in	2021-11-27 19:43:19.897786176 +0100
 @@ -5,7 +5,7 @@
  Type=Application
  StartupNotify=true
@@ -24,9 +24,9 @@ diff -Naur orig/panels/display/cinnamon-display-panel.desktop.in.in mod/panels/d
  X-Cinnamon-Settings-Panel=display
  # Translators: those are keywords for the display control-center panel
  _Keywords=Panel;Projector;xrandr;Screen;Resolution;Refresh;
-diff -Naur orig/panels/network/cinnamon-network-panel.desktop.in.in mod/panels/network/cinnamon-network-panel.desktop.in.in
---- orig/panels/network/cinnamon-network-panel.desktop.in.in	2015-05-19 17:23:24.000000000 +0200
-+++ mod/panels/network/cinnamon-network-panel.desktop.in.in	2015-06-02 14:42:20.508041028 +0200
+diff -Nur orig/panels/network/cinnamon-network-panel.desktop.in.in mod/panels/network/cinnamon-network-panel.desktop.in.in
+--- orig/panels/network/cinnamon-network-panel.desktop.in.in	2021-11-15 14:01:48.000000000 +0100
++++ mod/panels/network/cinnamon-network-panel.desktop.in.in	2021-11-27 19:43:36.366010636 +0100
 @@ -5,7 +5,7 @@
  Type=Application
  StartupNotify=true
@@ -35,22 +35,10 @@ diff -Naur orig/panels/network/cinnamon-network-panel.desktop.in.in mod/panels/n
 +OnlyShowIn=Cinnamon;
  X-Cinnamon-Settings-Panel=network
  # Translators: those are keywords for the network control-center panel
- _Keywords=Network;Wireless;IP;LAN;Proxy;
-diff -Naur orig/panels/region/cinnamon-region-panel.desktop.in.in mod/panels/region/cinnamon-region-panel.desktop.in.in
---- orig/panels/region/cinnamon-region-panel.desktop.in.in	2015-05-19 17:23:24.000000000 +0200
-+++ mod/panels/region/cinnamon-region-panel.desktop.in.in	2015-06-02 14:42:33.892010565 +0200
-@@ -5,7 +5,7 @@
- Type=Application
- StartupNotify=true
- Categories=GTK;Settings;DesktopSettings;X-Cinnamon-Settings-Panel;X-Cinnamon-PersonalSettings
--OnlyShowIn=X-Cinnamon;
-+OnlyShowIn=Cinnamon;
- X-Cinnamon-Settings-Panel=region
- # Translators: those are keywords for the region control-center panel
- _Keywords=Language;Layout;Keyboard;
-diff -Naur orig/panels/wacom/cinnamon-wacom-panel.desktop.in.in mod/panels/wacom/cinnamon-wacom-panel.desktop.in.in
---- orig/panels/wacom/cinnamon-wacom-panel.desktop.in.in	2015-05-19 17:23:24.000000000 +0200
-+++ mod/panels/wacom/cinnamon-wacom-panel.desktop.in.in	2015-06-02 14:43:53.235829764 +0200
+ _Keywords=Network;Wireless;IP;LAN;Proxy;Internet;WiFi;
+diff -Nur orig/panels/wacom/cinnamon-wacom-panel.desktop.in.in mod/panels/wacom/cinnamon-wacom-panel.desktop.in.in
+--- orig/panels/wacom/cinnamon-wacom-panel.desktop.in.in	2021-11-15 14:01:48.000000000 +0100
++++ mod/panels/wacom/cinnamon-wacom-panel.desktop.in.in	2021-11-27 19:43:51.938219243 +0100
 @@ -6,7 +6,7 @@
  StartupNotify=true
  Categories=GNOME;GTK;Settings;HardwareSettings;X-Cinnamon-Settings-Panel;
