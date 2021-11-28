@@ -1,1 +1,3 @@
-u2dsubdir http://download.documentfoundation.org/libreoffice/src/
+#u2dsubdir http://download.documentfoundation.org/libreoffice/src/
+# noupdate: bináris van helyette
+echo 6.4.2.2

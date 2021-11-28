@@ -1,0 +1,20 @@
+#!/bin/sh -eux
+
+mkdir -p $UB_INSTALLDIR/usr/lib/seamonkey-bin
+cp -a * $UB_INSTALLDIR/usr/lib/seamonkey-bin/
+
+# icons
+for i in 16x16 32x32 48x48 64x64 128x128; do
+    install -d "$UB_INSTALLDIR"/usr/share/icons/hicolor/${i}/apps/
+    ln -s /usr/lib/seamonkey-bin/chrome/icons/default/default${i/x*}.png \
+          "$UB_INSTALLDIR"/usr/share/icons/hicolor/${i}/apps/seamonkey-bin.png
+done
+ln -s /usr/lib/seamonkey-bin/chrome/icons/default/messengerWindow16.png \
+          "$UB_INSTALLDIR"/usr/share/icons/hicolor/16x16/apps/seamonkey-mail.png
+ln -s /usr/lib/seamonkey-bin/chrome/icons/default/messengerWindow.png \
+          "$UB_INSTALLDIR"/usr/share/icons/hicolor/32x32/apps/seamonkey-mail.png
+ln -s /usr/lib/seamonkey-bin/chrome/icons/default/messengerWindow48.png \
+          "$UB_INSTALLDIR"/usr/share/icons/hicolor/48x48/apps/seamonkey-mail.png
+
+# Use system certificates
+  ln -sf /usr/lib/libnssckbi.so "$UB_INSTALLDIR"/usr/lib/seamonkey-bin/libnssckbi.so
