@@ -2,7 +2,6 @@
 
 ub_install
 ub_install -C modules/pam_envfeed
-ub_install -C modules/pam_locallogin
 
 for i in modules/pam_*/README; do
 	j="${i#modules/pam_}"
