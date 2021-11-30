@@ -59,7 +59,6 @@ icon-theme-snow-apple
 gtk-stock-icons
 dia
 shotwell
-pitivi
 gnote
 moserial
 easytag
