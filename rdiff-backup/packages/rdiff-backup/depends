@@ -1,2 +1,3 @@
-python2-pylibacl
-python2-pyxattr
+librsync
+python3-pylibacl
+python3-pyxattr

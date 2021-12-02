@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-rdiff-backup-${UB_VERSION}.tar.gz rdiff-backup-${UB_VERSION}/
-	http://download-mirror.savannah.gnu.org/releases/rdiff-backup/
+v${UB_VERSION}.tar.gz rdiff-backup-${UB_VERSION}/
+	https://github.com/rdiff-backup/rdiff-backup/archive/
