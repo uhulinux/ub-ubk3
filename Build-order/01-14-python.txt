@@ -1,4 +1,4 @@
-python2-pycrypto
+python-pycrypto
 python3-async-timeout
 python3-backcall
 python3-distro
@@ -43,7 +43,7 @@ python-pyxdg
 sip
 python2-gudev
 python2-pybluez
-python2-pylibacl
+python-pylibacl
 python2-pyorbit
 python3-isort
 python3-typed-ast
@@ -65,7 +65,7 @@ python3-tinycss
 python3-twisted
 python3-zope.interface
 python-pycups
-python2-paramiko
+python-paramiko
 python3-cffi
 python3-execnet
 python3-mock
