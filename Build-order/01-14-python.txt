@@ -104,3 +104,4 @@ python-pillow
 python3-websockets
 wxpython
 python3-wxpython
+python3-sqlalchemy
