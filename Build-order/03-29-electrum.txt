@@ -9,7 +9,6 @@ python3-pysocks
 python3-qdarkstyle
 python3-qrcode
 python3-socks
-python3-typing-extensions
 python3-aiohttp
 python3-aiohttp-socks
 electrum

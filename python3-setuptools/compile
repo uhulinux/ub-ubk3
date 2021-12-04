@@ -1,0 +1,5 @@
+#!/bin/sh -eux
+
+export SETUPTOOLS_INSTALL_WINDOWS_SPECIFIC_FILES=0
+sed -i -e "s|^#\!.*/usr/bin/env python|#!/usr/bin/env python3|" setuptools/command/easy_install.py
+python3 setup.py build

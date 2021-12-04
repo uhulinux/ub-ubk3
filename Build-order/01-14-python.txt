@@ -105,3 +105,9 @@ python3-websockets
 wxpython
 python3-wxpython
 python3-sqlalchemy
+python3-typing-extensions
+python3-zipp
+python3-importlib-metadata
+python3-pyproject2setuppy
+python3-toml
+python3-tomli
