@@ -75,10 +75,10 @@ python3-pysmbc
 python3-pytest
 python3-rencode
 python3-apipkg
-python-chardet
+python3-chardet
 python3-decorator
 python3-dnspython
-python-idna
+python3-idna
 python3-jinja2
 python-mutagen
 python3-pathlib
@@ -86,7 +86,7 @@ python3-pickleshare
 python3-pluggy
 python3-psutil
 python-pyasn1
-python-requests
+python3-requests
 python3-setuptools-git
 python3-setuptools-scm
 python3-simplegeneric
@@ -95,7 +95,7 @@ python3-traitlets
 python3-wcwidth
 python3-pexpect
 python3-ptyprocess
-python-pyxattr
+python3-pyxattr
 python3-pyzmq
 python-reportlab
 python3-cryptography
