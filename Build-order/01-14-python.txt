@@ -4,6 +4,7 @@ python3-backcall
 python3-distro
 python3-gnupg
 python3-jedi
+python3-mypy-extensions
 python3-logilab-common
 python3-multidict
 python3-packaging
