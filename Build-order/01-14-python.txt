@@ -21,6 +21,7 @@ python3-anytree
 python3-asn1crypto
 python3-asn1-modules
 python3-attrs
+python3-graphviz
 python3-automat
 python3-constantly
 python3-distutils-extra
