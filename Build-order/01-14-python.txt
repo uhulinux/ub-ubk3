@@ -113,3 +113,5 @@ python3-importlib-metadata
 python3-pyproject2setuppy
 python3-toml
 python3-tomli
+python3-iniconfig
+python3-py
