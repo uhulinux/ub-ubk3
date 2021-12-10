@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-cffi-${UB_VERSION}.tar.gz cffi-${UB_VERSION}/
-	https://pypi.org/packages/source/c/cffi/
+cffi-v${UB_VERSION}.tar.bz2 cffi-v${UB_VERSION}/
+	https://foss.heptapod.net/pypy/cffi/-/archive/v${UB_VERSION}/
