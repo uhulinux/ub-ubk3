@@ -1,1 +1,1 @@
-urllist https://archive.mozilla.org/pub/firefox/releases/ | grep -E '^[0-9be.]+$' | sort -V | tail -n 1 | sed s/b/~b/ | sed s/e/~e/
+urllist https://archive.mozilla.org/pub/firefox/releases/ | grep -E '^[0-9.]+$' | sort -V | tail -n 1
