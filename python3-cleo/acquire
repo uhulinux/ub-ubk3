@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+cleo-${UB_VERSION}.tar.gz cleo-${UB_VERSION}/
+	https://files.pythonhosted.org/packages/source/c/cleo/

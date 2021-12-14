@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+webencodings-${UB_VERSION}.tar.gz webencodings-${UB_VERSION}/
+	https://files.pythonhosted.org/packages/source/w/webencodings/

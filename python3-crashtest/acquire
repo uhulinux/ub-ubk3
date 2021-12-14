@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+crashtest-${UB_VERSION}.tar.gz crashtest-${UB_VERSION}/
+	https://files.pythonhosted.org/packages/source/c/crashtest/

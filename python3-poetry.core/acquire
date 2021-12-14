@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+poetry-core-${UB_VERSION}.tar.gz poetry-core-${UB_VERSION}/
+	https://files.pythonhosted.org/packages/source/p/poetry-core/

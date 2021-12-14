@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+pylev-${UB_VERSION}.tar.gz pylev-${UB_VERSION}/
+	https://files.pythonhosted.org/packages/source/p/pylev/

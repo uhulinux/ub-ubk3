@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+pkginfo-${UB_VERSION}.tar.gz pkginfo-${UB_VERSION}/
+	https://files.pythonhosted.org/packages/source/p/pkginfo/
