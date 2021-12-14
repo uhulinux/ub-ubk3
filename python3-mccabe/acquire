@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 mccabe-${UB_VERSION}.tar.gz mccabe-${UB_VERSION}/
-	https://pypi.python.org/packages/source/m/mccabe/
+	https://files.pythonhosted.org/packages/source/m/mccabe/

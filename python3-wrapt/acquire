@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 wrapt-${UB_VERSION}.tar.gz wrapt-${UB_VERSION}/
-	https://pypi.python.org/packages/source/w/wrapt/
+	https://files.pythonhosted.org/packages/source/w/wrapt/
