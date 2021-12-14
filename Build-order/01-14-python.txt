@@ -40,11 +40,11 @@ python3-setproctitle
 python3-speaklater
 python3-virtualenv
 python3-zope.fixers
-python-pyxdg
+python3-pyxdg
 sip
 python2-gudev
 python2-pybluez
-python-pylibacl
+python3-pylibacl
 python2-pyorbit
 python3-isort
 python3-typed-ast
@@ -66,7 +66,7 @@ python3-pytz
 python3-tinycss
 python3-twisted
 python3-zope.interface
-python-pycups
+python3-pycups
 python3-cffi
 python3-execnet
 python3-mock
@@ -85,7 +85,7 @@ python3-pathlib
 python3-pickleshare
 python3-pluggy
 python3-psutil
-python-pyasn1
+python3-pyasn1
 python3-requests
 python3-setuptools-git
 python3-setuptools-scm
