@@ -27,7 +27,6 @@ libesmtp
 librsync
 libxalan
 pam
-python2-pycrypto
 rarian
 usbutils
 xapian
@@ -61,7 +60,6 @@ xdpyinfo
 xdriinfo
 gnome-doc-utils
 libxaw3d
-python2-paramiko
 python-pyasn1
 xfontsel
 xsetroot

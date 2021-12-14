@@ -1,4 +1,3 @@
-python-pycrypto
 python3-async-timeout
 python3-backcall
 python3-distro
@@ -68,7 +67,6 @@ python3-tinycss
 python3-twisted
 python3-zope.interface
 python-pycups
-python-paramiko
 python3-cffi
 python3-execnet
 python3-mock
