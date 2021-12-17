@@ -3,7 +3,6 @@ python3-backcall
 python3-distro
 python3-gnupg
 python3-parso
-python3-pyatspi
 python3-jedi
 python3-mypy-extensions
 python3-typing-extensions
@@ -44,7 +43,7 @@ python3-hyperlink
 python3-incremental
 python3-ipython-genutils
 python3-ply
-python3-pyatsp
+python3-pyatspi
 python3-pyalsa
 python3-pyhamcrest
 python3-service-identity
