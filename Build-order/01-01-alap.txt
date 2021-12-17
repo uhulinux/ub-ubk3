@@ -60,7 +60,6 @@ xdpyinfo
 xdriinfo
 gnome-doc-utils
 libxaw3d
-python3-pyasn1
 xfontsel
 xsetroot
 xfd
