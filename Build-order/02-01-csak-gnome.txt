@@ -8,7 +8,6 @@ xmldiff
 telepathy-salut
 telepathy-idle
 telepathy-yell
-gst-plugins-good
 gnonlin
 libgda
 libgdamm
@@ -34,7 +33,6 @@ gtkhtml
 lasem
 libgnomecups
 libgovirt
-libmediaart
 chemical-mime-data
 gconf-editor
 gnome-system-log

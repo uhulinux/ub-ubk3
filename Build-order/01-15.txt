@@ -10,7 +10,6 @@ osinfo-db
 pcsc-lite
 sdl-net
 cairomm
-extra-cmake-modules
 gnet2
 libcacard
 libdbi

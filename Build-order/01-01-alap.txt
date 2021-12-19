@@ -2,7 +2,6 @@ libusb-compat
 alsa-lib
 audiofile
 cppunit
-dl
 libxkbui
 gccmakedep
 hyphen
@@ -20,13 +19,11 @@ unarj
 unrar
 xorg-cf-files
 7zip
-docbook-xsl
 imake
 iso-codes
 libesmtp
 librsync
 libxalan
-pam
 rarian
 usbutils
 xapian

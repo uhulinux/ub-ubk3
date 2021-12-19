@@ -1,13 +1,11 @@
 libdiscid
 taglib
-libatasmart
 libidl2
 libieee1284
 libiodbc
 libisofs
 libebml
 libmatroska
-libmtp
 libmythes
 libopusenc
 libssh2
@@ -23,9 +21,7 @@ liblangtag
 liblensfun
 startup-notification
 libmicrohttpd
-libplist
 dnsmasq
-libimobiledevice
 libast
 libgtop2
 libmediaart

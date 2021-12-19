@@ -25,7 +25,6 @@ aspell
 libc-client
 perl-xml-grove
 mhash
-net-snmp
 tidy
 php
 scheme48
@@ -35,7 +34,6 @@ dhcp
 gnome2-mime-data
 gpm
 iproute2
-libidl2
 libnftnl
 libvorbis
 orc
@@ -60,7 +58,6 @@ dbus-python
 gsettings-desktop-schemas
 iptables
 json-glib
-lcms2
 libglade2
 libmbim
 libqmi
@@ -103,7 +100,6 @@ gconf2
 python-pygobject
 usermode
 x.org-input-synaptics
-gpg
 jack
 sdl
 btrfs-progs

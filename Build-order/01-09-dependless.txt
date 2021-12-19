@@ -30,7 +30,6 @@ hddtemp
 hwdata
 iasl
 ispell
-jam
 kelbt
 less
 lhasa
@@ -43,7 +42,6 @@ mksh
 mobile-broadband-provider-info
 mp4v2
 nomarch
-perl-algorithm-diff
 pkcs11
 pm-utils
 portsmf

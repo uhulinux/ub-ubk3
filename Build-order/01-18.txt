@@ -146,7 +146,6 @@ xscreensaver
 dconf
 gexiv2
 gspell
-openssh
 polkit-gnome
 ptlib
 redland
