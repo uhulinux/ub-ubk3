@@ -33,6 +33,7 @@ tclap
 uhu-sysinfo
 uhu-zeroconf
 clawsker
+chrony
 dhcpcd
 dialog
 ed

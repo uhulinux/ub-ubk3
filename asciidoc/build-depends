@@ -1,4 +1,1 @@
-docbook-dtds
-docbook-xsl
-libxslt-dev
-python2-dev
+python3-setuptools
