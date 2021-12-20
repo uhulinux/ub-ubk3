@@ -1,1 +1,1 @@
-urllist https://golang.org/dl/ | grep src.tar.gz | sed s/go//g | sed s/.src.*//g |sort -V | tail -n 1
+urllist https://golang.org/dl/ | grep src.tar.gz | sed s/go//g | sed s/.src.*//g | sed /beta/d | sed /rc/d | sort -V | tail -n 1
