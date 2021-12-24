@@ -1,9 +1,11 @@
 python3-cachecontrol
 python3-cachy
+python3-certifi
 python3-cleo
 python3-clikit
 python3-crashtest
 python3-html5lib
+python3-idna
 python3-importlib-metadata
 python3-msgpack
 python3-pastel
