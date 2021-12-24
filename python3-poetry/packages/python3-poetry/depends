@@ -4,6 +4,7 @@ python3-cleo
 python3-clikit
 python3-crashtest
 python3-html5lib
+python3-importlib-metadata
 python3-msgpack
 python3-pastel
 python3-pkginfo
