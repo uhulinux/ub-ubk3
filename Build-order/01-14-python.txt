@@ -75,6 +75,7 @@ python3-pycurl
 python3-pyicu
 python3-pytz
 python3-zope.interface
+python2-pycups
 python3-pycups
 python3-apipkg
 python3-execnet
@@ -106,7 +107,8 @@ python3-pyzmq
 python-reportlab
 python-gst
 python3-pytest-plugins
-python-pillow
+python2-pillow
+python3-pillow
 python3-tinycss
 python3-websockets
 wxpython
