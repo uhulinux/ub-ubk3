@@ -1,4 +1,5 @@
 efl-dev
+libexif-dev
 libunwind-dev
 mesa-dev
 pulseaudio-dev
