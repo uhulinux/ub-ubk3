@@ -70,6 +70,7 @@ seamonkey-bin
 thunderbird
 thunderbird-bin
 chromium
+chromium-bin
 balsa
 ghetto-skype
 facebook-messenger

@@ -1,0 +1,4 @@
+#!/bin/sh -eux
+
+mv chrome-linux/chrome{_,-}sandbox
+mv chrome-linux ${UB_INSTALLDIR}/usr/lib/
