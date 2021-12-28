@@ -4,6 +4,7 @@ libunwind-dev
 mesa-dev
 pulseaudio-dev
 wayland-dev
+wayland-protocols
 weston-dev
 xcb-util-keysyms-dev
 xkeyboard-config
