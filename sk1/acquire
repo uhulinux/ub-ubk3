@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-sk1-${UB_VERSION/~/}.tar.gz sk1-wx-17caa85/
-	git://github.com/sk1project/sk1-wx.git@17caa85
+sk1-${UB_VERSION/~/}.tar.gz sk1-wx-62cc98e/
+	git://github.com/sk1project/sk1-wx.git@62cc98e

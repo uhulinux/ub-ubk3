@@ -1,10 +1,5 @@
 imagemagick-dev
-lcms2-dev
 pango-dev
 python2-cairo-dev
 python2-dev
-python2-pillow
-python2-pycups
-python2-reportlab
 python2-setuptools
-wxpython
