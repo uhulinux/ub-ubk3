@@ -1,3 +1,8 @@
 #!/bin/sh -eux
 
+for script in {mid3{cp,iconv,v2},moggsplit,mutagen-{inspect,pony}}; do
+    sed -e "s/${script}/${script}2/g" -i setup.py
+    mv -v "man/${script}"{,2}.1
+done
+
 python2 setup.py install --root=${UB_INSTALLDIR}
