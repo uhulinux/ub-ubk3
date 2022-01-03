@@ -11,6 +11,5 @@ libgsf-dev
 libnotify-dev
 libsm-dev
 libxml2-dev
-python3-polib
 python-pygobject-dev
 xapps-dev
