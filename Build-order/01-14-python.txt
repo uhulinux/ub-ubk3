@@ -11,7 +11,6 @@ python3-multidict
 python3-pyparsing
 python3-packaging
 python3-pam
-python3-polib
 python3-prompt-toolkit
 python3-random2
 python3-pip
