@@ -107,7 +107,7 @@ python3-pyxattr
 python3-pyzmq
 python2-reportlab
 python3-reportlab
-python-gst
+python3-gst
 python3-pytest-plugins
 python2-pillow
 python3-pillow
