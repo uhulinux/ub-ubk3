@@ -21,6 +21,5 @@ libsm-dev
 libwnck-dev
 networkmanager-dev
 polkit-dev
-python2-dev
 telepathy-glib-dev
 xcb-util-dev

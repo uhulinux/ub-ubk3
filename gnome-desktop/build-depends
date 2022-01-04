@@ -9,7 +9,6 @@ itstool
 libseccomp-dev
 libsm-dev
 libxkbfile-dev
-python2-dev
 startup-notification-dev
 xcb-util-dev
 xkeyboard-config
