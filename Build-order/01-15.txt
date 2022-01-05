@@ -56,4 +56,4 @@ perl-sdl
 emacs
 libgpod
 libvirt
-libvirt-python
+libvirt-python3
