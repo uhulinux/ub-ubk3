@@ -1,6 +1,5 @@
 glib-dev
 gobject-introspection-dev
 libgit2-dev
-python2-dev
 python-pygobject-dev
 vala-dev
