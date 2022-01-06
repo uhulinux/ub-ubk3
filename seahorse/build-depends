@@ -16,6 +16,5 @@ libsoup-dev
 openldap-dev
 openssh
 openssh-common
-python2-dev
 vala-dev
 yelp-tools
