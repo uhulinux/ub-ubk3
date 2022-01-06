@@ -1,8 +1,6 @@
 docbook-dtds
 docbook-xsl
-gnome-doc-utils
 gsettings-desktop-schemas
 gtk-dev
 intltool
 libxtst-dev
-python2-dev
