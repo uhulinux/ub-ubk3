@@ -1,0 +1,3 @@
+#!/bin/sh -eux
+
+2to3 -n -w .
