@@ -1,4 +1,5 @@
 gnome-menus-dev
 intltool
 itstool
+libxslt-dev
 python-pygobject-dev
