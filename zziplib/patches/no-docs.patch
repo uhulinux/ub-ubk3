@@ -1,0 +1,45 @@
+diff -Nur orig/configure.ac mod/configure.ac
+--- orig/configure.ac	2018-03-17 13:46:45.000000000 +0100
++++ mod/configure.ac	2022-01-09 16:29:10.665735786 +0100
+@@ -373,7 +373,7 @@
+ AC_SUBST([CONFIG_FILES])
+ AC_OUTPUT([Makefile
+            zzip/Makefile zzipwrap/Makefile SDL/Makefile
+-           docs/Makefile test/Makefile bins/Makefile])
++           test/Makefile bins/Makefile])
+ dnl -------------------------------------------------------------
+ PATCH_LIBTOOL_ON_DARWIN_ZSH_OVERQUOTING
+ PATCH_LIBTOOL_SYS_LIB_SEARCH_PATH_SPEC
+diff -Nur orig/Makefile.am mod/Makefile.am
+--- orig/Makefile.am	2018-03-17 13:46:45.000000000 +0100
++++ mod/Makefile.am	2022-01-09 16:25:34.997205873 +0100
+@@ -3,8 +3,8 @@
+ WANT_AUTOMAKE = 1.7
+ WANT_AUTOCONF = 2.57
+ 
+-DIST_SUBDIRS = zzip zzipwrap bins test docs  SDL
+-SUBDIRS =      zzip zzipwrap bins test docs @SDL@
++DIST_SUBDIRS = zzip zzipwrap bins test  SDL
++SUBDIRS =      zzip zzipwrap bins test @SDL@
+ 
+ rpm: dist-bzip2 $(PACKAGE).spec
+ 	rpmbuild -ta $(PACKAGE)-$(VERSION).tar.bz2
+@@ -62,9 +62,6 @@
+ indent-check:
+ 	(cd zzip && $(MAKE) `basename $@`)
+ 
+-doc docs docu clean-doc clean-docs clean-docu   zzip.html zzip.xml zzip.pdf \
+-man mans manpages htmpages unpack clean-unpack  changes.htm pdfs \
+-omf install-omf install-doc install-docs install-man3 install-mans \
+ upload-sourceforge www:
+ 	(cd docs && $(MAKE) `basename $@`)
+ 
+@@ -104,7 +101,7 @@
+ EXTRA_DIST =   zziplib.spec zzipback.sed Makefile.mk \
+                $(MSVC8) $(MSVC7) $(MSVC6) $(am__aclocal_m4_deps)
+ 
+-PHONY = auto boottrap rpm doc docs man manpages htmpages sdl testsdl \
++PHONY = auto boottrap rpm sdl testsdl \
+ 	comp compats msvc6 msvc7
+ # ------------------------------------------------------------------------
+ 
