@@ -1,4 +1,5 @@
 #!/bin/sh -eux
 
 export PYTHON=/usr/bin/python2
+export CFLAGS+=' -Wno-deprecated-declarations '
 ub_compile
