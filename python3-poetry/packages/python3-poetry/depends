@@ -10,6 +10,7 @@ python3-importlib-metadata
 python3-msgpack
 python3-pastel
 python3-pkginfo
+python3-platformdirs
 python3-poetry.core
 python3-pylev
 python3-tomlkit
