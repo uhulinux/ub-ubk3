@@ -1,5 +1,6 @@
 python3-attrs
 python3-automat
+python3-bcrypt
 python3-constantly
 python3-cryptography
 python3-hyperlink
