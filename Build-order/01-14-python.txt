@@ -63,7 +63,6 @@ python2-pyorbit
 python3-isort
 python3-typed-ast
 python3-wrapt
-python3-pytest-runner
 python3-lazy-object-proxy
 python3-mccabe
 python3-astroid
@@ -111,7 +110,6 @@ python3-pyzmq
 python2-reportlab
 python3-reportlab
 python3-gst
-python3-pytest-plugins
 python2-pillow
 python3-pillow
 python3-tinycss
