@@ -4,6 +4,7 @@ python3-bitstring
 python3-ecdsa
 python3-jsonrpclib-pelix
 python3-pbkdf2
+python3-pycryptodomex
 python3-pyaes
 python3-pysocks
 python3-qdarkstyle
