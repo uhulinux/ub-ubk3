@@ -1,0 +1,9 @@
+diff -Nur orig/src/pkcs11/opensc-pkcs11.pc.in mod/src/pkcs11/opensc-pkcs11.pc.in
+--- orig/src/pkcs11/opensc-pkcs11.pc.in	2021-08-10 11:09:03.000000000 +0200
++++ mod/src/pkcs11/opensc-pkcs11.pc.in	2022-01-15 12:49:04.036646987 +0100
+@@ -6,4 +6,4 @@
+ Name: OpenSC smartcard framework
+ Description: OpenSC PKCS#11 module
+ Version: @VERSION@
+-Libs: -L${libdir} -lopensc-pkcs11
++Libs: -L${libdir}

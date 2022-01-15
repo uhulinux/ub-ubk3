@@ -1,4 +1,5 @@
-libassuan-dev
-libxt-dev
-openssl-1.0-dev
+cmocka-dev
+glib-dev
+openssl-dev
 pcsc-lite-dev
+readline-dev

@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-opensc-"$UB_VERSION".tar.gz opensc-"$UB_VERSION"/
-	http://downloads.sourceforge.net/opensc/
+"$UB_VERSION".tar.gz OpenSC-"$UB_VERSION"/
+	https://github.com/OpenSC/OpenSC/archive/
