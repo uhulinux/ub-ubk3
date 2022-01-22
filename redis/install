@@ -3,5 +3,8 @@
 ub_install \
 	INSTALL_BIN="$UB_INSTALLDIR/usr/bin" PREFIX=/usr
 
+mkdir -p $UB_INSTALLDIR/etc/redis
+cp redis.conf sentinel.conf $UB_INSTALLDIR/etc/redis/
+
 cp -p deps/hiredis/hiredis.h "$UB_INSTALLDIR/usr/include"
 cp -p deps/hiredis/libhiredis.a "$UB_INSTALLDIR/usr/lib"
