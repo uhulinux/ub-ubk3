@@ -28,7 +28,6 @@ motor
 gob2
 ltrace
 cgdb
-runsnakerun
 python3-text-unidecode
 python3-unidecode
 python3-smmap
