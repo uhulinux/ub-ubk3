@@ -20,7 +20,6 @@ xpaint
 geeqie
 gimp-gap
 gimp-gmic
-libgsl
 ipe
 limoo
 viking
