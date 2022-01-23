@@ -86,7 +86,8 @@ tdb
 wpasupplicant
 x.org-input-evdev
 eigen3
-python-cairo
+python2-cairo
+python3-cairo
 bluez
 guile1.8
 guile2.0
