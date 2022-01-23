@@ -1,3 +1,8 @@
 #!/bin/sh -eux
 
-ub_compile
+autoreconf -vif
+ub_compile \
+    --disable-init-scripts \
+    --with-systemdsystemunitdir=/usr/lib/systemd/system \
+    --with-systemconfigdir=/etc/conf.d \
+    --sbindir=/usr/bin
