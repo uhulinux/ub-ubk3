@@ -31,11 +31,9 @@ logrotate
 fonts-bitstream-vera
 fonts-roboto
 egenix-mx-base
-perl-date-calc
 sbm
 pinfo
 fonts-jmk
-perl-extutils-xspp
 roundup
 a2ps
 dump
@@ -54,7 +52,6 @@ paps
 apache-mod-perl
 fonts-liberation
 nginx
-perl-alien-wxwidgets
 fuse-mtpfs
 cyrus-imapd
 squid

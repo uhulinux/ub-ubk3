@@ -147,7 +147,6 @@ perl-xml-sax-writer
 perl-xml-semanticdiff
 perl-cairo
 perl-crypt-openssl-rsa
-perl-dist-checkconflicts
 perl-glib
 perl-gtk3
 perl-mail-mbox-messageparser
