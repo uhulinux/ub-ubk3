@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+IO-String-${UB_VERSION}.tar.gz IO-String-${UB_VERSION}/
+  https://cpan.metacpan.org/modules/by-module/IO/

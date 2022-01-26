@@ -163,3 +163,4 @@ perl-pango
 perl-gtk2
 perl-mail-spf
 perl-alien-sdl
+perl-io-string
