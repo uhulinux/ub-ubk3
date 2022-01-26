@@ -36,7 +36,6 @@ perl-log-dispatch
 perl-moox-types-mooselike
 perl-types-serialiser
 psmisc
-python3-gflags
 python3-markdown
 xdialog
 xdm
