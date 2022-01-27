@@ -13,7 +13,6 @@ irda-utils
 iscsitarget
 htop
 lsscsi
-mcrypt
 minicom
 ndiswrapper
 pam-ldap
