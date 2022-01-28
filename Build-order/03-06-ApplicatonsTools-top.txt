@@ -1,7 +1,6 @@
 arandr
 agedu
 ansifilter
-anytopdf
 bchunk
 boxes
 ccrypt
