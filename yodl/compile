@@ -1,5 +1,6 @@
 #!/bin/sh -eux
 
+export TERM="xterm"
 ./build programs
 ./build macros
 ./build man

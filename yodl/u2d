@@ -1,1 +1,1 @@
-sflist yodl yodl  | sort -V | tail -n 1
+u2d https://gitlab.com/fbb-git/yodl/-/tags/

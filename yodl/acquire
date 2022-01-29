@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-yodl_${UB_VERSION}.orig.tar.gz yodl-${UB_VERSION}/
-	http://downloads.sourceforge.net/yodl/yodl/
+yodl-${UB_VERSION}.tar.gz yodl-${UB_VERSION}/yodl/
+	https://gitlab.com/fbb-git/yodl/-/archive/${UB_VERSION}/
