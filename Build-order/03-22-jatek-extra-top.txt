@@ -46,7 +46,6 @@ pychess
 gav
 spider
 komi
-bb
 caph
 pysolfc
 toppler

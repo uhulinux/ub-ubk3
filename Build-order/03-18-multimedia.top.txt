@@ -12,7 +12,6 @@ tuxguitar
 devede
 mp3splt
 recmpeg
-amdtpplay
 youtube-dl
 mp3wrap
 opus-tools
