@@ -1,0 +1,59 @@
+diff -Nur orig/configure.ac mod/configure.ac
+--- orig/configure.ac	2021-08-17 15:55:59.000000000 +0200
++++ mod/configure.ac	2022-01-29 15:56:55.390318869 +0100
+@@ -80,8 +80,6 @@
+ fi
+ AM_CONDITIONAL(MAN_PAGES_ENABLED, test x$enable_man_pages = xyes)
+ 
+-GTK_DOC_CHECK([1.11],[--flavour no-tmpl])
+-
+ AC_ARG_WITH([udevrulesdir],
+             AS_HELP_STRING([--with-udevrulesdir=DIR], [Directory for udev rules]),
+             [],
+@@ -249,9 +247,6 @@
+ src/linux/Makefile
+ src/bsd/Makefile
+ tools/Makefile
+-doc/Makefile
+-doc/version.xml
+-doc/man/Makefile
+ rules/Makefile
+ libupower-glib/Makefile
+ libupower-glib/up-version.h
+@@ -283,7 +278,6 @@
+         Backend:                    ${with_backend}
+         libimobiledevice support:   ${have_idevice}
+         Maintainer mode:            ${USE_MAINTAINER_MODE}
+-        Building api docs:          ${enable_gtk_doc}
+         Building man pages:         ${enable_man_pages}
+         Building unit tests:        ${enable_tests}
+ "
+diff -Nur orig/Makefile.am mod/Makefile.am
+--- orig/Makefile.am	2021-08-17 15:55:59.000000000 +0200
++++ mod/Makefile.am	2022-01-29 15:59:30.474955128 +0100
+@@ -2,7 +2,7 @@
+ 
+ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
+ 
+-SUBDIRS = etc dbus libupower-glib src doc tools po
++SUBDIRS = etc dbus libupower-glib src tools po
+ 
+ if BACKEND_TYPE_LINUX
+ SUBDIRS += rules
+@@ -35,7 +35,6 @@
+ 	build-aux		\
+ 	ChangeLog		\
+ 	config.h.in		\
+-	gtk-doc.make		\
+ 	po/Makefile.in.in~	\
+ 	po/Makevars.template	\
+ 	po/Rules-quot		\
+@@ -52,7 +51,7 @@
+ pkgconfig_DATA = upower-glib.pc
+ 
+ # xsltproc barfs on 'make distcheck'; disable for now
+-DISTCHECK_CONFIGURE_FLAGS=--enable-man-pages --enable-gtk-doc			\
++DISTCHECK_CONFIGURE_FLAGS=--enable-man-pages		\
+ 	--with-systemdsystemunitdir=$$dc_install_base/$(systemdsystemunitdir)	\
+ 	--with-udevrulesdir='$${libdir}/udev/rules.d-distcheck'			\
+ 	--enable-introspection=yes

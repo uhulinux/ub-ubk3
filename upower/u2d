@@ -1,3 +1,3 @@
-#tag=$(u2d https://gitlab.freedesktop.org/upower/upower/tags/)
-#echo ${tag//_/.}
-u2d http://upower.freedesktop.org/releases/ upower-
+#urllist https://gitlab.freedesktop.org/upower/upower/-/tags/ | grep tar | sed s/.*UPOWER_/upower-/ | sed s/_/./g | parsever | sort -V | tail -n1
+#noupdate: A systemd verziója már nagyobb kellene, mint 233
+echo 0.99.11
