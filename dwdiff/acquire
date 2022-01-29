@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-dwdiff-${UB_VERSION}.tgz dwdiff-${UB_VERSION}/
+dwdiff-${UB_VERSION}.tar.bz2 dwdiff-${UB_VERSION}/
 	http://os.ghalkes.nl/dist/
