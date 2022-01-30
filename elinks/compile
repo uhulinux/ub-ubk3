@@ -1,4 +1,11 @@
 #!/bin/sh -eux
 
 ./autogen.sh
-ub_compile
+ub_compile \
+    -Dcgi=true \
+    -D88-colors=true \
+    -D256-colors=true \
+    -Dtrue-color=true \
+    -Dluapkg=lua53 \
+    -Dtre=false \
+    -Dfsp=false
