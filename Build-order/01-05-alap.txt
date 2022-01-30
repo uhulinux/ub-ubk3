@@ -105,7 +105,6 @@ jack
 sdl
 btrfs-progs
 ldb
-gnome2-vfs
 modemmanager
 lirc
 gst-plugins-base
