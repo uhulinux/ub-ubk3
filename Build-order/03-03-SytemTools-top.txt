@@ -27,7 +27,6 @@ vlan
 sysstat
 blktool
 irda-utils
-iscsitarget
 open-isns
 open-iscsi
 tcpdump
