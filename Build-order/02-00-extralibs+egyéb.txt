@@ -32,7 +32,6 @@ epsonepl
 soundfont-fluid
 pnm2ppa
 bsdiff
-eigen2
 upx
 alsa-tools
 goocanvasmm
