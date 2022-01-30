@@ -54,7 +54,6 @@ liblrdf
 libv4l
 vcdimager
 zvbi
-gst-validate
 libbluray
 libofa
 librsvg
