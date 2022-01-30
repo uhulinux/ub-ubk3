@@ -11,5 +11,4 @@ gtkdatabox
 klavaro
 xplanet
 celestia
-hoc
 stellarium
