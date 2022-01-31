@@ -24,7 +24,6 @@ lxlogo
 ncc
 winpdb
 global
-motor
 gob2
 ltrace
 cgdb
