@@ -9,7 +9,6 @@ libdnet
 libdvbpsi
 libiptcdata
 liblockfile
-libmowgli
 libnet
 libnfs
 libquvi-scripts
