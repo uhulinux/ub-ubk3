@@ -25,7 +25,6 @@ nautilus-sendto
 gnome-menus
 gnome-themes-standard
 icon-theme-adwaita
-libgames-support
 policykit
 gupnp-av
 icon-theme-gnome
