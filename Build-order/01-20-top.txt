@@ -4,7 +4,6 @@ bdfresize
 hdparm
 jad
 joe
-libffcall
 liblo
 libsigc++3
 mhonarc
