@@ -21,7 +21,6 @@ schedtool
 sdparm
 setserial
 setuser
-statserial
 v86d
 vlan
 sysstat
