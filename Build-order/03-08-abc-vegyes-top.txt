@@ -30,7 +30,6 @@ hostapd
 logrotate
 fonts-bitstream-vera
 fonts-roboto
-sbm
 pinfo
 fonts-jmk
 roundup
