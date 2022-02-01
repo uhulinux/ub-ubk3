@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-SocNetV-$UB_VERSION.tar.gz socnetv-$UB_VERSION/
-	https://download.sourceforge.net/socnetv/$UB_VERSION/
+v$UB_VERSION.tar.gz app-$UB_VERSION/
+	https://github.com/socnetv/app/archive/
