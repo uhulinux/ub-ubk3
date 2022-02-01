@@ -9,7 +9,6 @@ aspell-dict-hungarian
 postgresql-odbc
 media-player-info
 lightdm-gtk-greeter-settings
-smart
 ndisgtk
 sddm-config-editor
 grub-customizer
