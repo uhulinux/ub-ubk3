@@ -7,7 +7,6 @@ telepathy-gabble
 xmldiff
 telepathy-salut
 telepathy-idle
-telepathy-yell
 gnonlin
 libgda
 libgdamm
