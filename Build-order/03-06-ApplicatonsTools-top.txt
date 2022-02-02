@@ -115,7 +115,6 @@ recoll
 gparted
 easystroke
 virt-manager
-synce-connector
 mugshot
 rapidsvn
 krb5-auth-dialog
