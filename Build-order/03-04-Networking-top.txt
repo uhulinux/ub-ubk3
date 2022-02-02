@@ -17,7 +17,6 @@ ncftp
 noip-duc
 phpmyfaq
 pptpclient
-tcpcgi
 p0f
 tcptrack
 fetchmail

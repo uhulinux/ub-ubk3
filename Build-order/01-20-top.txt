@@ -50,7 +50,6 @@ python3-cxfreeze
 python-pycodestyle
 scsh
 squashfs-tools
-syslinux
 x.org-input-aiptek
 x.org-input-elographics
 x.org-input-fpit
