@@ -1,4 +1,0 @@
-#!/usr/bin/env dl
-
-reportlab-${UB_VERSION}.tar.gz reportlab-${UB_VERSION}/
-	https://pypi.org/packages/source/r/reportlab/
