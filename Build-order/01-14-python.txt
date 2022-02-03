@@ -30,7 +30,6 @@ python3-pyopenssl
 python3-pyasn1
 python3-asn1-modules
 python3-attrs
-python3-setuptools-git
 python3-setuptools-scm
 python3-pyproject2setuppy
 python3-tomli
