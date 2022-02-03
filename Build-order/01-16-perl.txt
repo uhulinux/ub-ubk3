@@ -12,14 +12,12 @@ perl-class-inspector
 perl-clone
 perl-common-sense
 perl-config-tiny
-perl-convert-asn1
 perl-convert-binhex
 perl-crypt-des
 perl-crypt-rc4
 perl-data-dump
 perl-date-manip
 perl-dbi
-perl-devel-checklib
 perl-devel-stacktrace
 perl-digest-hmac
 perl-digest-nilsimsa
@@ -40,7 +38,6 @@ perl-guard
 perl-html-template
 perl-http-server-simple
 perl-io-stringy
-perl-ip-country
 perl-ipc-simple
 perl-json
 perl-libintl
@@ -49,11 +46,9 @@ perl-list-moreutils
 perl-locale-maketext-lexicon
 perl-log-log4perl
 perl-math-calc-units
-perl-mime-charset
 perl-mime-types
 perl-mozilla-ca
 perl-netaddr-ip
-perl-net-ident
 perl-net-ip
 perl-net-server
 perl-net-telnet
@@ -75,7 +70,6 @@ perl-moo
 perl-test-nowarnings
 perl-test-requires
 perl-text-csv
-perl-text-soundex
 perl-tie-simple
 perl-tree-dagnode
 perl-unix-syslog
@@ -85,7 +79,6 @@ perl-xml-sax-base
 perl-xml-simple
 perl-yaml-tiny
 perl-berkeleydb
-perl-bit-vector
 perl-class-method-modifiers
 perl-compress-bzip2
 perl-crypt-openssl-bignum
@@ -104,7 +97,6 @@ perl-filehandle-unget
 perl-file-homedir
 perl-file-remove
 perl-file-sharedir
-perl-gpg
 perl-gtk2-ex-formfactory
 perl-linux-desktopfiles
 perl-mailtools
@@ -116,10 +108,8 @@ perl-net-ssleay
 perl-params-validate
 perl-path-class
 perl-template-toolkit
-perl-test-base
 perl-test-deep
 perl-test-exception
-perl-test-output
 perl-text-diff
 perl-text-glob
 perl-text-patch
