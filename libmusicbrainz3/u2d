@@ -1,1 +1,0 @@
-echo 3$(u2d https://github.com/metabrainz/libmusicbrainz/tags/ release-3)

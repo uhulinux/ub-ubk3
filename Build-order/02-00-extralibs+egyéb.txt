@@ -23,7 +23,6 @@ hplip
 cups-filters
 foomatic-db-engine
 biblesync
-libmusicbrainz3
 gnuplot
 python2-pygame
 python3-pygame
