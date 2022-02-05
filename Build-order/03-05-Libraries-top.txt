@@ -1,4 +1,3 @@
-cryptopp
 gflags
 libtinyxml2
 musl
@@ -12,9 +11,7 @@ pam-usb
 xcursorgen
 obexfs
 opensc
-g2
 sdl2-net
 anjuta-extras
-ntrack
 evolution-ews
 freshplayerplugin

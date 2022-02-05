@@ -16,7 +16,6 @@ tali
 dropbox
 four-in-a-row
 template-glib
-jsonrpc-glib
 gnome-calculator
 gnome-characters
 gnome-robots
@@ -43,7 +42,6 @@ orca
 planner
 aisleriot
 gnome-clocks
-libsexy
 sound-juicer
 gitg
 rygel

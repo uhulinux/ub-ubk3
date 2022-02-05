@@ -16,13 +16,11 @@ libdvbcsa
 libgdiplus
 mono
 cln
-libpseudo
 qtwebkit
 python3-pyqt5
 hplip
 cups-filters
 foomatic-db-engine
-biblesync
 gnuplot
 python2-pygame
 python3-pygame
@@ -33,7 +31,6 @@ pnm2ppa
 bsdiff
 upx
 alsa-tools
-goocanvasmm
 conky
 coin
 apmd

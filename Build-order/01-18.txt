@@ -79,7 +79,6 @@ amtk
 encfs
 fonttools
 gmime
-gmime2
 gstreamermm
 gst-transcoder
 gtkspell2
@@ -115,7 +114,6 @@ apache-mod-dnssd
 clutter-gst
 clutter-gtk
 gcab
-goffice08
 gtkspell
 icon-theme-tango
 rpcbind

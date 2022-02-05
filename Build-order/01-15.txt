@@ -10,7 +10,6 @@ osinfo-db
 pcsc-lite
 sdl-net
 cairomm
-gnet2
 libcacard
 libdbi
 libofx
@@ -31,7 +30,6 @@ libva-intel-driver
 pangomm
 sdl-image
 bolt
-libsynce
 libva-vdpau-driver
 libwpd
 plotutils

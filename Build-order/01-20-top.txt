@@ -31,7 +31,6 @@ xdialog
 xdm
 yodl
 fonts-unicode
-libgtkhtml2
 lndir
 makedepend
 mdadm
@@ -71,7 +70,6 @@ x.org-video-trident
 x.org-video-v4l
 x.org-video-vesa
 x.org-video-voodoo
-mysql-python
 reiser4progs
 x.org-input-acecad
 x.org-video-amdgpu

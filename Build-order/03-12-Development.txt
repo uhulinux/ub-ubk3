@@ -33,7 +33,6 @@ python3-slugify
 python3-gitdb
 python3-gitpython
 transifex-client
-hgsubversion
 icon-slicer
 gtkdialog
 cppcheck

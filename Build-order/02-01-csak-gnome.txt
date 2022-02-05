@@ -7,9 +7,7 @@ telepathy-gabble
 xmldiff
 telepathy-salut
 telepathy-idle
-gnonlin
 libgda
-libgdamm
 libgdata
 gsound
 fonts-cantarell
@@ -45,7 +43,6 @@ libzapojit
 mousetweaks
 mx
 gnome-logs
-libepc
 libgxps
 gnome-bluetooth
 gnome-schedule

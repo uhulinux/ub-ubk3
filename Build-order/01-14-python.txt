@@ -51,7 +51,6 @@ python3-distlib
 python3-virtualenv
 python3-pyxdg
 sip
-python2-gudev
 python2-pybluez
 python3-pylibacl
 python2-pyorbit
