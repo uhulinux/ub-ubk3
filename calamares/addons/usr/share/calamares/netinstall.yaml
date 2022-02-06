@@ -30,14 +30,6 @@
         - pv
         - ytalk
 
-    -   name: "bootloaders"
-        description: "bootloaders vegyes"
-        critical: false
-        selected: false
-        packages:
-        - syslinux
-        - sbm
-
 - name: "Base unsorted"
   description: "Base unsorted"
   critical: false
