@@ -1,12 +1,11 @@
+alsa-lib-dev
 cairo-dock-dev
 cyrus-sasl2-dev
-evolution-data-server-dev
 fftw3-dev
 gnome-menus-dev
 gvfs
 intltool
 libdbusmenu-gtk3-dev
-libetpan-dev
 libexif-dev
 libical-dev
 libindicator3-dev
