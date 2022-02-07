@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-${UB_VERSION}.tar.gz blueman-${UB_VERSION}/
-	https://github.com/blueman-project/blueman/archive/
+blueman-${UB_VERSION}.tar.gz blueman-0c3596c2/
+    git://github.com/blueman-project/blueman.git@0c3596c2
