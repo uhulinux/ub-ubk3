@@ -1,0 +1,12 @@
+diff -Nur orig/scripts/wrapzap mod/scripts/wrapzap
+--- orig/scripts/wrapzap	2011-10-19 11:56:41.000000000 +0200
++++ mod/scripts/wrapzap	2022-02-07 19:46:13.722729001 +0100
+@@ -16,7 +16,7 @@
+ #
+ 
+ # modify this to match your install
+-zapper=/usr/local/bin/squid_redirect
++zapper=/usr/bin/adzapper
+ 
+ ZAP_MODE=				# or "CLEAR"
+ ZAP_BASE=http://adzapper.sourceforge.net/zaps	# a local web server will be better

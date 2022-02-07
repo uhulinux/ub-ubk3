@@ -2,3 +2,6 @@
 
 adzap-${UB_VERSION}.tar.gz adzap-${UB_VERSION}/
 	http://adzapper.sourceforge.net/
+
+squid_redirect-20090301.20090310.pl
+	https://sourceforge.net/projects/adzapper/files/adzapper/20090301/
