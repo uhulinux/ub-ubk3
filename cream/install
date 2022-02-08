@@ -1,6 +1,6 @@
 #!/bin/sh -eux
 
-VIMVER=72
+VIMVER=82
 
 PREFIX="$UB_INSTALLDIR"/usr
 
@@ -39,8 +39,11 @@ cp lang/menu_en_us.utf-8.vim $VRT/cream/lang/
 cp lang/strings_en_us.utf-8.vim $VRT/cream/lang/
 #cp spelldicts/cream-spell-dict-eng-s*.vim $VRT/cream/spelldicts/
 
-echo "Copying shell command..."
-cp cream $PREFIX/bin/
+echo "Copying shell command ..."
+cp cream $PREFIX/bin/cream.bin
+
+echo "$VRT a wrapper szkriptbe"
+sed "s%VRT%/usr/share/vim/vim$VIMVER%" -i $UB_SRCDIR/addons/usr/bin/cream
 
 echo "Copying menu entry..."
 install -p -m 644 cream.desktop $PREFIX/share/applications/
