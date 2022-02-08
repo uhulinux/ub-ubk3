@@ -1,0 +1,12 @@
+diff -Nur orig/contrib/ocs mod/contrib/ocs
+--- orig/contrib/ocs	2018-07-19 21:45:17.000000000 +0200
++++ mod/contrib/ocs	2022-02-08 15:03:42.804163631 +0100
+@@ -74,7 +74,7 @@
+ 
+ #set the default value for SYSDIR 
+ if [ -z "${SYSDIR}" ]; then
+-   SYSDIR=/usr/local/lib/cs
++   SYSDIR=/usr/lib/cs
+    echo setting default sysdir
+ fi
+ 
