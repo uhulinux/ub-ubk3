@@ -1,4 +1,5 @@
 #! /bin/bash
 
+export PATH=$PATH:/usr/lib/java/jre/bin
 cd /usr/share/DBEdit
 ./dbedit "$@"
