@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-cppcheck-${UB_VERSION}.tar.gz cppcheck-${UB_VERSION}/
-	https://download.sourceforge.net/cppcheck/
+${UB_VERSION}.tar.gz cppcheck-${UB_VERSION}/
+	https://github.com/danmar/cppcheck/archive/
