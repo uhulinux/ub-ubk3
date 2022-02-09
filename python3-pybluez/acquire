@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+PyBluez-${UB_VERSION}.tar.gz PyBluez-${UB_VERSION}/
+	https://pypi.org/packages/source/P/PyBluez/

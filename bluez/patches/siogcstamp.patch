@@ -1,0 +1,24 @@
+diff -Nur orig/tools/l2test.c mod/tools/l2test.c
+--- orig/tools/l2test.c	2016-10-28 14:57:27.000000000 +0200
++++ mod/tools/l2test.c	2022-02-09 18:28:46.299131800 +0100
+@@ -906,7 +906,7 @@
+ 			if (timestamp) {
+ 				struct timeval tv;
+ 
+-				if (ioctl(sk, SIOCGSTAMP, &tv) < 0) {
++				if (ioctl(sk, SIOCGARP, &tv) < 0) {
+ 					timestamp = 0;
+ 					memset(ts, 0, sizeof(ts));
+ 				} else {
+diff -Nur orig/tools/rctest.c mod/tools/rctest.c
+--- orig/tools/rctest.c	2015-09-04 03:19:36.000000000 +0200
++++ mod/tools/rctest.c	2022-02-09 18:25:43.850411343 +0100
+@@ -504,7 +504,7 @@
+ 			if (timestamp) {
+ 				struct timeval tv;
+ 
+-				if (ioctl(sk, SIOCGSTAMP, &tv) < 0) {
++				if (ioctl(sk, SIOCGARP, &tv) < 0) {
+ 					timestamp = 0;
+ 					memset(ts, 0, sizeof(ts));
+ 				} else {

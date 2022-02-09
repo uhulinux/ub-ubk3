@@ -109,3 +109,4 @@ python3-charset-normalizer
 python3-ipython
 python3-bcrypt
 python3-twisted
+python3-pybluez
