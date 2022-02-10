@@ -5,3 +5,4 @@ ub_install \
 
 mkdir -p "$UB_INSTALLDIR"/usr/share/gtkdialog
 cp -a examples/. "$UB_INSTALLDIR"/usr/share/gtkdialog/
+#mv ${UB_INSTALLDIR}/usr/bin/gtkdialog ${UB_INSTALLDIR}/usr/bin/gtkdialog.bin
