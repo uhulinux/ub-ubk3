@@ -1,4 +1,3 @@
-gflags
 libtinyxml2
 musl
 pam-chroot
