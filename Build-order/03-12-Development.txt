@@ -44,7 +44,6 @@ a2b
 bbe
 bitedit
 duff
-help2info
 rlwrap
 txt2regex
 uncrustify
