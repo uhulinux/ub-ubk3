@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+gav-themes_${UB_VERSION}.orig.tar.gz . :/usr/share/games/gav/
+	http://ftp.debian.org/debian/pool/main/g/gav-themes/
