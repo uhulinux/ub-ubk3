@@ -34,7 +34,6 @@ python3-gitdb
 python3-gitpython
 transifex-client
 icon-slicer
-gtkdialog
 cppcheck
 distcc
 ddd
