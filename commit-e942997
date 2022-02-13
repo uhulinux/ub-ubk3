@@ -1,0 +1,384 @@
+From e94299751d7295aa56d836816fa922d69b00fa85 Mon Sep 17 00:00:00 2001
+From: rezso <rezso@rezso.net>
+Date: Sun, 13 Feb 2022 02:14:21 +0100
+Subject: upd: cinelerra, digikam, falkon, inxi, krita, tellico, tlp
+
+
+diff --git a/cinelerra/build-depends b/cinelerra/build-depends
+index c6d34dc4d..863c17ca5 100644
+--- a/cinelerra/build-depends
++++ b/cinelerra/build-depends
+@@ -1,26 +1,40 @@
+ alsa-lib-dev
+ aom-dev
+-dav1d-dev
++ffmpeg-dev
+ fftw3-dev
+ flac-dev
+ glu-dev
+ gtk2-dev
++ladspa-dev
++liba52-dev
+ libavc1394-dev
+ libdv-dev
+ libiec61883-dev
++libjpeg-turbo-dev
++liblame-dev
++libogg-dev
++libraw1394-dev
++libsndfile-dev
+ libtheora-dev
++libungif-dev
++libusb-dev
+ libva-dev
+ libvdpau-dev
++libvorbis-dev
+ libvpx-dev
+ libwebp-dev
+ libxinerama-dev
+ libxml2-dev
+ libxv-dev
++mjpegtools-dev
+ nasm
+ openexr-dev
++openjpeg-dev
+ opus-dev
+ perl-xml-parser
++pulseaudio-dev
+ qt5-dev
+-texinfo
++x264-dev
++x265-dev
+ xz-dev
+ yasm
+diff --git a/cinelerra/maintainer b/cinelerra/maintainer
+index 210c37c94..7a534c899 100644
+--- a/cinelerra/maintainer
++++ b/cinelerra/maintainer
+@@ -1 +1 @@
+-Kiss Attila <attus@enterpriseforever.com>
++Páder Rezső <rezso@rezso.net>
+diff --git a/cinelerra/patches/guicast-python2.patch b/cinelerra/patches/guicast-python2.patch
+new file mode 100644
+index 000000000..fa84a9333
+--- /dev/null
++++ b/cinelerra/patches/guicast-python2.patch
+@@ -0,0 +1,21 @@
++diff -Naur orig/guicast/bccmdl.py patched/guicast/bccmdl.py
++--- orig/guicast/bccmdl.py	2019-07-31 00:01:49.000000000 +0200
+++++ patched/guicast/bccmdl.py	2020-03-31 18:06:52.415833568 +0200
++@@ -1,4 +1,4 @@
++-#!/bin/python
+++#!/bin/python2
++ 
++ # Retain python2 compatibility
++ from __future__ import print_function
++diff -Naur orig/guicast/Makefile patched/guicast/Makefile
++--- orig/guicast/Makefile	2019-06-15 20:47:51.000000000 +0200
+++++ patched/guicast/Makefile	2020-03-31 18:06:43.803714181 +0200
++@@ -95,7 +95,7 @@
++ all: $(OUTPUT) $(UTILS)
++ 
++ $(BCXFER):	bccmdl.py bcxfer.C bcxfer.h
++-	python < ./bccmdl.py
+++	python2 < ./bccmdl.py
++ 	+$(MAKE) -C xfer
++ 
++ $(OUTPUT): $(OBJS) $(BCXFER)
+diff --git a/cinelerra/version b/cinelerra/version
+index deaed221d..750bae7ce 100644
+--- a/cinelerra/version
++++ b/cinelerra/version
+@@ -1 +1 @@
+-5.1.20211130
++5.1.20200331
+diff --git a/digikam/acquire b/digikam/acquire
+index 848cca45f..2807ccfd5 100644
+--- a/digikam/acquire
++++ b/digikam/acquire
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env dl
+ 
+-digikam-${UB_VERSION/~/-}.tar.xz digikam-${UB_VERSION/~/-}/
++digiKam-${UB_VERSION/~/-}.tar.xz digikam-${UB_VERSION/~/-}/
+ 	https://download.kde.org/stable/digikam/${UB_VERSION/~/-}/
+ #	https://github.com/KDE/digikam/archive/
+diff --git a/digikam/maintainer b/digikam/maintainer
+index 210c37c94..7a534c899 100644
+--- a/digikam/maintainer
++++ b/digikam/maintainer
+@@ -1 +1 @@
+-Kiss Attila <attus@enterpriseforever.com>
++Páder Rezső <rezso@rezso.net>
+diff --git a/digikam/patches/undef.patch b/digikam/patches/undef.patch
+deleted file mode 100644
+index a28cd6548..000000000
+--- a/digikam/patches/undef.patch
++++ /dev/null
+@@ -1,12 +0,0 @@
+-diff -Naur orig/core/CMakeLists.txt patched/core/CMakeLists.txt
+---- orig/core/CMakeLists.txt	2017-01-08 23:08:44.000000000 +0100
+-+++ patched/core/CMakeLists.txt	2017-02-14 02:42:14.586483688 +0100
+-@@ -97,6 +97,8 @@
+- include(MacroOpenCV)
+- include(MacroJPEG)
+- include(MacroBoolTo01)
+-+# Compile fix for boost
+-+string(REPLACE "-fno-operator-names" "" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+- 
+- # ==================================================================================================
+- 
+diff --git a/digikam/vendor b/digikam/vendor
+index 8529197d5..90e616397 100644
+--- a/digikam/vendor
++++ b/digikam/vendor
+@@ -1 +1 @@
+-UHU Linux Baráti Kör
++ubk.hu
+diff --git a/digikam/version b/digikam/version
+index 19b860c18..18bb4182d 100644
+--- a/digikam/version
++++ b/digikam/version
+@@ -1 +1 @@
+-6.4.0
++7.5.0
+diff --git a/falkon/build-depends b/falkon/build-depends
+index 250795422..d5a37d7b4 100644
+--- a/falkon/build-depends
++++ b/falkon/build-depends
+@@ -1,9 +1,12 @@
+ extra-cmake-modules
++karchive-dev
+ kcoreaddons-dev
+ kcrash-dev
+ ki18n-dev
+ kio-dev
+ kwallet-dev
+ libgnome-keyring-dev
++purpose-dev
+ qt5-dev
+ qtwebengine-dev
++xcb-util-dev
+diff --git a/falkon/homepage b/falkon/homepage
+index 6c8df1838..c8615f8a9 100644
+--- a/falkon/homepage
++++ b/falkon/homepage
+@@ -1 +1 @@
+-http://www.qupzilla.com/
++https://www.falkon.org/
+diff --git a/falkon/packages/falkon/provides b/falkon/packages/falkon/provides
+deleted file mode 100644
+index 650c516a6..000000000
+--- a/falkon/packages/falkon/provides
++++ /dev/null
+@@ -1 +0,0 @@
+-qupzilla
+diff --git a/falkon/patches/qt5.14.patch b/falkon/patches/qt5.14.patch
+deleted file mode 100644
+index 57d5b2318..000000000
+--- a/falkon/patches/qt5.14.patch
++++ /dev/null
+@@ -1,21 +0,0 @@
+-From bbde5c6955c43bc744ed2c4024598495de908f2a Mon Sep 17 00:00:00 2001
+-From: Laurent Montel <montel@kde.org>
+-Date: Mon, 2 Dec 2019 13:30:36 +0100
+-Subject: [PATCH] Add missing include in last qt5.14
+-
+----
+- src/plugins/VerticalTabs/verticaltabsplugin.cpp | 1 +
+- 1 file changed, 1 insertion(+)
+-
+-diff --git a/src/plugins/VerticalTabs/verticaltabsplugin.cpp b/src/plugins/VerticalTabs/verticaltabsplugin.cpp
+-index c1cfac4f..d179bb1c 100644
+---- a/src/plugins/VerticalTabs/verticaltabsplugin.cpp
+-+++ b/src/plugins/VerticalTabs/verticaltabsplugin.cpp
+-@@ -30,6 +30,7 @@
+- #include "../config.h"
+- 
+- #include <QSettings>
+-+#include <QFile>
+- 
+- VerticalTabsPlugin::VerticalTabsPlugin()
+-     : QObject()
+diff --git a/falkon/vendor b/falkon/vendor
+index 8529197d5..90e616397 100644
+--- a/falkon/vendor
++++ b/falkon/vendor
+@@ -1 +1 @@
+-UHU Linux Baráti Kör
++ubk.hu
+diff --git a/falkon/version b/falkon/version
+index fd2a01863..944880fa1 100644
+--- a/falkon/version
++++ b/falkon/version
+@@ -1 +1 @@
+-3.1.0
++3.2.0
+diff --git a/inxi/maintainer b/inxi/maintainer
+index 210c37c94..7a534c899 100644
+--- a/inxi/maintainer
++++ b/inxi/maintainer
+@@ -1 +1 @@
+-Kiss Attila <attus@enterpriseforever.com>
++Páder Rezső <rezso@rezso.net>
+diff --git a/inxi/packages/inxi/depends b/inxi/packages/inxi/depends
+deleted file mode 100644
+index 5b3c7a16d..000000000
+--- a/inxi/packages/inxi/depends
++++ /dev/null
+@@ -1,2 +0,0 @@
+-pciutils
+-procps
+diff --git a/inxi/packages/inxi/summary/hu b/inxi/packages/inxi/summary/hu
+index e05d4167d..3a6dd9051 100644
+--- a/inxi/packages/inxi/summary/hu
++++ b/inxi/packages/inxi/summary/hu
+@@ -1 +1 @@
+-Rendszer információkat megjelenítő szkript
++Rendszerinformációkat megjelenítő &script
+diff --git a/inxi/u2d b/inxi/u2d
+index 30601ff28..65d85957b 100644
+--- a/inxi/u2d
++++ b/inxi/u2d
+@@ -1 +1 @@
+-u2d https://github.com/smxi/inxi/tags/ | sed -e "s/-1//"
++u2d https://github.com/smxi/inxi/releases/ | sed -e "s/-1//"
+diff --git a/inxi/version b/inxi/version
+index 4d541eb20..98d8c9369 100644
+--- a/inxi/version
++++ b/inxi/version
+@@ -1 +1 @@
+-3.3.12
++3.0.37
+diff --git a/krita/maintainer b/krita/maintainer
+index 210c37c94..7a534c899 100644
+--- a/krita/maintainer
++++ b/krita/maintainer
+@@ -1 +1 @@
+-Kiss Attila <attus@enterpriseforever.com>
++Páder Rezső <rezso@rezso.net>
+diff --git a/krita/patches/boost-1.75.patch b/krita/patches/boost-1.75.patch
+deleted file mode 100644
+index 0e2fc8aa4..000000000
+--- a/krita/patches/boost-1.75.patch
++++ /dev/null
+@@ -1,25 +0,0 @@
+-From 1e25a2415bf4c51888188f5df88e7c614d70c927 Mon Sep 17 00:00:00 2001
+-From: Boudewijn Rempt <boud@valdyas.org>
+-Date: Tue, 15 Dec 2020 13:59:31 +0100
+-Subject: [PATCH] Make C++14 default in master
+-
+-As discussed during the meeting.
+----
+- CMakeLists.txt | 2 +-
+- 1 file changed, 1 insertion(+), 1 deletion(-)
+-
+-diff --git a/CMakeLists.txt b/CMakeLists.txt
+-index 48d445b030..fe9bcb4765 100644
+---- a/CMakeLists.txt
+-+++ b/CMakeLists.txt
+-@@ -7,7 +7,7 @@ cmake_minimum_required(VERSION 3.0.0 FATAL_ERROR)
+- set(MIN_QT_VERSION 5.9.0)
+- set(MIN_FRAMEWORKS_VERSION 5.44.0)
+- 
+--set( CMAKE_CXX_STANDARD 11 )
+-+set( CMAKE_CXX_STANDARD 14 )
+- set( CMAKE_CXX_STANDARD_REQUIRED ON )
+- 
+- 
+--- 
+-GitLab
+diff --git a/krita/patches/mimetype.patch b/krita/patches/mimetype.patch
+deleted file mode 100644
+index e5a1c1718..000000000
+--- a/krita/patches/mimetype.patch
++++ /dev/null
+@@ -1,12 +0,0 @@
+-diff -Naur orig/plugins/impex/jpeg/krita_jpeg.desktop patched/plugins/impex/jpeg/krita_jpeg.desktop
+---- orig/plugins/impex/jpeg/krita_jpeg.desktop	2020-06-16 14:21:56.000000000 +0200
+-+++ patched/plugins/impex/jpeg/krita_jpeg.desktop	2020-06-20 00:20:40.543703243 +0200
+-@@ -2,7 +2,7 @@
+- Categories=Qt;KDE;Office;Graphics;
+- Exec=krita %F
+- Icon=krita
+--MimeType=image/jpeg;jpeg/jfif
+-+MimeType=image/jpeg;
+- Name=Krita
+- Name[af]=Krita
+- Name[ar]=كريتا
+diff --git a/krita/vendor b/krita/vendor
+index 8529197d5..90e616397 100644
+--- a/krita/vendor
++++ b/krita/vendor
+@@ -1 +1 @@
+-UHU Linux Baráti Kör
++ubk.hu
+diff --git a/krita/version b/krita/version
+index 1d068c6ec..a1ef0cae1 100644
+--- a/krita/version
++++ b/krita/version
+@@ -1 +1 @@
+-4.4.2
++5.0.2
+diff --git a/tellico/compile b/tellico/compile
+index 02b7f6b46..9f95ee58f 100644
+--- a/tellico/compile
++++ b/tellico/compile
+@@ -3,4 +3,4 @@
+ ub_compile \
+ 	-DCMAKE_PREFIX_PATH=/usr/lib/qt5 \
+ 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+-	-DBUILD_TESTS=OFF
++	-DBUILD_TESTING=OFF
+diff --git a/tellico/maintainer b/tellico/maintainer
+index 210c37c94..7a534c899 100644
+--- a/tellico/maintainer
++++ b/tellico/maintainer
+@@ -1 +1 @@
+-Kiss Attila <attus@enterpriseforever.com>
++Páder Rezső <rezso@rezso.net>
+diff --git a/tellico/vendor b/tellico/vendor
+index 8529197d5..90e616397 100644
+--- a/tellico/vendor
++++ b/tellico/vendor
+@@ -1 +1 @@
+-UHU Linux Baráti Kör
++ubk.hu
+diff --git a/tellico/version b/tellico/version
+index fa7adc7ac..6cb9d3dd0 100644
+--- a/tellico/version
++++ b/tellico/version
+@@ -1 +1 @@
+-3.3.5
++3.4.3
+diff --git a/tlp/doc b/tlp/doc
+index 1313acfdf..7d2f0198d 100644
+--- a/tlp/doc
++++ b/tlp/doc
+@@ -1,4 +1,4 @@
+ AUTHORS
+ COPYING
+ LICENSE
+-README.rst
++README.md
+diff --git a/tlp/maintainer b/tlp/maintainer
+index 210c37c94..7a534c899 100644
+--- a/tlp/maintainer
++++ b/tlp/maintainer
+@@ -1 +1 @@
+-Kiss Attila <attus@enterpriseforever.com>
++Páder Rezső <rezso@rezso.net>
+diff --git a/tlp/u2d b/tlp/u2d
+index 8dadfe1dc..830b6829b 100644
+--- a/tlp/u2d
++++ b/tlp/u2d
+@@ -1 +1 @@
+-u2d https://github.com/linrunner/TLP/tags/
++u2d https://github.com/linrunner/TLP/releases/
+diff --git a/tlp/version b/tlp/version
+index bc80560fa..23aa83906 100644
+--- a/tlp/version
++++ b/tlp/version
+@@ -1 +1 @@
+-1.5.0
++1.2.2
