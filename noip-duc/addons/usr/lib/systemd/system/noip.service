@@ -1,0 +1,11 @@
+[Unit]
+Description=No-IP Dynamic DNS Update Client
+Requires=systemd-resolved.service
+After=systemd-resolved.service
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/noip2 -c /etc/no-ip2.conf
+
+[Install]
+WantedBy=multi-user.target
