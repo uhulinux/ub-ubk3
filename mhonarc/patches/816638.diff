@@ -1,0 +1,22 @@
+--- mhonarc-2.6.19.orig/lib/mhamain.pl
++++ mhonarc-2.6.19/lib/mhamain.pl
+@@ -1565,7 +1565,7 @@
+ ##
+ sub defineIndex2MsgId {
+     no warnings qw(deprecated);
+-    if (!defined(%Index2MsgId)) {
++    unless (%Index2MsgId) {
+ 	foreach (keys %MsgId) {
+ 	    $Index2MsgId{$MsgId{$_}} = $_;
+ 	}
+--- mhonarc-2.6.19.orig/lib/mhopt.pl
++++ mhonarc-2.6.19/lib/mhopt.pl
+@@ -865,7 +865,7 @@
+ sub update_data_2_1_to_later {
+     no warnings qw(deprecated);
+     # we can preserve filter arguments
+-    if (defined(%main::MIMEFiltersArgs)) {
++    if (%main::MIMEFiltersArgs) {
+ 	warn qq/         preserving MIMEARGS...\n/;
+ 	%readmail::MIMEFiltersArgs = %main::MIMEFiltersArgs;
+ 	$IsDefault{'MIMEARGS'} = 0;
