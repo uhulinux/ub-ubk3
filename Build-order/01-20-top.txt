@@ -26,7 +26,6 @@ dialog
 ed
 epson-printer-driver
 psmisc
-python3-markdown
 xdialog
 xdm
 yodl
@@ -34,7 +33,6 @@ fonts-unicode
 lndir
 makedepend
 mdadm
-python3-cherrypy
 python3-cxfreeze
 python-pycodestyle
 scsh
