@@ -1,3 +1,11 @@
 #!/bin/sh -eux
 
-ub_compile
+autoreconf -vif
+ub_compile \
+    --enable-pinentry-tty \
+    --enable-pinentry-curses \
+    --enable-fallback-curses \
+    --enable-pinentry-gtk2 \
+    --enable-pinentry-gnome3 \
+    --enable-pinentry-qt \
+    --enable-libsecret \
