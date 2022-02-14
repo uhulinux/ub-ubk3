@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-rapidsvn-${UB_VERSION}.tar.gz rapidsvn-${UB_VERSION}/
-	https://rapidsvn.org/download/release/${UB_VERSION}/
+${UB_VERSION}.tar.gz RapidSVN-3a564e0/
+	git://github.com/RapidSVN/RapidSVN.git@3a564e0

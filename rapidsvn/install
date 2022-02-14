@@ -1,3 +1,13 @@
 #!/bin/sh -eux
 
 ub_install
+
+# icon
+mkdir -p ${UB_INSTALLDIR}/usr/share/pixmaps
+cp librapidsvn/src/res/bitmaps/rapidsvn_128x128.png  ${UB_INSTALLDIR}/usr/share/pixmaps/rapidsvn.png
+
+# man
+cp doc/manpage/rapidsvn.1 ${UB_INSTALLDIR}/usr/share/man/man1/
+
+# Can't see any meaningful use for this
+rm -f ${UB_INSTALLDIR}/usr/lib/librapidsvn.so
