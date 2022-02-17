@@ -1,0 +1,12 @@
+diff -Nur orig/configure.ac mod/configure.ac
+--- orig/configure.ac	2022-02-17 16:42:15.000000000 +0100
++++ mod/configure.ac	2022-02-17 16:46:14.848159757 +0100
+@@ -217,7 +217,7 @@
+ # Make sure MSGFMT_OPTS is defined for all combinations of autoconf and glib.
+ MSGFMT_OPTS=
+ ALL_LINGUAS="ca cs da de es fr it ja ko nb nl pl pt ru sr sr@latin sv zh_CN zh_TW"
+-AM_GNU_GETTEXT_VERSION([0.21])
++AM_GNU_GETTEXT_VERSION([0.20])
+ AM_GNU_GETTEXT([external])
+ LIBS="$LIBS $INTLLIBS"
+ # The following might not work with some combinations of autoconf and glib due
