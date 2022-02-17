@@ -21,7 +21,6 @@ patchutils
 shc
 sparse
 lxlogo
-winpdb
 global
 gob2
 ltrace
