@@ -7,7 +7,8 @@ CONFIG_DIR=$lacdir
 mkdir -p $lacdir/bin $desktopdir $pixmapdir
 
 cp -r bin/{music,textures,sounds,models} $lacdir/
-cp bin/Release/Lac08p48 $lacdir/bin/Lac
+alver=$(echo $UB_VERSION | sed s/.*~//)
+cp bin/Release/Lac08p${alver} $lacdir/bin/Lac
 cp lac.png $pixmapdir/
 cp lac.desktop $desktopdir/
 cp LacControls*.txt $CONFIG_DIR/
