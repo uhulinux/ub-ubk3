@@ -1,0 +1,11 @@
+diff -Nur orig/bin/fvwm-crystal mod/bin/fvwm-crystal
+--- orig/bin/fvwm-crystal	2020-12-20 18:18:11.000000000 +0100
++++ mod/bin/fvwm-crystal	2022-02-20 19:11:59.000000000 +0100
+@@ -12,6 +12,7 @@
+ # Name of the configuration file
+ configname=config
+ 
++export FVWM_EXEC="/usr/bin/fvwm"
+ # We now have both fvwm and fvwm3. fvwm-crystal work with both of them.
+ # Use $FVWM_EXEC if set, fvwm3 if present, fvvwm otherwise:
+ if [ "x${FVWM_EXEC}" = "x" ]; then
