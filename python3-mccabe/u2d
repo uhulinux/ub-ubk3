@@ -1,1 +1,3 @@
-u2dpypi mccabe
+#u2dpypi mccabe
+#noupdate: pylint -nek sok a 0.7
+echo 0.6.1
