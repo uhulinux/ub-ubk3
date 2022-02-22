@@ -1,5 +1,5 @@
 python3-packaging
-python3-pip
+python3-pytest-runner
 python3-setuptools
 python3-setuptools-scm
 python3-tomli
