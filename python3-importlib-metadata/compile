@@ -1,3 +1,5 @@
 #!/bin/sh -eux
 
-python3 -m pyproject2setuppy.main build
+export SETUPTOOLS_SCM_PRETEND_VERSION=$UB_VERSION
+rm exercises.py
+python3 setup.py build
