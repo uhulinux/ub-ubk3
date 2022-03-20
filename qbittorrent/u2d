@@ -1,2 +1,2 @@
-#sflist qbittorrent qbittorrent | sed s/qbittorrent-//g | sort -V | tail -n 1
+sflist qbittorrent qbittorrent | sed s/qbittorrent-//g | sort -V | tail -n 1
 noupdate: A libtorrent-rasterbar verziója már kevés

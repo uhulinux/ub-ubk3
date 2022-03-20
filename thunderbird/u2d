@@ -1,2 +1,2 @@
-#urllist http://ftp.mozilla.org/pub/thunderbird/releases/ | grep -E '^[0-9.]+$' | sort -V | tail -n 1
+urllist http://ftp.mozilla.org/pub/thunderbird/releases/ | grep -E '^[0-9.]+$' | sort -V | tail -n 1
 noupdate: bináris van helyette

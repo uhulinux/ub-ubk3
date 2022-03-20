@@ -1,2 +1,2 @@
-#u2d http://download.blender.org/source/
+u2d http://download.blender.org/source/
 noupdate: FATAL_ERROR "At least Python 3.9 is required to build

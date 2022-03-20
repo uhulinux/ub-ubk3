@@ -1,2 +1,2 @@
-# sflist guvcview source | splitver '^guvcview-src-([0-9.]+).tar.(gz|bz2|xz)$' | sort -V | tail -n 1
+sflist guvcview source | splitver '^guvcview-src-([0-9.]+).tar.(gz|bz2|xz)$' | sort -V | tail -n 1
 noupdate: ffmpeg-4.2 kevés: fatal error: libavcodec/packet.h: Nincs ilyen fájl vagy könyvtár

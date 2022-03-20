@@ -1,2 +1,2 @@
-#urllist https://gitlab.freedesktop.org/upower/upower/-/tags/ | grep tar | sed s/.*UPOWER_/upower-/ | sed s/_/./g | parsever | sort -V | tail -n1
+urllist https://gitlab.freedesktop.org/upower/upower/-/tags/ | grep tar | sed s/.*UPOWER_/upower-/ | sed s/_/./g | parsever | sort -V | tail -n1
 noupdate: A systemd verziója már nagyobb kellene, mint 233

@@ -1,2 +1,2 @@
-#u2d ftp://ftp.alsa-project.org/pub/plugins/
-noupdate: als-lib 1.2.5 kellene
+u2d ftp://ftp.alsa-project.org/pub/plugins/
+noupdate: alsa-lib 1.2.5 kellene
