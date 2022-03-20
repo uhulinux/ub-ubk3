@@ -1,2 +1,2 @@
-#u2dpypi mccabe
-noupdate: pylint -nek sok a 0.7
+u2dpypi mccabe
+
