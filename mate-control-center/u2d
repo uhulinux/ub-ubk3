@@ -1,3 +1,2 @@
-#noupdate: 1.26-nak a gtk-3.24.11 kevés
-echo 1.25.2
+noupdate: 1.26-nak a gtk-3.24.11 kevés
 

@@ -1,3 +1,2 @@
 u2dpypi PyBluez
-#noupdate ez az utolsó python2 verzió
-echo 0.22
+noupdate ez az utolsó python2 verzió

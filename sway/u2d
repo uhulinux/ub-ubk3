@@ -1,3 +1,2 @@
 #u2d https://github.com/swaywm/sway/releases/
-# noupdate: wlroots verzó már kevés
-echo 1.4
+noupdate: wlroots verzó már kevés

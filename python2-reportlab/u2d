@@ -1,3 +1,2 @@
 # u2dpypi reportlab
-#noupdate: ez az utolsó python2 verzi
-echo 3.5.34
+noupdate: ez az utolsó python2 verzi

@@ -1,3 +1,2 @@
 # u2dxfce apps xfce4-screenshooter 1
-#noupdate :checking for pango >= 1.44.0... found, but 1.43.0
-echo 1.9.8
+noupdate :checking for pango >= 1.44.0... found, but 1.43.0

@@ -1,3 +1,2 @@
 #u2d https://github.com/celluloid-player/celluloid/tags/ v
-#noupdate: a 0.22-nek gtk4 kellene
-echo 0.21
+noupdate: a 0.22-nek gtk4 kellene

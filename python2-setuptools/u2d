@@ -1,3 +1,2 @@
 # urllist https://github.com/pypa/setuptools/releases/
-#noupdate: a python2-nek vége
-echo 44.1.1
+noupdate: a python2-nek vége

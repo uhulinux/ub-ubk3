@@ -1,3 +1,2 @@
-echo 2.0~rc5
-# noupdate python2 cucc, nincs belőle release, de a python3 készülőben.
+noupdate python2 cucc, nincs belőle release, de a python3 készülőben.
 # https://github.com/sk1project/sk1-wx/issues/259#issuecomment-753418134

@@ -1,3 +1,2 @@
-echo 4.6.2.6
-# noupdate: red-alert -nek ez a jó
+noupdate: red-alert -nek ez a jó
 # u2d https://github.com/mono/mono/releases/ mono-

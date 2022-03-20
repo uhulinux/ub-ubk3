@@ -1,3 +1,2 @@
-echo "0.1002"
 # u2dcpan App::Docmake
-# noupdate: elég ez a verzió
+noupdate: elég ez a verzió

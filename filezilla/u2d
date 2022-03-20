@@ -1,3 +1,2 @@
 #urllist https://filezilla-project.org/download.php?show_all=1 | grep src.tar.bz2$ | sed s/.*Zilla_//g | sed s/_.*//g
-#noupdate: 'libfilezilla >= 0.34.0' kellene
-echo 3.55.1
+noupdate: 'libfilezilla >= 0.34.0' kellene

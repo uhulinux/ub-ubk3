@@ -1,3 +1,2 @@
-echo "2.0134"
 # u2dcpan XML::LibXML
-# noupdate: ez a verzió van
+noupdate: ez a verzió van

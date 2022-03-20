@@ -1,3 +1,2 @@
 #u2dpypi Pillow
-#noupdate: 6.2.2 az utolsó python2 verzió
-echo 6.2.2
+noupdate: 6.2.2 az utolsó python2 verzió

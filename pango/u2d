@@ -1,3 +1,2 @@
-echo "1.43.0"
 # u2dgnome pango 1
-# noupdate: gnome-3.34-hez elegendő
+noupdate: gnome-3.34-hez elegendő

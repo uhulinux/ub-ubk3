@@ -1,3 +1,2 @@
 #urllist http://ftp.mozilla.org/pub/seamonkey/releases/ | grep -E '^[0-9.]+$' | sort -V | tail -n 1
-# noupdate: bináris van helyette
-echo 2.53.1
+noupdate: bináris van helyette

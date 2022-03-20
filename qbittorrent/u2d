@@ -1,3 +1,2 @@
 #sflist qbittorrent qbittorrent | sed s/qbittorrent-//g | sort -V | tail -n 1
-#noupdate: A libtorrent-rasterbar verziója már kevés
-echo 4.2.1
+noupdate: A libtorrent-rasterbar verziója már kevés

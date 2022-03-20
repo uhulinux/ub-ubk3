@@ -1,2 +1,1 @@
-echo 2~beta
-# noupdate: nem karbantartott
+noupdate: nem karbantartott

@@ -1,3 +1,2 @@
 #u2d https://github.com/OpenRA/OpenRA/releases/ release-
-#noupdate: nagyobb verzióhoz a mono verziója kevés.
-echo 20190314
+noupdate: nagyobb verzióhoz a mono verziója kevés.

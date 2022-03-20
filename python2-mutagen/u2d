@@ -1,3 +1,2 @@
 #u2d https://github.com/quodlibet/mutagen/tags/ release-
-#noupdate: ez az utolsó python2 verzió
-echo 1.43.1
+noupdate: ez az utolsó python2 verzió

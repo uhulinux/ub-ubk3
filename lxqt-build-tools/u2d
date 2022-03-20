@@ -1,3 +1,2 @@
 # u2d https://github.com/lxqt/lxqt-build-tools/tags
 noupdate: qt5-5.15.0 kellene
-echo 0.9.0

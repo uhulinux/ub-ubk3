@@ -1,2 +1,1 @@
-echo 1.16.2
-# noupdate: A  verzió a gst-plugins-base -hoz rögzítve
+noupdate: A  verzió a gst-plugins-base -hoz rögzítve

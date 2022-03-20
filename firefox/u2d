@@ -1,3 +1,2 @@
 #urllist http://ftp.mozilla.org/pub/firefox/releases/ | grep -E '^[0-9.]+$' | sort -V | tail -n 1
-# noupdate: bináris van helyette
-echo 79.0
+noupdate: bináris van helyette
