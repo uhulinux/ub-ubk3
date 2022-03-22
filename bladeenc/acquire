@@ -1,4 +1,0 @@
-#!/usr/bin/env dl
-
-bladeenc-${UB_VERSION}.tar.gz bladeenc-a2d06ec/
-	git://github.com/meyskens/bladeenc.git@a2d06ec

@@ -6,7 +6,6 @@ audacious
 waylandpp
 kodi
 pykaraoke
-bladeenc
 fmtools
 tuxguitar
 devede
