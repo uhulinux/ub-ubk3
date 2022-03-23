@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-f2c-${UB_VERSION}.tar.gz f2c-d01fe07/
-	git://github.com/juanjosegarciaripoll/f2c.git@d01fe07
+f2c_${UB_VERSION}.orig.tar.xz f2c-${UB_VERSION}/
+	http://ftp.debian.org/debian/pool/main/f/f2c/
