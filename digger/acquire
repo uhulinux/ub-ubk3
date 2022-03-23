@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 digger-${UB_VERSION}.tar.gz digger-952b39a/
-	git://github.com/sobomax/digger.git@952b39a
+	git+https://github.com/sobomax/digger.git@952b39a
