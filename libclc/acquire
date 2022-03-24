@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 libclc-${UB_VERSION}.tar.gz libclc-9f6204e/
-	git://github.com/llvm-mirror/libclc.git@9f6204e
+	git+https://github.com/llvm-mirror/libclc.git@9f6204e
