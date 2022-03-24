@@ -1,1 +1,0 @@
-curl -k -s https://raw.githubusercontent.com/jwilk/hungrycat/master/configure.ac | grep AC_INIT | sed 's/.*cat\], \[//' | sed s/\].*//

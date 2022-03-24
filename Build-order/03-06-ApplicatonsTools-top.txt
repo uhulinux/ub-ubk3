@@ -63,7 +63,6 @@ toilet
 dateutils
 lrzip
 msort
-hungrycat
 pdf417-enc
 ifuse
 xbindkeys

@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 foomatic-db-engine.tar.gz foomatic-db-engine-068c923/
-    git://github.com/OpenPrinting/foomatic-db-engine@068c923
+    git+https://github.com/OpenPrinting/foomatic-db-engine@068c923

@@ -1,4 +1,0 @@
-#!/usr/bin/env dl
-
-hungrycat-${UB_VERSION}.tar.gz hungrycat-0f4981c/
-	git://github.com/jwilk/hungrycat.git@0f4981c
