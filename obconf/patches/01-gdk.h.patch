@@ -1,0 +1,24 @@
+From 96cca6d2148789e9a79016e56ed8c08cd00313f9 Mon Sep 17 00:00:00 2001
+From: Dana Jansens <danakj@orodu.net>
+Date: Sat, 17 Aug 2013 20:55:27 -0400
+Subject: [PATCH] Include gdk.h from preview.h instead of gdkpixbuf.h
+
+The pixbuf stuff comes with it, and including gdkpixbuf.h directly
+is illegal in newer gdk/gtk versions.
+---
+ src/preview.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/preview.h b/src/preview.h
+index 772984b..801fc6f 100644
+--- a/src/preview.h
++++ b/src/preview.h
+@@ -22,7 +22,7 @@
+ #include <glib.h>
+ 
+ #include <obrender/font.h>
+-#include <gdk/gdkpixbuf.h>
++#include <gdk/gdk.h>
+ 
+ GdkPixbuf *preview_theme(const gchar *name, const gchar *titlelayout,
+                          RrFont *active_window_font,

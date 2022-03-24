@@ -1,0 +1,38 @@
+From 85e3e6ef442416c8a598295bcbe18b5b6473ecc3 Mon Sep 17 00:00:00 2001
+From: Dana Jansens <danakj@orodu.net>
+Date: Sun, 8 Sep 2013 12:18:55 -0400
+Subject: [PATCH] Change the GLADEDIR define to RESOURCEDIR
+
+And point the variable at the right directory so it can find
+the .ui file.
+---
+ Makefile.am | 2 +-
+ src/main.c  | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile.am b/Makefile.am
+index 61c3805..950486f 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -23,7 +23,7 @@ src_obconf_CPPFLAGS = \
+ 	$(XML_CFLAGS) \
+ 	-DLOCALEDIR=\"$(localedir)\" \
+ 	-DPIXMAPDIR=\"$(pixmapdir)\" \
+-	-DGLADEDIR=\"$(gladedir)\" \
++	-DRESOURCEDIR=\"$(resourcedir)\" \
+ 	-DTHEMEDIR=\"$(themedir)\" \
+ 	-DG_LOG_DOMAIN=\"Obconf\"
+ src_obconf_LDADD = \
+diff --git a/src/main.c b/src/main.c
+index ff11ef9..2cbbbd6 100644
+--- a/src/main.c
++++ b/src/main.c
+@@ -218,7 +218,7 @@ int main(int argc, char **argv)
+         return 0;
+     }
+ 
+-    p = g_build_filename(GLADEDIR, "obconf.ui", NULL);
++    p = g_build_filename(RESOURCEDIR, "obconf.ui", NULL);
+     builder = gtk_builder_new();
+     gtk_builder_add_from_file(builder, p, &error);
+     g_free(p);

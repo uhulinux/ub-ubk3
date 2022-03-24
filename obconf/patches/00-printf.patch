@@ -1,0 +1,25 @@
+From dfd6b0c1130b6138fa182eccecbfd65998e6c90b Mon Sep 17 00:00:00 2001
+From: Dana Jansens <danakj@orodu.net>
+Date: Sat, 17 Aug 2013 20:54:32 -0400
+Subject: [PATCH] Remove debug printf from preview.c
+
+---
+ src/preview.c | 5 -----
+ 1 file changed, 5 deletions(-)
+
+diff --git a/src/preview.c b/src/preview.c
+index d4bfe17..36fc94a 100644
+--- a/src/preview.c
++++ b/src/preview.c
+@@ -203,11 +203,6 @@ static GdkPixbuf* preview_menu(RrTheme *theme)
+     background->surface.parent = menu;
+     background->surface.parentx = x - theme->mbwidth;
+     background->surface.parenty = y - theme->mbwidth;
+-    if (strcmp("SlickBox", theme->name) == 0)
+-        printf("y %d parenty %d bh %d height %d menuheight %d parentbottom %d\n",
+-               y, background->surface.parenty, bh, height,
+-               height - 3*theme->mbwidth,
+-               background->surface.parenty + bh);
+ 
+     theme_pixmap_paint(background, bw, bh);
+     pixmap = gdk_pixmap_foreign_new(background->pixmap);
