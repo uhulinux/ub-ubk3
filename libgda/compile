@@ -4,4 +4,5 @@ ub_compile \
 	--enable-binreloc \
 	--enable-system-sqlite \
 	--without-java \
-	--without-ui
+	--without-ui \
+	--with-mdb=no
