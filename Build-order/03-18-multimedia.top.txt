@@ -61,6 +61,5 @@ lives
 blender
 transcode
 qmmp
-dmcradio
 celluloid
 hydrogen

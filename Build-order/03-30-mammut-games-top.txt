@@ -21,7 +21,6 @@ simutrans-pak128
 libfmt
 0ad
 dangerdeep
-dark-oberon
 gnustep-make
 gnustep-base
 oolite
