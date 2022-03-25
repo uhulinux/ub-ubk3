@@ -1,0 +1,1086 @@
+From d0b43a042f3f435ef319dd0561d0a6d91b215875 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?G=C3=A1bor=20Kelemen?= <kelemeng@openscope.org>
+Date: Wed, 19 Oct 2016 03:22:52 +0000
+Subject: [PATCH] Update Hungarian translation
+
+---
+ po/hu.po | 431 ++++++++++++++++++++++++++++---------------------------
+ 1 file changed, 218 insertions(+), 213 deletions(-)
+
+diff --git a/po/hu.po b/po/hu.po
+index 6d68b0b8..6263b3ff 100644
+--- a/po/hu.po
++++ b/po/hu.po
+@@ -4,139 +4,144 @@
+ #
+ # Péter Mátó <atya at andrews dot hu>, 2003.
+ # Andras Timar <timar at gnome dot hu>, 2003.
+-# Gabor Kelemen <kelemeng at gnome dot hu>, 2005, 2007, 2008, 2009, 2010, 2011.
++# Gabor Kelemen <kelemeng at gnome dot hu>, 2005, 2007, 2008, 2009, 2010, 2011, 2016.
+ # Mate Ory <orymate at gmail dot com>, 2008.
+ # Balázs Úr <urbalazs at gmail dot com>, 2014.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: seahorse master\n"
+ "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+-"product=libcryptui&keywords=I18N+L10N&component=general\n"
+-"POT-Creation-Date: 2013-12-19 14:33+0000\n"
+-"PO-Revision-Date: 2014-09-21 13:34+0200\n"
+-"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+-"Language-Team: Hungarian <gnome at fsf dot hu>\n"
+-"Language: \n"
++"product=seahorse&keywords=I18N+L10N&component=libcryptui\n"
++"POT-Creation-Date: 2016-10-18 09:30+0000\n"
++"PO-Revision-Date: 2016-10-19 05:22+0200\n"
++"Last-Translator: Gabor Kelemen <kelemeng at ubuntu dot com>\n"
++"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
++"Language: hu\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: Lokalize 1.2\n"
++"X-Generator: Lokalize 1.5\n"
+ "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+ 
+-#: ../daemon/seahorse-daemon.c:53
++#: ../daemon/seahorse-daemon.c:50
+ msgid "Do not run seahorse-daemon as a daemon"
+ msgstr "Ne futtassa démonként a seahorse-daemont"
+ 
+-#: ../daemon/seahorse-daemon.c:83
++#: ../daemon/seahorse-daemon.c:80
+ msgid "couldn't fork process"
+ msgstr "nem sikerült folyamatot indítani"
+ 
+-#: ../daemon/seahorse-daemon.c:89
++#: ../daemon/seahorse-daemon.c:86
+ msgid "couldn't create new process group"
+ msgstr "nem sikerült új folyamatcsoportot létrehozni"
+ 
+-#: ../daemon/seahorse-daemon.c:237
++#: ../daemon/seahorse-daemon.c:234
+ msgid "Encryption Daemon (Seahorse)"
+ msgstr "Titkosítási démon (Seahorse)"
+ 
+-#: ../daemon/seahorse-notification.c:576 ../daemon/seahorse-notification.c:604
++#: ../daemon/seahorse-notification.c:573 ../daemon/seahorse-notification.c:601
+ msgid "Key Imported"
+ msgid_plural "Keys Imported"
+ msgstr[0] "Kulcs importálva"
+ msgstr[1] "Kulcs importálva"
+ 
+-#: ../daemon/seahorse-notification.c:580 ../daemon/seahorse-notification.c:603
++#: ../daemon/seahorse-notification.c:577 ../daemon/seahorse-notification.c:600
+ #, c-format
+ msgid "Imported %i key"
+ msgid_plural "Imported %i keys"
+ msgstr[0] "%i kulcs importálva"
+ msgstr[1] "%i kulcs importálva"
+ 
+-#: ../daemon/seahorse-notification.c:582
++#: ../daemon/seahorse-notification.c:579
+ #, c-format
+ msgid "Imported a key for"
+ msgid_plural "Imported keys for"
+ msgstr[0] "Kulcs importálva:"
+ msgstr[1] "Kulcsok importálva:"
+ 
+-#: ../daemon/seahorse-gpgme.c:72
++#: ../daemon/seahorse-gpgme.c:70
+ msgid "Decryption failed. You probably do not have the decryption key."
+ msgstr ""
+ "A visszafejtés meghiúsult. Valószínűleg nem rendelkezik a visszafejtési "
+ "kulccsal."
+ 
+-#: ../daemon/seahorse-gpgme-generate.c:62
++#: ../daemon/seahorse-gpgme-generate.c:59
+ msgid "RSA"
+ msgstr "RSA"
+ 
+-#: ../daemon/seahorse-gpgme-generate.c:63
++#: ../daemon/seahorse-gpgme-generate.c:60
+ msgid "DSA Elgamal"
+ msgstr "DSA Elgamal"
+ 
+-#: ../daemon/seahorse-gpgme-generate.c:64
++#: ../daemon/seahorse-gpgme-generate.c:61
+ msgid "DSA (sign only)"
+ msgstr "DSA (csak aláírásra)"
+ 
+-#: ../daemon/seahorse-gpgme-generate.c:65
++#: ../daemon/seahorse-gpgme-generate.c:62
+ msgid "RSA (sign only)"
+ msgstr "RSA (csak aláíráshoz)"
+ 
+-#: ../daemon/seahorse-gpgme-generate.c:81
+-msgid "Couldn't generate PGP key"
++#: ../daemon/seahorse-gpgme-generate.c:78
++#| msgid "Couldn't generate PGP key"
++msgid "Couldn’t generate PGP key"
+ msgstr "Nem sikerült a PGP kulcs előállítása"
+ 
+-#: ../daemon/seahorse-gpgme-generate.c:141
++#: ../daemon/seahorse-gpgme-generate.c:138
+ msgid "Passphrase for New PGP Key"
+ msgstr "Új PGP kulcs jelmondata"
+ 
+-#: ../daemon/seahorse-gpgme-generate.c:142
++#: ../daemon/seahorse-gpgme-generate.c:139
+ msgid "Enter the passphrase for your new key twice."
+ msgstr "Írja be kétszer az új kulcs jelmondatát."
+ 
+-#: ../daemon/seahorse-gpgme-generate.c:151
+-msgid "Couldn't generate key"
++#: ../daemon/seahorse-gpgme-generate.c:148
++#| msgid "Couldn't generate key"
++msgid "Couldn’t generate key"
+ msgstr "Nem sikerült a kulcs előállítása"
+ 
+-#: ../daemon/seahorse-gpgme-generate.c:153
++#: ../daemon/seahorse-gpgme-generate.c:150
+ msgid "Generating key"
+ msgstr "Kulcs előállítása"
+ 
+-#: ../daemon/seahorse-gpgme-source.c:98
++#: ../daemon/seahorse-gpgme-source.c:95
+ #, c-format
+ msgid "Wrong passphrase."
+ msgstr "Rossz jelmondat."
+ 
+-#: ../daemon/seahorse-gpgme-source.c:102
++#: ../daemon/seahorse-gpgme-source.c:99
+ #, c-format
+-msgid "Enter new passphrase for '%s'"
+-msgstr "Írja be az új jelmondatot %s számára"
++#| msgid "Enter new passphrase for '%s'"
++msgid "Enter new passphrase for “%s”"
++msgstr "Írja be az új jelmondatot „%s” számára"
+ 
+-#: ../daemon/seahorse-gpgme-source.c:104
++#: ../daemon/seahorse-gpgme-source.c:101
+ #, c-format
+-msgid "Enter passphrase for '%s'"
+-msgstr "Írja be a jelmondatot %s számára"
++#| msgid "Enter passphrase for '%s'"
++msgid "Enter passphrase for “%s”"
++msgstr "Írja be a jelmondatot „%s” számára"
+ 
+-#: ../daemon/seahorse-gpgme-source.c:107
++#: ../daemon/seahorse-gpgme-source.c:104
+ msgid "Enter new passphrase"
+ msgstr "Írja be az új jelmondatot"
+ 
+-#: ../daemon/seahorse-gpgme-source.c:109
++#: ../daemon/seahorse-gpgme-source.c:106
+ msgid "Enter passphrase"
+ msgstr "Írja be a jelmondatot"
+ 
+ #. TODO: We can use the GPGME progress to make this more accurate
+-#: ../daemon/seahorse-gpgme-source.c:712
++#: ../daemon/seahorse-gpgme-source.c:709
+ #, c-format
+ msgid "Loaded %d key"
+ msgid_plural "Loaded %d keys"
+ msgstr[0] "Betöltve %d kulcs"
+ msgstr[1] "Betöltve %d kulcs"
+ 
+-#: ../daemon/seahorse-gpgme-source.c:765
+-msgid "Loading Keys..."
++#: ../daemon/seahorse-gpgme-source.c:762
++#| msgid "Loading Keys..."
++msgid "Loading Keys…"
+ msgstr "Kulcsok betöltése…"
+ 
+-#: ../daemon/seahorse-gpgme-source.c:808
++#: ../daemon/seahorse-gpgme-source.c:805
+ msgid ""
+ "Invalid key data (missing UIDs). This may be due to a computer with a date "
+ "set in the future or a missing self-signature."
+@@ -144,19 +149,19 @@ msgstr ""
+ "Érvénytelen kulcsadatok (hiányzó felhasználói azonosítók). Ezt egy jövőbe "
+ "állított dátumú számítógép vagy hiányzó önaláírás okozhatja."
+ 
+-#: ../daemon/seahorse-gpgme-source.c:898
++#: ../daemon/seahorse-gpgme-source.c:895
+ msgid "Importing Keys"
+ msgstr "Kulcsok importálása"
+ 
+-#: ../daemon/seahorse-gpgme-source.c:931
++#: ../daemon/seahorse-gpgme-source.c:928
+ msgid "Exporting Keys"
+ msgstr "Kulcsok exportálása"
+ 
+-#: ../daemon/seahorse-gpgme-subkey.c:197 ../daemon/seahorse-validity.c:40
++#: ../daemon/seahorse-gpgme-subkey.c:194 ../daemon/seahorse-validity.c:37
+ msgid "Unknown"
+ msgstr "Ismeretlen"
+ 
+-#: ../daemon/seahorse-gpgme-subkey.c:199
++#: ../daemon/seahorse-gpgme-subkey.c:196
+ msgid "ElGamal"
+ msgstr "ElGamal"
+ 
+@@ -164,19 +169,19 @@ msgstr "ElGamal"
+ msgid "Notification Messages"
+ msgstr "Értesítési üzenetek"
+ 
+-#: ../daemon/seahorse-object.c:317
++#: ../daemon/seahorse-object.c:315
+ msgid "Symmetric Key"
+ msgstr "Szimmetrikus kulcs"
+ 
+-#: ../daemon/seahorse-object.c:320
++#: ../daemon/seahorse-object.c:318
+ msgid "Public Key"
+ msgstr "Nyilvános kulcs"
+ 
+-#: ../daemon/seahorse-object.c:323
++#: ../daemon/seahorse-object.c:321
+ msgid "Private Key"
+ msgstr "Magánkulcs"
+ 
+-#: ../daemon/seahorse-object.c:326
++#: ../daemon/seahorse-object.c:324
+ msgid "Credentials"
+ msgstr "Hitelesítési adatok"
+ 
+@@ -184,20 +189,20 @@ msgstr "Hitelesítési adatok"
+ #. * Translators: "This object is a means of storing items such as
+ #. * name, email address, etc. that make up one's digital identity.
+ #.
+-#: ../daemon/seahorse-object.c:333
++#: ../daemon/seahorse-object.c:331
+ msgid "Identity"
+ msgstr "Személyazonosság"
+ 
+-#: ../daemon/seahorse-passphrase.c:196
++#: ../daemon/seahorse-passphrase.c:193
+ msgid "Passphrase"
+ msgstr "Jelmondat"
+ 
+-#: ../daemon/seahorse-passphrase.c:199
++#: ../daemon/seahorse-passphrase.c:196
+ msgid "Password:"
+ msgstr "Jelszó:"
+ 
+ #. The second and main entry
+-#: ../daemon/seahorse-passphrase.c:263
++#: ../daemon/seahorse-passphrase.c:260
+ msgid "Confirm:"
+ msgstr "Megerősítés:"
+ 
+@@ -254,23 +259,23 @@ msgstr "Új kulcs előállítása"
+ msgid "C_reate"
+ msgstr "_Létrehozás"
+ 
+-#: ../daemon/seahorse-pgp-key.c:179
++#: ../daemon/seahorse-pgp-key.c:176
+ msgid "Private PGP Key"
+ msgstr "Titkos PGP kulcs"
+ 
+-#: ../daemon/seahorse-pgp-key.c:182
++#: ../daemon/seahorse-pgp-key.c:179
+ msgid "Public PGP Key"
+ msgstr "Nyilvános PGP kulcs"
+ 
+-#: ../daemon/seahorse-pgp-key.c:527
++#: ../daemon/seahorse-pgp-key.c:524
+ msgid "Expired"
+ msgstr "Lejárt"
+ 
+-#: ../daemon/seahorse-pgp-subkey.c:366
++#: ../daemon/seahorse-pgp-subkey.c:363
+ msgid "Key"
+ msgstr "Kulcs"
+ 
+-#: ../daemon/seahorse-pgp-subkey.c:371
++#: ../daemon/seahorse-pgp-subkey.c:368
+ #, c-format
+ msgid "Subkey %d of %s"
+ msgstr "%2$s %1$d részkulcsa"
+@@ -279,192 +284,195 @@ msgstr "%2$s %1$d részkulcsa"
+ msgid "Progress Title"
+ msgstr "Folyamat címe"
+ 
+-#: ../daemon/seahorse-service.c:161 ../daemon/seahorse-service.c:267
++#: ../daemon/seahorse-service.c:158 ../daemon/seahorse-service.c:264
+ #, c-format
+ msgid "Invalid or unrecognized key type: %s"
+ msgstr "Érvénytelen vagy ismeretlen kulcstípus: %s"
+ 
+-#: ../daemon/seahorse-service.c:229
++#: ../daemon/seahorse-service.c:226
+ #, c-format
+ msgid "This keytype is not supported: %s"
+ msgstr "Ez a kulcstípus nem támogatott: %s"
+ 
+-#: ../daemon/seahorse-service.c:331 ../daemon/seahorse-service-keyset.c:180
+-#: ../daemon/seahorse-service-keyset.c:223
++#: ../daemon/seahorse-service.c:328 ../daemon/seahorse-service-keyset.c:177
++#: ../daemon/seahorse-service-keyset.c:220
+ #, c-format
+ msgid "Invalid or unrecognized key: %s"
+ msgstr "Érvénytelen vagy ismeretlen kulcs: %s"
+ 
+ #. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+-#: ../daemon/seahorse-service-crypto.c:204
++#: ../daemon/seahorse-service-crypto.c:201
+ #, c-format
+ msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+ msgstr "Aláírva <i><key id='%s'/> által, <b>lejárt</b></i> ekkor: %s."
+ 
+-#: ../daemon/seahorse-service-crypto.c:205
++#: ../daemon/seahorse-service-crypto.c:202
+ msgid "Invalid Signature"
+ msgstr "Érvénytelen aláírás"
+ 
+-#: ../daemon/seahorse-service-crypto.c:211
++#: ../daemon/seahorse-service-crypto.c:208
+ #, c-format
+ msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+ msgstr "Aláírva <i><key id='%s'/></i> által ekkor: %s, <b>lejárt</b>."
+ 
+-#: ../daemon/seahorse-service-crypto.c:212
++#: ../daemon/seahorse-service-crypto.c:209
+ msgid "Expired Signature"
+ msgstr "Lejárt aláírás"
+ 
+-#: ../daemon/seahorse-service-crypto.c:218
++#: ../daemon/seahorse-service-crypto.c:215
+ #, c-format
+ msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+ msgstr "Aláírva <i><key id='%s'/> által, <b>visszavonva</b></i> ekkor: %s."
+ 
+-#: ../daemon/seahorse-service-crypto.c:219
++#: ../daemon/seahorse-service-crypto.c:216
+ msgid "Revoked Signature"
+ msgstr "Visszavont aláírás"
+ 
+ #. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+-#: ../daemon/seahorse-service-crypto.c:225
++#: ../daemon/seahorse-service-crypto.c:222
+ #, c-format
+ msgid "Signed by <i><key id='%s'/></i> on %s."
+ msgstr "Aláírva <i><key id='%s'/></i> által ekkor: %s."
+ 
+-#: ../daemon/seahorse-service-crypto.c:226
++#: ../daemon/seahorse-service-crypto.c:223
+ msgid "Good Signature"
+ msgstr "Jó aláírás"
+ 
+-#: ../daemon/seahorse-service-crypto.c:231
++#: ../daemon/seahorse-service-crypto.c:228
+ msgid "Signing key not in keyring."
+ msgstr "Az aláíró kulcs nincs a kulcstartón."
+ 
+-#: ../daemon/seahorse-service-crypto.c:232
++#: ../daemon/seahorse-service-crypto.c:229
+ msgid "Unknown Signature"
+ msgstr "Ismeretlen aláírás"
+ 
+-#: ../daemon/seahorse-service-crypto.c:236
++#: ../daemon/seahorse-service-crypto.c:233
+ msgid "Bad or forged signature. The signed data was modified."
+ msgstr "Rossz vagy hamisított aláírás. Az aláírt adatok módosultak."
+ 
+-#: ../daemon/seahorse-service-crypto.c:237
++#: ../daemon/seahorse-service-crypto.c:234
+ msgid "Bad Signature"
+ msgstr "Rossz aláírás"
+ 
+-#: ../daemon/seahorse-service-crypto.c:245
+-msgid "Couldn't verify signature."
++#: ../daemon/seahorse-service-crypto.c:242
++#| msgid "Couldn't verify signature."
++msgid "Couldn’t verify signature."
+ msgstr "Nem ellenőrizhető az aláírás."
+ 
+-#: ../daemon/seahorse-service-crypto.c:317
++#: ../daemon/seahorse-service-crypto.c:314
+ #, c-format
+ msgid "Recipients specified for symmetric encryption"
+ msgstr "Szimmetrikus titkosításhoz megadott címzettek"
+ 
+-#: ../daemon/seahorse-service-crypto.c:326
+-#: ../daemon/seahorse-service-crypto.c:673
++#: ../daemon/seahorse-service-crypto.c:323
++#: ../daemon/seahorse-service-crypto.c:670
+ #, c-format
+ msgid "Invalid or unrecognized signer: %s"
+ msgstr "Érvénytelen vagy ismeretlen aláíró: %s"
+ 
+-#: ../daemon/seahorse-service-crypto.c:333
+-#: ../daemon/seahorse-service-crypto.c:680
++#: ../daemon/seahorse-service-crypto.c:330
++#: ../daemon/seahorse-service-crypto.c:677
+ #, c-format
+ msgid "Key is not valid for signing: %s"
+ msgstr "A kulcs nem érvényes aláíráshoz: %s"
+ 
+-#: ../daemon/seahorse-service-crypto.c:346
++#: ../daemon/seahorse-service-crypto.c:343
+ #, c-format
+ msgid "Invalid or unrecognized recipient: %s"
+ msgstr "Érvénytelen vagy ismeretlen címzett: %s"
+ 
+-#: ../daemon/seahorse-service-crypto.c:354
++#: ../daemon/seahorse-service-crypto.c:351
+ #, c-format
+ msgid "Key is not a valid recipient for encryption: %s"
+ msgstr "A kulcs nem érvényes címzett titkosításhoz: %s"
+ 
+-#: ../daemon/seahorse-service-crypto.c:363
++#: ../daemon/seahorse-service-crypto.c:360
+ #, c-format
+ msgid "No recipients specified"
+ msgstr "Nincsenek címzettek megadva"
+ 
+-#: ../daemon/seahorse-service-crypto.c:460
++#: ../daemon/seahorse-service-crypto.c:457
+ #, c-format
+ msgid "Invalid key type for decryption: %s"
+ msgstr "A kulcstípus érvénytelen a visszafejtéshez: %s"
+ 
+-#: ../daemon/seahorse-service-crypto.c:575
+-#: ../daemon/seahorse-service-crypto.c:773
++#: ../daemon/seahorse-service-crypto.c:572
++#: ../daemon/seahorse-service-crypto.c:770
+ #, c-format
+ msgid "Please set clearuri"
+ msgstr "Adja meg a clearuri-t"
+ 
+-#: ../daemon/seahorse-service-crypto.c:581
+-#: ../daemon/seahorse-service-crypto.c:779
++#: ../daemon/seahorse-service-crypto.c:578
++#: ../daemon/seahorse-service-crypto.c:776
+ #, c-format
+ msgid "Please set crypturi"
+ msgstr "Adja meg a crypturi-t"
+ 
+-#: ../daemon/seahorse-service-crypto.c:591
++#: ../daemon/seahorse-service-crypto.c:588
+ #, c-format
+ msgid "Error opening clearuri"
+ msgstr "Hiba a clearuri megnyitásakor"
+ 
+-#: ../daemon/seahorse-service-crypto.c:668
++#: ../daemon/seahorse-service-crypto.c:665
+ #, c-format
+ msgid "No signer specified"
+ msgstr "Nincs aláíró megadva"
+ 
+-#: ../daemon/seahorse-service-crypto.c:857
++#: ../daemon/seahorse-service-crypto.c:854
+ #, c-format
+ msgid "Invalid key type for verifying: %s"
+ msgstr "A kulcstípus érvénytelen az ellenőrzéshez: %s"
+ 
+-#: ../daemon/seahorse-service-keyset.c:273
++#: ../daemon/seahorse-service-keyset.c:270
+ #, c-format
+ msgid "Invalid key id: %s"
+ msgstr "Érvénytelen kulcsazonosító: %s"
+ 
+-#: ../daemon/seahorse-unknown.c:58
++#: ../daemon/seahorse-unknown.c:55
+ msgid "Unavailable"
+ msgstr "Nem érhető el"
+ 
+-#: ../daemon/seahorse-util.c:231
++#: ../daemon/seahorse-util.c:228
+ msgid "%Y-%m-%d"
+ msgstr "%Y. %m. %d"
+ 
+-#: ../daemon/seahorse-util.c:510
++#: ../daemon/seahorse-util.c:507
+ msgid "Key Data"
+ msgstr "Kulcsadatok"
+ 
+-#: ../daemon/seahorse-util.c:512
++#: ../daemon/seahorse-util.c:509
+ msgid "Multiple Keys"
+ msgstr "Többszörös kulcsok"
+ 
+-#: ../daemon/seahorse-util.c:768
+-msgid "Couldn't run file-roller"
++#: ../daemon/seahorse-util.c:765
++#| msgid "Couldn't run file-roller"
++msgid "Couldn’t run file-roller"
+ msgstr "Nem sikerült futtatni a file-rollert"
+ 
+-#: ../daemon/seahorse-util.c:774
+-msgid "Couldn't package files"
++#: ../daemon/seahorse-util.c:771
++#| msgid "Couldn't package files"
++msgid "Couldn’t package files"
+ msgstr "Nem sikerült csomagolni a fájlokat"
+ 
+-#: ../daemon/seahorse-util.c:775
++#: ../daemon/seahorse-util.c:772
+ msgid "The file-roller process did not complete successfully"
+ msgstr "A file-roller folyamat sikertelenül fejeződött be"
+ 
+ #. Filter for PGP keys. We also include *.asc, as in many
+ #. cases that extension is associated with text/plain
+-#: ../daemon/seahorse-util.c:944
++#: ../daemon/seahorse-util.c:941
+ msgid "All key files"
+ msgstr "Minden kulcsfájl"
+ 
+-#: ../daemon/seahorse-util.c:951 ../daemon/seahorse-util.c:999
++#: ../daemon/seahorse-util.c:948 ../daemon/seahorse-util.c:996
+ msgid "All files"
+ msgstr "Minden fájl"
+ 
+-#: ../daemon/seahorse-util.c:992
++#: ../daemon/seahorse-util.c:989
+ msgid "Archive files"
+ msgstr "Archív fájlok"
+ 
+-#: ../daemon/seahorse-util.c:1062
++#: ../daemon/seahorse-util.c:1059
+ msgid ""
+ "<b>A file already exists with this name.</b>\n"
+ "\n"
+@@ -474,41 +482,41 @@ msgstr ""
+ "\n"
+ "Le akarja cserélni az új fájllal?"
+ 
+-#: ../daemon/seahorse-util.c:1065
++#: ../daemon/seahorse-util.c:1062
+ msgid "_Replace"
+ msgstr "_Csere"
+ 
+-#: ../daemon/seahorse-validity.c:42
++#: ../daemon/seahorse-validity.c:39
+ msgctxt "Validity"
+ msgid "Never"
+ msgstr "Soha"
+ 
+-#: ../daemon/seahorse-validity.c:44
++#: ../daemon/seahorse-validity.c:41
+ msgid "Marginal"
+ msgstr "Kismértékben"
+ 
+-#: ../daemon/seahorse-validity.c:46
++#: ../daemon/seahorse-validity.c:43
+ msgid "Full"
+ msgstr "Teljesen"
+ 
+-#: ../daemon/seahorse-validity.c:48
++#: ../daemon/seahorse-validity.c:45
+ msgid "Ultimate"
+ msgstr "Tökéletesen"
+ 
+-#: ../daemon/seahorse-validity.c:50
++#: ../daemon/seahorse-validity.c:47
+ msgid "Disabled"
+ msgstr "Tiltva"
+ 
+-#: ../daemon/seahorse-validity.c:52
++#: ../daemon/seahorse-validity.c:49
+ msgid "Revoked"
+ msgstr "Visszavonva"
+ 
+-#: ../daemon/seahorse-widget.c:433
++#: ../daemon/seahorse-widget.c:430
+ #, c-format
+ msgid "Could not display help: %s"
+ msgstr "Nem lehet megjeleníteni a súgót: %s"
+ 
+-#: ../libcryptui/cryptui.c:307
++#: ../libcryptui/cryptui.c:305
+ msgid ""
+ "No encryption keys were found with which to perform the operation you "
+ "requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+@@ -518,11 +526,7 @@ msgstr ""
+ "lehetne hajtani. Elindul a <b>Jelszavak és titkosítási kulcsok</b> program, "
+ "amellyel létrehozhat vagy importálhat egyet."
+ 
+-#: ../libcryptui/cryptui.c:333
+-#| msgid ""
+-#| "No encryption keys were found with which to perform the operation you "
+-#| "requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+-#| "started so that you may either create a key or import one."
++#: ../libcryptui/cryptui.c:331
+ msgid ""
+ "No encryption keys were found. In order to perform public key encryption, "
+ "the <b>Passwords and Encryption Keys</b> program can be started to create or "
+@@ -533,225 +537,224 @@ msgstr ""
+ "program egy nyilvános kulcs létrehozásához vagy importálásához. Lehetséges "
+ "továbbá egy megosztott jelmondat használata is helyette."
+ 
+-#: ../libcryptui/cryptui.c:336
+-#| msgid "Enter passphrase"
++#: ../libcryptui/cryptui.c:334
+ msgid "Use a shared passphrase"
+ msgstr "Megosztott jelmondat használata"
+ 
+-#: ../libcryptui/cryptui.c:337
+-#| msgid "Couldn't import keys"
++#: ../libcryptui/cryptui.c:335
+ msgid "Create or import a key"
+ msgstr "Kulcs létrehozása vagy importálása"
+ 
+-#: ../libcryptui/cryptui-key-chooser.c:177
++#: ../libcryptui/cryptui-key-chooser.c:175
+ msgid "All Keys"
+ msgstr "Minden kulcs"
+ 
+-#: ../libcryptui/cryptui-key-chooser.c:178
++#: ../libcryptui/cryptui-key-chooser.c:176
+ msgid "Selected Recipients"
+ msgstr "Kiválasztott címzettek"
+ 
+-#: ../libcryptui/cryptui-key-chooser.c:179
++#: ../libcryptui/cryptui-key-chooser.c:177
+ msgid "Search Results"
+ msgstr "Keresés eredménye"
+ 
+ #. Filter Label
+-#: ../libcryptui/cryptui-key-chooser.c:189
++#: ../libcryptui/cryptui-key-chooser.c:187
+ msgid "Search _for:"
+ msgstr "Kere_sés:"
+ 
+ #. first of the group
+-#: ../libcryptui/cryptui-key-chooser.c:235
+-#| msgid "Enter passphrase"
++#: ../libcryptui/cryptui-key-chooser.c:233
+ msgid "Use passphrase only"
+ msgstr "Csak jelmondat használata"
+ 
+-#: ../libcryptui/cryptui-key-chooser.c:244
++#: ../libcryptui/cryptui-key-chooser.c:242
+ msgid "Choose a set of recipients:"
+ msgstr "Címzettek csoportjának kiválasztása:"
+ 
+-#: ../libcryptui/cryptui-key-chooser.c:290
+-msgid "None (Don't Sign)"
++#: ../libcryptui/cryptui-key-chooser.c:288
++#| msgid "None (Don't Sign)"
++msgid "None (Don’t Sign)"
+ msgstr "Nincs (Ne írja alá)"
+ 
+-#: ../libcryptui/cryptui-key-chooser.c:303
++#: ../libcryptui/cryptui-key-chooser.c:301
+ #, c-format
+ msgid "Sign this message as %s"
+ msgstr "Üzenet aláírása mint %s"
+ 
+ #. Sign Label
+-#: ../libcryptui/cryptui-key-chooser.c:330
++#: ../libcryptui/cryptui-key-chooser.c:328
+ msgid "_Sign message as:"
+ msgstr "Aláírás _mint:"
+ 
+ #. TODO: Icons
+ #. The name column
+-#: ../libcryptui/cryptui-key-list.c:140
++#: ../libcryptui/cryptui-key-list.c:138
+ msgid "Name"
+ msgstr "Név"
+ 
+ #. The keyid column
+-#: ../libcryptui/cryptui-key-list.c:145
++#: ../libcryptui/cryptui-key-list.c:143
+ msgid "Key ID"
+ msgstr "Kulcsazonosító"
+ 
+-#: ../libegg/egg-datetime.c:317
++#: ../libegg/egg-datetime.c:315
+ msgid "Display flags"
+ msgstr "Kijelzett kapcsolók"
+ 
+-#: ../libegg/egg-datetime.c:318
++#: ../libegg/egg-datetime.c:316
+ msgid "Displayed date and/or time properties"
+ msgstr "Kijelzett dátum- és időbeállítások"
+ 
+-#: ../libegg/egg-datetime.c:323
++#: ../libegg/egg-datetime.c:321
+ msgid "Lazy mode"
+ msgstr "Lusta mód"
+ 
+-#: ../libegg/egg-datetime.c:324
+-msgid "Lazy mode doesn't normalize entered date and time values"
++#: ../libegg/egg-datetime.c:322
++#| msgid "Lazy mode doesn't normalize entered date and time values"
++msgid "Lazy mode doesn’t normalize entered date and time values"
+ msgstr "A lusta mód nem normalizálja a megadott dátum- és időértékeket"
+ 
+-#: ../libegg/egg-datetime.c:329
++#: ../libegg/egg-datetime.c:327
+ msgid "Year"
+ msgstr "Év"
+ 
+-#: ../libegg/egg-datetime.c:330
++#: ../libegg/egg-datetime.c:328
+ msgid "Displayed year"
+ msgstr "Kijelzett év"
+ 
+-#: ../libegg/egg-datetime.c:335
++#: ../libegg/egg-datetime.c:333
+ msgid "Month"
+ msgstr "Hó"
+ 
+-#: ../libegg/egg-datetime.c:336
++#: ../libegg/egg-datetime.c:334
+ msgid "Displayed month"
+ msgstr "kijelzett hónap"
+ 
+-#: ../libegg/egg-datetime.c:341
++#: ../libegg/egg-datetime.c:339
+ msgid "Day"
+ msgstr "Nap"
+ 
+-#: ../libegg/egg-datetime.c:342
++#: ../libegg/egg-datetime.c:340
+ msgid "Displayed day of month"
+ msgstr "Kijelzett nap"
+ 
+-#: ../libegg/egg-datetime.c:347
++#: ../libegg/egg-datetime.c:345
+ msgid "Hour"
+ msgstr "Óra"
+ 
+-#: ../libegg/egg-datetime.c:348
++#: ../libegg/egg-datetime.c:346
+ msgid "Displayed hour"
+ msgstr "Kijelzett óra"
+ 
+-#: ../libegg/egg-datetime.c:353
++#: ../libegg/egg-datetime.c:351
+ msgid "Minute"
+ msgstr "Perc"
+ 
+-#: ../libegg/egg-datetime.c:354
++#: ../libegg/egg-datetime.c:352
+ msgid "Displayed minute"
+ msgstr "Kijelzett perc"
+ 
+-#: ../libegg/egg-datetime.c:359
++#: ../libegg/egg-datetime.c:357
+ msgid "Second"
+ msgstr "Másodperc"
+ 
+-#: ../libegg/egg-datetime.c:360
++#: ../libegg/egg-datetime.c:358
+ msgid "Displayed second"
+ msgstr "Kijelzett másodperc"
+ 
+-#: ../libegg/egg-datetime.c:365
++#: ../libegg/egg-datetime.c:363
+ msgid "Lower limit year"
+ msgstr "Alsó határ éve"
+ 
+-#: ../libegg/egg-datetime.c:366
++#: ../libegg/egg-datetime.c:364
+ msgid "Year part of the lower date limit"
+ msgstr "Az alsó határ dátumának év része"
+ 
+-#: ../libegg/egg-datetime.c:371
++#: ../libegg/egg-datetime.c:369
+ msgid "Upper limit year"
+ msgstr "Felső határ éve"
+ 
+-#: ../libegg/egg-datetime.c:372
++#: ../libegg/egg-datetime.c:370
+ msgid "Year part of the upper date limit"
+ msgstr "A felső határ dátumának év része"
+ 
+-#: ../libegg/egg-datetime.c:377
++#: ../libegg/egg-datetime.c:375
+ msgid "Lower limit month"
+ msgstr "Alsó határ hava"
+ 
+-#: ../libegg/egg-datetime.c:378
++#: ../libegg/egg-datetime.c:376
+ msgid "Month part of the lower date limit"
+ msgstr "Az alsó határ dátumának hónap része"
+ 
+-#: ../libegg/egg-datetime.c:383
++#: ../libegg/egg-datetime.c:381
+ msgid "Upper limit month"
+ msgstr "Felső határ hava"
+ 
+-#: ../libegg/egg-datetime.c:384
++#: ../libegg/egg-datetime.c:382
+ msgid "Month part of the upper date limit"
+ msgstr "A felső határ dátumának hónap része"
+ 
+-#: ../libegg/egg-datetime.c:389
++#: ../libegg/egg-datetime.c:387
+ msgid "Lower limit day"
+ msgstr "Alsó határ napja"
+ 
+-#: ../libegg/egg-datetime.c:390
++#: ../libegg/egg-datetime.c:388
+ msgid "Day of month part of the lower date limit"
+ msgstr "Az alsó határ dátumának nap része"
+ 
+-#: ../libegg/egg-datetime.c:395
++#: ../libegg/egg-datetime.c:393
+ msgid "Upper limit day"
+ msgstr "Felső határ napja"
+ 
+-#: ../libegg/egg-datetime.c:396
++#: ../libegg/egg-datetime.c:394
+ msgid "Day of month part of the upper date limit"
+ msgstr "A felső határ dátumának nap része"
+ 
+-#: ../libegg/egg-datetime.c:401
++#: ../libegg/egg-datetime.c:399
+ msgid "Lower limit hour"
+ msgstr "Alsó határ órája"
+ 
+-#: ../libegg/egg-datetime.c:402
++#: ../libegg/egg-datetime.c:400
+ msgid "Hour part of the lower time limit"
+ msgstr "Az alsó határ idejének óra része"
+ 
+-#: ../libegg/egg-datetime.c:407
++#: ../libegg/egg-datetime.c:405
+ msgid "Upper limit hour"
+ msgstr "Felső határ órája"
+ 
+-#: ../libegg/egg-datetime.c:408
++#: ../libegg/egg-datetime.c:406
+ msgid "Hour part of the upper time limit"
+ msgstr "A felső határ idejének óra része"
+ 
+-#: ../libegg/egg-datetime.c:413
++#: ../libegg/egg-datetime.c:411
+ msgid "Lower limit minute"
+ msgstr "Alsó határ perce"
+ 
+-#: ../libegg/egg-datetime.c:414
++#: ../libegg/egg-datetime.c:412
+ msgid "Minute part of the lower time limit"
+ msgstr "Az alsó határ idejének perc része"
+ 
+-#: ../libegg/egg-datetime.c:419
++#: ../libegg/egg-datetime.c:417
+ msgid "Upper limit minute"
+ msgstr "Felső határ perce"
+ 
+-#: ../libegg/egg-datetime.c:420
++#: ../libegg/egg-datetime.c:418
+ msgid "Minute part of the upper time limit"
+ msgstr "A felső határ idejének perc része"
+ 
+-#: ../libegg/egg-datetime.c:425
++#: ../libegg/egg-datetime.c:423
+ msgid "Lower limit second"
+ msgstr "Alsó határ másodperce"
+ 
+-#: ../libegg/egg-datetime.c:426
++#: ../libegg/egg-datetime.c:424
+ msgid "Second part of the lower time limit"
+ msgstr "Az alsó határ idejének másodperc része"
+ 
+-#: ../libegg/egg-datetime.c:431
++#: ../libegg/egg-datetime.c:429
+ msgid "Upper limit second"
+ msgstr "Felső határ másodperce"
+ 
+-#: ../libegg/egg-datetime.c:432
++#: ../libegg/egg-datetime.c:430
+ msgid "Second part of the upper time limit"
+ msgstr "A felső határ idejének másodperc része"
+ 
+@@ -760,156 +763,158 @@ msgstr "A felső határ idejének másodperc része"
+ #. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+ #. * or calendar:week_start:0 it will not work.
+ #.
+-#: ../libegg/egg-datetime.c:474
++#: ../libegg/egg-datetime.c:472
+ msgid "calendar:week_start:0"
+ msgstr "calendar:week_start:1"
+ 
+-#: ../libegg/egg-datetime.c:496
++#: ../libegg/egg-datetime.c:494
+ msgid "Date"
+ msgstr "Dátum"
+ 
+-#: ../libegg/egg-datetime.c:496
++#: ../libegg/egg-datetime.c:494
+ msgid "Enter the date directly"
+ msgstr "A dátum megadása közvetlenül"
+ 
+-#: ../libegg/egg-datetime.c:503
++#: ../libegg/egg-datetime.c:501
+ msgid "Select Date"
+ msgstr "Dátum kiválasztva"
+ 
+-#: ../libegg/egg-datetime.c:503
++#: ../libegg/egg-datetime.c:501
+ msgid "Select the date from a calendar"
+ msgstr "A dátum kiválasztása naptárból"
+ 
+-#: ../libegg/egg-datetime.c:521 ../libegg/egg-datetime.c:2196
++#: ../libegg/egg-datetime.c:519 ../libegg/egg-datetime.c:2194
+ msgid "Time"
+ msgstr "Idő"
+ 
+-#: ../libegg/egg-datetime.c:521
++#: ../libegg/egg-datetime.c:519
+ msgid "Enter the time directly"
+ msgstr "Az idő megadása közvetlenül"
+ 
+-#: ../libegg/egg-datetime.c:528
++#: ../libegg/egg-datetime.c:526
+ msgid "Select Time"
+ msgstr "Idő kiválasztása"
+ 
+-#: ../libegg/egg-datetime.c:528
++#: ../libegg/egg-datetime.c:526
+ msgid "Select the time from a list"
+ msgstr "Az idő kiválasztása listából"
+ 
+ #. Translators: set this to anything else if you want to use a
+ #. * 24 hour clock.
+ #.
+-#: ../libegg/egg-datetime.c:793
++#: ../libegg/egg-datetime.c:791
+ msgid "24hr: no"
+ msgstr "24hr: yes"
+ 
+-#: ../libegg/egg-datetime.c:797 ../libegg/egg-datetime.c:1257
+-#: ../libegg/egg-datetime.c:1261
++#: ../libegg/egg-datetime.c:795 ../libegg/egg-datetime.c:1255
++#: ../libegg/egg-datetime.c:1259
+ msgid "AM"
+ msgstr "DE"
+ 
+-#: ../libegg/egg-datetime.c:799 ../libegg/egg-datetime.c:1258
+-#: ../libegg/egg-datetime.c:1265
++#: ../libegg/egg-datetime.c:797 ../libegg/egg-datetime.c:1256
++#: ../libegg/egg-datetime.c:1263
+ msgid "PM"
+ msgstr "DU"
+ 
+ #. Translators: This is hh:mm:ss AM/PM.
+-#: ../libegg/egg-datetime.c:807
++#: ../libegg/egg-datetime.c:805
+ #, c-format
+ msgid "%02d:%02d:%02d %s"
+ msgstr "%02d.%02d.%02d %s"
+ 
+ #. Translators: This is hh:mm AM/PM.
+-#: ../libegg/egg-datetime.c:810
++#: ../libegg/egg-datetime.c:808
+ #, c-format
+ msgid "%02d:%02d %s"
+ msgstr "%02d.%02d %s"
+ 
+ #. Translators: This is hh:mm:ss.
+-#: ../libegg/egg-datetime.c:814
++#: ../libegg/egg-datetime.c:812
+ #, c-format
+ msgid "%02d:%02d:%02d"
+ msgstr "%02d.%02d.%02d"
+ 
+ #. Translators: This is hh:mm.
+-#: ../libegg/egg-datetime.c:817
++#: ../libegg/egg-datetime.c:815
+ #, c-format
+ msgid "%02d:%02d"
+ msgstr "%02d.%02d"
+ 
+ #. TODO: should handle other display modes as well...
+ #. Translators: This is YYYY-MM-DD
+-#: ../libegg/egg-datetime.c:1173
++#: ../libegg/egg-datetime.c:1171
+ #, c-format
+ msgid "%04d-%02d-%02d"
+ msgstr "%04d. %02d %02d."
+ 
+ #. Translators: This is hh:mm:ss.
+-#: ../libegg/egg-datetime.c:1238
++#: ../libegg/egg-datetime.c:1236
+ #, c-format
+ msgid "%u:%u:%u"
+ msgstr "%u.%u.%u"
+ 
+-#: ../libegg/eggdesktopfile.c:165
++#: ../libegg/eggdesktopfile.c:164
+ #, c-format
+ msgid "File is not a valid .desktop file"
+ msgstr "A fájl nem egy érvényes .desktop fájl"
+ 
+-#: ../libegg/eggdesktopfile.c:188
++#: ../libegg/eggdesktopfile.c:187
+ #, c-format
+-msgid "Unrecognized desktop file Version '%s'"
++#| msgid "Unrecognized desktop file Version '%s'"
++msgid "Unrecognized desktop file Version “%s”"
+ msgstr "Ismeretlen .desktop fájl verzió: „%s”"
+ 
+-#: ../libegg/eggdesktopfile.c:968
++#: ../libegg/eggdesktopfile.c:967
+ #, c-format
+ msgid "Starting %s"
+ msgstr "%s indítása"
+ 
+-#: ../libegg/eggdesktopfile.c:1110
++#: ../libegg/eggdesktopfile.c:1109
+ #, c-format
+ msgid "Application does not accept documents on command line"
+ msgstr "Az alkalmazás nem fogad el dokumentumokat a parancssorban"
+ 
+-#: ../libegg/eggdesktopfile.c:1178
++#: ../libegg/eggdesktopfile.c:1177
+ #, c-format
+ msgid "Unrecognized launch option: %d"
+ msgstr "Ismeretlen indítási kapcsoló: %d"
+ 
+-#: ../libegg/eggdesktopfile.c:1383
++#: ../libegg/eggdesktopfile.c:1382
+ #, c-format
+-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
++#| msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
++msgid "Can’t pass document URIs to a “Type=Link” desktop entry"
+ msgstr "Nem adhatók dokumentum-URI címek egy „Type=Link” asztali bejegyzésnek"
+ 
+-#: ../libegg/eggdesktopfile.c:1404
++#: ../libegg/eggdesktopfile.c:1403
+ #, c-format
+ msgid "Not a launchable item"
+ msgstr "Nem futtatható elem"
+ 
+-#: ../libegg/eggsmclient.c:225
++#: ../libegg/eggsmclient.c:223
+ msgid "Disable connection to session manager"
+ msgstr "A munkamenet-kezelőhöz való csatlakozás tiltása"
+ 
+-#: ../libegg/eggsmclient.c:228
++#: ../libegg/eggsmclient.c:226
+ msgid "Specify file containing saved configuration"
+ msgstr "A mentett beállításokat tartalmazó fájl megadása"
+ 
+-#: ../libegg/eggsmclient.c:228
++#: ../libegg/eggsmclient.c:226
+ msgid "FILE"
+ msgstr "FÁJL"
+ 
+-#: ../libegg/eggsmclient.c:231
++#: ../libegg/eggsmclient.c:229
+ msgid "Specify session management ID"
+ msgstr "A munkamenet-kezelő azonosítójának megadása"
+ 
+-#: ../libegg/eggsmclient.c:231
++#: ../libegg/eggsmclient.c:229
+ msgid "ID"
+ msgstr "Azonosító"
+ 
+-#: ../libegg/eggsmclient.c:252
++#: ../libegg/eggsmclient.c:250
+ msgid "Session management options:"
+ msgstr "Munkamenet-kezelés kapcsolói:"
+ 
+-#: ../libegg/eggsmclient.c:253
++#: ../libegg/eggsmclient.c:251
+ msgid "Show session management options"
+ msgstr "Munkamenet-kezelési kapcsolók megjelenítése"
+ 
