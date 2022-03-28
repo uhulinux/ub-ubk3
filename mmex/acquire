@@ -1,7 +1,7 @@
 #!/usr/bin/env dl
 
 moneymanagerex-${UB_VERSION}.tar.gz moneymanagerex-e827173/
-	git://github.com/moneymanagerex/moneymanagerex.git@e827173
+	git+https://github.com/moneymanagerex/moneymanagerex.git@e827173
 
 # e827173 1.5.1
 # 76fb9bf 1.5.2 vacak
