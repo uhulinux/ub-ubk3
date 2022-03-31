@@ -4,7 +4,6 @@ converseen
 sane-frontends
 simple-scan
 png2ico
-uniconvertor
 aaphoto
 exif
 evolvotron
