@@ -1,1 +1,1 @@
-echo "2020.12.20"
+u2d http://ftp.debian.org/debian/pool/main/libs/libsecp256k1/ libsecp256k1_0.1~ .orig

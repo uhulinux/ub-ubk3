@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-${UB_VERSION}.tar.gz secp256k1-2309c7d/
-	git://github.com/bitcoin-core/secp256k1.git@2309c7d
+libsecp256k1_0.1~${UB_VERSION}.orig.tar.xz libsecp256k1-0.1~${UB_VERSION}/
+	http://ftp.debian.org/debian/pool/main/libs/libsecp256k1/
