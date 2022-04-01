@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-vdr-plugin-dvbapi-${UB_VERSION}.tar.gz vdr-plugin-dvbapi-7d51cc4/
-   git://github.com/manio/vdr-plugin-dvbapi.git@7d51cc4
+v${UB_VERSION}.tar.gz vdr-plugin-dvbapi-${UB_VERSION}/
+   https://github.com/manio/vdr-plugin-dvbapi/archive/refs/tags/
