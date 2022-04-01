@@ -4,4 +4,4 @@
 #	http://ftp.daper.net/pub/soft/moc/stable/
 
 moc-${UB_VERSION}.tar.gz mocp-322e8ec/
-    git://github.com/jonsafari/mocp.git@322e8ec
+    git+https://github.com/jonsafari/mocp.git@322e8ec
