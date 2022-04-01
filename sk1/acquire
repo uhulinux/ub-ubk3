@@ -1,7 +1,4 @@
 #!/usr/bin/env dl
 
-sk1-${UB_VERSION/~/}.tar.gz sk1-wx-62cc98e/
-	git://github.com/sk1project/sk1-wx.git@62cc98e
-
-master.zip sk1-wx-master/
-	https://github.com/sk1project/sk1-wx/archive/refs/heads/
+sk1-${UB_VERSION/~/}.archlinux.pkgbuild.zip sk1-${UB_VERSION/~/}_20210831.tar.gz sk1-2.0rc5/
+	https://downloads.sk1project.net/sk1/ArchLinux/
