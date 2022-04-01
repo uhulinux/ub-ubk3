@@ -1,5 +1,6 @@
 alsa-lib-dev
 glu-dev
 libjpeg-turbo-dev
+libxpm-dev
 sdl2-dev
 x.org-proto-dev
