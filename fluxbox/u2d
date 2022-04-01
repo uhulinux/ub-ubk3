@@ -1,1 +1,1 @@
-urllist https://github.com/fluxbox/fluxbox/tags/ | sed s/_/\./g | splitver '^Release-([0-9.]+).tar.gz$' | sort -V | tail -n 1
+u2d http://ftp.debian.org/debian/pool/main/f/fluxbox/ fluxbox_ .orig

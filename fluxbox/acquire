@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-fluxbox-${UB_VERSION}.tar.gz fluxbox-248b15c/
-	git://github.com/fluxbox/fluxbox.git@248b15c
+fluxbox_${UB_VERSION}.orig.tar.gz fluxbox-${UB_VERSION}/
+	http://ftp.debian.org/debian/pool/main/f/fluxbox/
