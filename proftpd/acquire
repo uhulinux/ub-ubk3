@@ -3,17 +3,3 @@
 v${UB_VERSION}.tar.gz proftpd-${UB_VERSION}/
 	https://github.com/proftpd/proftpd/archive
 
-#proftpd-${UB_VERSION}.tar.gz proftpd-8b152e5/
-#	git://github.com/proftpd/proftpd.git@8b152e5
-
-#v1.3.7.rc3 Feb 19 2020 jó a117ed7
-# f215a98 Apr 1, 2020 jo
-# 8b152e5 Apr 8 2020 jo
-
-# 3b815f3 Apr 11 rossz
-# c6a3cf5 Apr 11 rossz
-# 3b9203a Apr 11 rossz
-# 17d6d14 Apr 12, 2020 rossz
-# 9e7de22 Apr 15, 2020 rossz
-# 1bbb7b3 May 1, 2020 rossz
-#v1.3.7.rc4 - Released 30-May-2020 rossz 6d24002
