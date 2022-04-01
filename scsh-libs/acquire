@@ -1,7 +1,7 @@
 #!/usr/bin/env dl
 
-scsh-${UB_VERSION}.tar.gz scsh-1144324/
-	git://github.com/scheme/scsh.git@1144324
+114432435e4eadd54334df6b37fcae505079b49f.tar.gz scsh-114432435e4eadd54334df6b37fcae505079b49f/
+	https://github.com/scheme/scsh/archive/
 
-rx-master.tar.gz	rx-dd9037f/ :rx
-	git://github.com/scheme/rx.git@dd9037f
+d3231ad13de2b44e3ee173b1c9d09ff165e8b6d5.tar.gz	rx-d3231ad13de2b44e3ee173b1c9d09ff165e8b6d5/ :rx
+	https://github.com/scheme/rx/archive/
