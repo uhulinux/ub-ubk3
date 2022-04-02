@@ -4,4 +4,4 @@ v${UB_VERSION}.tar.gz budgie-desktop-${UB_VERSION}/
 	https://github.com/solus-project/budgie-desktop/archive/
 
 libgnome-volume-control.tar.gz	libgnome-volume-control-43be5d2/ :subprojects/gvc
-	git://github.com/GNOME/libgnome-volume-control.git@43be5d2
+	git+https://github.com/GNOME/libgnome-volume-control.git@43be5d2
