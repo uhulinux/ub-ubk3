@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-v${UB_VERSION}.tar.gz systemdgenie-bf6b348/
-	git://github.com/KDE/systemdgenie@bf6b348
+v${UB_VERSION}.tar.gz systemdgenie-${UB_VERSION}/
+	https://github.com/KDE/systemdgenie/archive/refs/tags/
