@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 ${UB_VERSION}.tar.gz RapidSVN-3a564e0/
-	git://github.com/RapidSVN/RapidSVN.git@3a564e0
+	git+https://github.com/RapidSVN/RapidSVN.git@3a564e0
