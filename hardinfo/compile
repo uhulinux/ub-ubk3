@@ -4,4 +4,4 @@
 
 ub_compile \
     -DCMAKE_INSTALL_LIBDIR=lib \
-    -DHARDINFO_GTK3=OFF
+    -DHARDINFO_GTK3=ON
