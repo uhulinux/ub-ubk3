@@ -1,3 +1,3 @@
-fover=$(urllist https://chromium.googlesource.com/chromium/src.git | grep -E '^([0-9][0-9][.][0-9.]+)' | sort -V | tail -n 1)
+fover=$(urllist https://chromium.googlesource.com/chromium/src.git | grep -E '^(1[0-9][0-9][.][0-9.]+)' | sort -V | tail -n 1)
 build=$(curl -s "https://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_x64/LAST_CHANGE")
 echo "$fover""r""$build"
