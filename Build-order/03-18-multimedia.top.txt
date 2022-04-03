@@ -42,7 +42,6 @@ quvi
 paman
 lingot
 paprefs
-me-tv
 radiotray
 xine-ui
 subtitleeditor

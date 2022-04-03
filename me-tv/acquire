@@ -1,4 +1,0 @@
-#!/usr/bin/env dl
-
-v${UB_VERSION/~/-}.tar.gz Me-TV-${UB_VERSION/~/-}/
-    https://github.com/Me-TV/Me-TV/archive/
