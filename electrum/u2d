@@ -1,1 +1,2 @@
-urllist https://download.electrum.org/ | grep -E '^([0-9.]+)' | sort -V | tail -n 1
+#urllist https://download.electrum.org/ | grep -E '^([0-9.]+)' | sort -V | tail -n 1
+noupdate: Electrum requires Python version >= 3.8.0...
