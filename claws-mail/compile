@@ -7,10 +7,16 @@ fi
 # NOCONFIGURE=1 ./autogen.sh
 
 ub_compile \
+    --enable-enchant \
     --enable-crash-dialog \
+    --enable-ldap \
+    --enable-pgpmime-plugin \
+    --enable-spamassassin-plugin \
+    --enable-bogofilter-plugin \
+    --enable-fancy-plugin \
+    --enable-pgpmime-plugin \
+    --enable-manual \
     --disable-alternate-addressbook \
-    --disable-ldap \
-    --disable-jpilot \
     --disable-bsfilter-plugin \
     --disable-python-plugin
 # ub_make -C po claws-mail.pot update-po
