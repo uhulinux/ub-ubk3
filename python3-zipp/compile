@@ -1,6 +1,5 @@
 #!/bin/sh -eux
 
 #barom
-#sed "s/Version: 0.0.0/Version: ${UB_VERSION}/" -i zipp.egg-info/PKG-INFO
 export SETUPTOOLS_SCM_PRETEND_VERSION=$UB_VERSION
-python3 setup.py build
+python3 -m pyproject2setuppy.main build

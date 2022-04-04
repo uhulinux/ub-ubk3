@@ -1,5 +1,4 @@
 #!/bin/sh -eux
 
 export SETUPTOOLS_SCM_PRETEND_VERSION=$UB_VERSION
-python3 setup.py install --root="$UB_INSTALLDIR" --optimize=1
-#sed "s/Version: 0.0.0/Version: ${UB_VERSION}/" -i ${UB_INSTALLDIR}/usr/lib/python3.7/site-packages/zipp-0.0.0-py3.7.egg-info/PKG-INFO
+python3 -m pyproject2setuppy.main install --root="$UB_INSTALLDIR" --optimize=1
