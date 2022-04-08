@@ -121,8 +121,8 @@ python3-charset-normalizer
 python3-pyrsistent
 python3-jupyter-core
 python3-importlib-resources
+python3-fastjsonschema
 python3-nbformat
-python3-jsonschema
 python3-pluggy
 python3-pytest
 python3-ipython
