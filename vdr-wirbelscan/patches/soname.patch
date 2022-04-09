@@ -1,0 +1,12 @@
+diff -Nur orig/Makefile mod/Makefile
+--- orig/Makefile	2021-10-09 17:32:37.000000000 +0200
++++ mod/Makefile	2022-04-09 14:44:58.922865554 +0200
+@@ -13,7 +13,7 @@
+ 
+           
+ PWD = $(shell pwd)
+-PLUGIN = $(shell basename $(PWD) | cut -d- -f1)
++PLUGIN = wirbelscan
+ CPPSRC = $(wildcard *.cpp)
+ OBJS   = $(CPPSRC:%.cpp=%.o)
+ #OBJS  = $(shell ls *.cpp | sed -e 's/\.cpp/\.o/g')
