@@ -1,5 +1,5 @@
 #!/bin/sh -eux
 
-autoreconf -vif
-ub_configure
-ub_make
+ub_compile \
+    -DCMAKE_INSTALL_SYSCONFDIR=/etc \
+    -Wno-dev
