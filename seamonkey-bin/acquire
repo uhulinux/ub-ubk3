@@ -1,4 +1,0 @@
-#!/usr/bin/env dl
-
-seamonkey-${UB_VERSION/~/}.hu.linux-x86_64.tar.bz2 seamonkey/
-    https://archive.mozilla.org/pub/seamonkey/releases/${UB_VERSION/~/}/linux-x86_64/hu/

@@ -1,2 +1,0 @@
-#!/bin/sh
-exec /usr/lib/seamonkey-bin/seamonkey --class "Seamonkey" --name "Seamonkey" "$@"

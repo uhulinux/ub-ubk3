@@ -65,9 +65,7 @@ node
 firefox
 firefox-bin
 seamonkey
-seamonkey-bin
 thunderbird
-thunderbird-bin
 chromium
 chromium-bin
 balsa
