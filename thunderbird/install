@@ -1,23 +1,34 @@
 #!/bin/sh -eux
 
-cd "$UB_OBJECTDIR"
+mkdir -p $UB_INSTALLDIR/usr/lib/thunderbird
+cp -a * $UB_INSTALLDIR/usr/lib/thunderbird/
 
-ub_install
+_vendorjs="$UB_INSTALLDIR/usr/lib/thunderbird/defaults/preferences/vendor.js"
+install -Dm644 /dev/stdin "$_vendorjs" <<END
+// Use LANG environment variable to choose locale
+pref("intl.locale.matchOS", true);
 
-rm -f "$UB_INSTALLDIR"/usr/lib/thunderbird/thunderbird
-rm -f "$UB_INSTALLDIR"/usr/bin/thunderbird
-ln -s /usr/lib/thunderbird/thunderbird "$UB_INSTALLDIR"/usr/bin/thunderbird
+// Disable default mailer checking.
+pref("mail.shell.checkDefaultMail", false);
 
-if [ ! -f "$UB_INSTALLDIR"/usr/lib/thunderbird/run-mozilla.sh ]; then
-	cp "$UB_COMPILEDIR"/build/unix/run-mozilla.sh "$UB_INSTALLDIR"/usr/lib/thunderbird/run-mozilla.sh
-fi
+// Don't disable our bundled extensions in the application directory
+pref("extensions.autoDisableScopes", 11);
+pref("extensions.shownSelectionUI", true);
+END
 
-mkdir -p "$UB_INSTALLDIR"/usr/lib/thunderbird/distribution/extensions/langpack-hu@thunderbird.mozilla.org
-cp -aR "$UB_COMPILEDIR"/langpack-hu/. "$UB_INSTALLDIR"/usr/lib/thunderbird/distribution/extensions/langpack-hu@thunderbird.mozilla.org/
-
-# install icons
-for i in 16 22 24 32 48 64 128 256; do
-    install -Dm644 "$UB_COMPILEDIR"/comm/mail/branding/thunderbird/default${i}.png \
-      "$UB_INSTALLDIR/usr/share/icons/hicolor/${i}x${i}/apps/thunderbird.png"
+# icons
+for i in 16 22 24 32 48 256; do
+    install -d "$UB_INSTALLDIR"/usr/share/icons/hicolor/${i}x${i}/apps/
+    ln -s /usr/lib/thunderbird/chrome/icons/default/default$i.png \
+          "$UB_INSTALLDIR"/usr/share/icons/hicolor/${i}x${i}/apps/thunderbird.png
 done
-cp "$UB_COMPILEDIR"/comm/mail/branding/thunderbird/default48.png "$UB_INSTALLDIR"/usr/share/pixmaps/thunderbird.png
+
+  # Use system-provided dictionaries
+  # rm -r "$UB_INSTALLDIR"/usr/lib/thunderbird/dictionaries # Not in 68.0
+  ln -Ts /usr/share/hunspell "$UB_INSTALLDIR"/usr/lib/thunderbird/dictionaries
+  ln -Ts /usr/share/hyphen "$UB_INSTALLDIR"/usr/lib/thunderbird/hyphenation
+
+# Use system certificates
+  ln -sf /usr/lib/libnssckbi.so "$UB_INSTALLDIR"/usr/lib/thunderbird/libnssckbi.so
+
+ln -s /usr/lib/thunderbird/thunderbird "$UB_INSTALLDIR"/usr/bin/thunderbird
