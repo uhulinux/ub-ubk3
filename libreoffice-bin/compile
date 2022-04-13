@@ -1,5 +1,0 @@
-#!/bin/sh -eux
-
-for pkg in `ls -1 debs`;do
-dpkg-deb -x debs/$pkg .
-done

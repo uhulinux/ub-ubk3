@@ -15,7 +15,6 @@ qpdfview
 gnucash
 abiword
 libreoffice
-libreoffice-bin
 master-pdf-editor
 scribus
 calibre

@@ -1,4 +1,0 @@
-	/usr/lib/libreoffice-bin/program/libpostgresql*.so
-	/usr/lib/libreoffice-bin/program/postgresql*.ini
-	/usr/lib/libreoffice-bin/program/services/postgresql*.rdb
-	/usr/lib/libreoffice-bin/share/registry/postgresql*.xcd

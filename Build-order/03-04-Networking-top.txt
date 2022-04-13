@@ -67,7 +67,6 @@ firefox-bin
 seamonkey
 thunderbird
 chromium
-chromium-bin
 balsa
 ghetto-skype
 facebook-messenger
