@@ -1,4 +1,0 @@
-#!/usr/bin/env dl
-
-firefox-${UB_VERSION/~/}.tar.bz2 firefox/
-	https://archive.mozilla.org/pub/firefox/releases/${UB_VERSION/~/}/linux-x86_64/hu/

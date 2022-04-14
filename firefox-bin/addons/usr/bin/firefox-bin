@@ -1,2 +1,0 @@
-#!/bin/sh
-exec /usr/lib/firefox-bin/firefox --class "Firefox" --name "Firefox" "$@"

@@ -1,2 +1,0 @@
-mv /usr/share/applications/firefox-bin.desktop /usr/share/applications/valami
-mv /usr/share/applications/valami /usr/share/applications/firefox-bin.desktop
