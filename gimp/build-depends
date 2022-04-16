@@ -38,4 +38,3 @@ poppler-data
 poppler-dev
 poppler-glib-dev
 systemd-dev
-zlib-dev

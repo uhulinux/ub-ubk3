@@ -6,7 +6,6 @@ libcap-dev
 libglade2-dev
 libjpeg-turbo-dev
 libpng-dev
-libtool
 libx11-dev
 libxext-dev
 libxft-dev

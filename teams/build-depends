@@ -9,11 +9,9 @@ expat
 gcc-libs
 gdk-pixbuf
 glib
-glibc
 gtk
 libdrm
 libsecret
-libstdc++
 libx11
 libxcb
 libxcomposite
