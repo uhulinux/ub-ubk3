@@ -7,5 +7,5 @@ linux-firmware-${UB_VERSION}.tar.gz linux-firmware-a8b75ca/ :linux-firmware
 0.0.51.tar.gz dvb-firmware-0.0.51/firmware :dvb-firmware
 	https://github.com/OpenELEC/dvb-firmware/archive/0.0.51.tar.gz
 
-nouveau-firmware-20091212.tar.gz nouveau/ :nouveau
-	http://people.freedesktop.org/~pq/nouveau-drm/
+nouveau-firmware_20091212.orig.tar.gz nouveau/ :nouveau
+	https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nouveau-firmware/20091212-0ubuntu1/
