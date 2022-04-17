@@ -1,5 +1,4 @@
 #!/usr/bin/env dl
 
 unarj-${UB_VERSION}.tgz unarj-${UB_VERSION}/
-    ftp://ftp.ii.net/pub/gentoo/distfiles/
-	ftp://mirror.euserv.net/linux/gentoo/distfiles/
+    http://ftp.mik.uni-pannon.hu/gentoo/distfiles/b2/
