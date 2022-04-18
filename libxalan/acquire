@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-xalan_c-${UB_VERSION}tar.gz xalan-c-${UB_VERSION}/
+xalan_c-${UB_VERSION}.tar.gz xalan_c-${UB_VERSION}/
 	https://downloads.apache.org/xalan/xalan-c/sources/
