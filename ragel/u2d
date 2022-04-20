@@ -1,1 +1,2 @@
-_geturl http://www.colm.net/open-source/ragel/ | parsever 'ragel-([0-9]+).tar.gz$' | sort -V | tail -n 1
+#u2d https://github.com/adrian-thurston/ragel/tags/
+noupdate A magasabbaknak már usr/lib/libfsm.la kellene a colm csomagból, de csak libfsm.so van!

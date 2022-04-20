@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-ragel-${UB_VERSION}.tar.gz ragel-${UB_VERSION}/
-	http://www.colm.net/files/ragel/
+ragel-${UB_VERSION}.tar.gz ragel-ragel-${UB_VERSION}/
+	https://github.com/adrian-thurston/ragel/archive/refs/tags/

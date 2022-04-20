@@ -1,0 +1,12 @@
+diff -Nur orig/Makefile.am mod/Makefile.am
+--- orig/Makefile.am	2022-04-20 15:30:54.000000000 +0200
++++ mod/Makefile.am	2022-04-20 15:32:29.652430481 +0200
+@@ -20,7 +20,7 @@
+ # SOFTWARE.
+ 
+ 
+-SUBDIRS = src doc
++SUBDIRS = src
+ DIST_SUBDIRS = $(SUBDIRS) aapl
+ 
+ dist_doc_DATA =  colm.vim
