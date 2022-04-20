@@ -1,7 +1,7 @@
 #!/usr/bin/env dl
 
-Symbola.zip .
-	http://users.teilar.gr/~g1951d/Symbola.zip
+#Symbola.zip .
+#    https://dn-works.com/wp-content/uploads/2020/UFAS-Fonts/
 
-#symbola-font-ttf-${UB_VERSION}.zip .
-#    http://download.ubk.hu/src/misc/
+Symbola.font.zip .
+    https://www.ffonts.net/
