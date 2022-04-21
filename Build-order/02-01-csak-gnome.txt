@@ -45,7 +45,6 @@ mx
 gnome-logs
 libgxps
 gnome-bluetooth
-gnome-schedule
 libgnomekbd
 gnome-system-monitor
 cairo-dock

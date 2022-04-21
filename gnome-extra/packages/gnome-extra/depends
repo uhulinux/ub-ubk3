@@ -12,7 +12,6 @@ glabels >=
 gnome-chemistry-utils >=
 gnome-packagekit >=
 gnomeradio >=
-gnome-schedule >=
 gnome-search-tool >=
 gnome-system-log >=
 gnote >=
