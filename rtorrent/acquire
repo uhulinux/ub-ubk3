@@ -3,5 +3,5 @@
 #rtorrent-${UB_VERSION}.tar.gz rtorrent-${UB_VERSION}/
 #    http://rtorrent.net/downloads/
 
-rtorrent-${UB_VERSION}.tar.gz rtorrent-${UB_VERSION}/
-	https://github.com/rakshasa/rtorrent/archive/
+v${UB_VERSION}.tar.gz rtorrent-${UB_VERSION}/
+	https://github.com/rakshasa/rtorrent/archive/refs/tags/

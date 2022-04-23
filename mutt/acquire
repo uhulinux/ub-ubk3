@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 mutt-${UB_VERSION}.tar.gz mutt-${UB_VERSION}/
-	ftp://ftp.mutt.org/pub/mutt/
+	https://ftp.osuosl.org/pub/blfs/conglomeration/mutt/
