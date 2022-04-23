@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 pam_ldap-${UB_VERSION}.tar.gz pam_ldap-${UB_VERSION}/
-	http://www.padl.com/download/
+	https://fossies.org/linux/privat/old/
