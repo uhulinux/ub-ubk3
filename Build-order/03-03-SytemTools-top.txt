@@ -49,7 +49,6 @@ btsco
 openipmi
 gsmartcontrol
 latencytop
-isdn4k-utils
 openocd
 d-feet
 xsensors
