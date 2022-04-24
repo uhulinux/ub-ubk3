@@ -98,7 +98,6 @@ rsw
 launchy
 lesspipe
 gkrellm
-rxvt-unicode
 intel-gpu-tools
 latex2html
 gtklp
