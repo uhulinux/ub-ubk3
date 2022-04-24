@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-xa-${UB_VERSION}.tar.gz xa-${UB_VERSION}/
-	http://www.floodgap.com/retrotech/xa/dists/
+xa_${UB_VERSION}.orig.tar.gz xa-${UB_VERSION}/
+	http://ftp.debian.org/debian/pool/main/x/xa/
