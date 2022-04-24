@@ -2,4 +2,3 @@
 
 v${UB_VERSION}.tar.gz odt2txt-${UB_VERSION}/
 	https://github.com/dstosberg/odt2txt/archive/
-
