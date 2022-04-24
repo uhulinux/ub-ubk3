@@ -1,0 +1,12 @@
+diff -Nur orig/comparator.py mod/comparator.py
+--- orig/comparator.py	2010-10-13 01:55:21.000000000 +0200
++++ mod/comparator.py	2022-01-29 15:05:08.357552331 +0100
+@@ -1,6 +1,6 @@
+-import os, sys, re, exceptions
++import os, sys, re
+ 
+-class ComparatorException(exceptions.Exception):
++class ComparatorException(exception.Exception):
+     def __init__(self, message, retval=1):
+         self.message = message
+         self.retval = retval
