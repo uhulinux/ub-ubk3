@@ -1,3 +1,6 @@
 #!/bin/sh -eux
 
 ub_install
+cp -r data/applications ${UB_INSTALLDIR}/usr/share/
+cp -r data/icons ${UB_INSTALLDIR}/usr/share/
+cp -r data/pushover ${UB_INSTALLDIR}/usr/share/

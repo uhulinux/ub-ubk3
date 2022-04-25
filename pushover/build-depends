@@ -1,5 +1,8 @@
+boost-dev
 freetype2-dev
-lua52-dev
+fribidi-dev
+lua53-dev
+povray
 sdl-dev
 sdl-image-dev
 sdl-mixer-dev

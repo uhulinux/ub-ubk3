@@ -1,0 +1,130 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ pushover (0.0.5+git20180909-1) unstable; urgency=medium
+ .
+   * New upstream version. (Closes: #897905, #906998)
+   * Bump standards version to 4.2.1.
+   * debian/control: fix typo in long description.
+Author: Gürkan Myczko <gurkan@phys.ethz.ch>
+Bug-Debian: https://bugs.debian.org/897905
+Bug-Debian: https://bugs.debian.org/906998
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2018-09-09
+
+--- pushover-0.0.5+git20180909.orig/src/dominoes/assembler.cpp
++++ pushover-0.0.5+git20180909/src/dominoes/assembler.cpp
+@@ -3,8 +3,8 @@
+  * calculate a common palette
+  */
+ 
+-#include <SDL.h>
+-#include <SDL_image.h>
++#include <SDL/SDL.h>
++#include <SDL/SDL_image.h>
+ 
+ #include "pngsaver.h"
+ 
+--- pushover-0.0.5+git20180909.orig/src/pushover/editor.h
++++ pushover-0.0.5+git20180909/src/pushover/editor.h
+@@ -22,7 +22,7 @@
+ #ifndef __EDIT_H__
+ #define __EDIT_H__
+ 
+-#include <SDL.h>
++#include <SDL/SDL.h>
+ 
+ #include <string>
+ 
+--- pushover-0.0.5+git20180909.orig/src/pushover/graphicsn.cpp
++++ pushover-0.0.5+git20180909/src/pushover/graphicsn.cpp
+@@ -29,7 +29,7 @@
+ #include "screen.h"
+ #include "colors.h"
+ 
+-#include <SDL.h>
++#include <SDL/SDL.h>
+ #include <string.h>
+ #include <iostream>
+ 
+--- pushover-0.0.5+git20180909.orig/src/pushover/main.cpp
++++ pushover-0.0.5+git20180909/src/pushover/main.cpp
+@@ -30,7 +30,7 @@
+ #include "tools.h"
+ #include "editor.h"
+ 
+-#include <SDL.h>
++#include <SDL/SDL.h>
+ 
+ #include <fstream>
+ #include <string>
+--- pushover-0.0.5+git20180909.orig/src/pushover/screen.h
++++ pushover-0.0.5+git20180909/src/pushover/screen.h
+@@ -22,7 +22,7 @@
+ #ifndef __SCREEN_H__
+ #define __SCREEN_H__
+ 
+-#include <SDL.h>
++#include <SDL/SDL.h>
+ #include <string>
+ 
+ 
+--- pushover-0.0.5+git20180909.orig/src/pushover/soundsys.cpp
++++ pushover-0.0.5+git20180909/src/pushover/soundsys.cpp
+@@ -21,7 +21,7 @@
+ 
+ #include "soundsys.h"
+ 
+-#include <SDL.h>
++#include <SDL/SDL.h>
+ 
+ #include <iostream>
+ 
+--- pushover-0.0.5+git20180909.orig/src/pushover/soundsys.h
++++ pushover-0.0.5+git20180909/src/pushover/soundsys.h
+@@ -22,7 +22,7 @@
+ #ifndef __SOUNDSYS_H__
+ #define __SOUNDSYS_H__
+ 
+-#include <SDL_mixer.h>
++#include <SDL/SDL_mixer.h>
+ 
+ #include <vector>
+ #include <string>
+--- pushover-0.0.5+git20180909.orig/src/pushover/window.cpp
++++ pushover-0.0.5+git20180909/src/pushover/window.cpp
+@@ -29,7 +29,7 @@
+ #include "leveldata.h"
+ #include "colors.h"
+ 
+-#include <SDL.h>
++#include <SDL/SDL.h>
+ 
+ #include <stdexcept>
+ #include <libintl.h>
+--- pushover-0.0.5+git20180909.orig/src/pushover/window.h
++++ pushover-0.0.5+git20180909/src/pushover/window.h
+@@ -25,7 +25,7 @@
+ #include "ant.h"
+ #include "levelset.h"
+ 
+-#include <SDL.h>
++#include <SDL/SDL.h>
+ 
+ #include <string>
+ #include <vector>
