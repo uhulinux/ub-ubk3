@@ -3,7 +3,6 @@ bochs
 spectemu
 hatari
 dosemu
-dosemu2
 ep128emu
 plus4emu
 libspectrum
