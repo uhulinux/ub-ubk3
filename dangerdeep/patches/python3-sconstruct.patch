@@ -1,6 +1,6 @@
 diff -Nur orig/SConstruct mod/SConstruct
 --- orig/SConstruct	2007-06-11 20:29:13.000000000 +0200
-+++ mod/SConstruct	2020-05-11 17:02:28.349117531 +0200
++++ mod/SConstruct	2020-05-11 17:54:54.055024428 +0200
 @@ -1,22 +1,23 @@
 -################ needed imports
 +from __future__ import print_function
@@ -497,11 +497,12 @@ diff -Nur orig/SConstruct mod/SConstruct
  
 -SConscript(source_base_dir + os.sep + 'SConscript', build_dir = target_dir, duplicate = 0)
 +SConscript(source_base_dir + os.sep + 'SConscript', build_dir=target_dir, duplicate=0)
++
++VariantDir(target_dir, source_base_dir, duplicate=0)
  
- BuildDir(target_dir, source_base_dir, duplicate=0)
+-BuildDir(target_dir, source_base_dir, duplicate=0)
  
 -############### Helper functions
-+
 +# Helper functions
  def findCVS(basedir):
 -	f = open(basedir + os.sep + 'CVS' + os.sep + 'Entries')

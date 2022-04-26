@@ -1,7 +1,7 @@
 #!/usr/bin/env dl
 
 v${UB_VERSION}.tar.gz etlegacy-${UB_VERSION}/
-	https://github.com/etlegacy/etlegacy/archive/
+	https://github.com/etlegacy/etlegacy/archive/refs/tags/
 
 383
 	https://www.etlegacy.com/download/file/
