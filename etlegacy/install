@@ -30,8 +30,8 @@ ln -s /etc/xdg/etlegacy/etmain $UB_INSTALLDIR/var/lib/etlegacy-server/
 
 # kibontás etlegacy fájlok eljhelyezése
 
-tar -x -f 383
-rm -f 383
+tar -x -f 396
+rm 396
 
 cd etlegacy*
 mkdir -p $UB_INSTALLDIR/usr/lib/etlegacy/legacy
