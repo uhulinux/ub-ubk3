@@ -1,0 +1,18 @@
+diff -Nur orig/data/mate-tweak.desktop mod/data/mate-tweak.desktop
+--- orig/data/mate-tweak.desktop	2022-03-30 08:42:26.000000000 +0200
++++ mod/data/mate-tweak.desktop	2022-01-27 13:36:42.000000000 +0100
+@@ -1,11 +1,11 @@
+ [Desktop Entry]
+ Name=MATE Tweak
+ Exec=mate-tweak
+-Icon=tweaks-app
++Icon=user-desktop
+ Terminal=false
+ Type=Application
+ Categories=GTK;Settings;DesktopSettings;
+ StartupNotify=false
+ OnlyShowIn=MATE;
+ Keywords=MATE;desktop;marco;compiz;theming;customize;fine;tune;tweak;adapt;
+-Comment=Customize desktop, panel, and window manager settings
++Comment=Customize desktop, panel, and window manager settings
+\ Nincs új sor a fájl végén
