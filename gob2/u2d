@@ -1,1 +1,1 @@
-u2dgnome gob2
+urllist https://download.gnome.org/sources/gob2/2.0/ | parsever | sort -V | tail -n 1
