@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-squirrel_${UB_VERSION/./_}_stable.tar.gz squirrel3/
-	http://downloads.sourceforge.net/squirrel/
+v${UB_VERSION}.tar.gz squirrel-${UB_VERSION}/
+	https://github.com/albertodemichelis/squirrel/archive/refs/tags/

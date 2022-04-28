@@ -4,7 +4,8 @@ make install \
 	BINDIR="$UB_INSTALLDIR"/usr/bin \
 	LIBDIR="$UB_INSTALLDIR"/usr/lib/ocaml \
 	STUBLIBDIR="$UB_INSTALLDIR"/usr/lib/ocaml/stublibs \
-	MANDIR="$UB_INSTALLDIR"/usr/share/man
+	MANDIR="$UB_INSTALLDIR"/usr/share/man \
+	DOCDIR="$UB_INSTALLDIR"/usr/share/doc
 
 # remove stupid camlp4o.opt which can't work (MDK)
 rm -f "$UB_INSTALLDIR"/usr/bin/camlp4*.opt

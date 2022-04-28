@@ -4,6 +4,7 @@
 ./configure \
 	--bindir=/usr/bin \
 	--libdir=/usr/lib/ocaml \
-	--mandir=/usr/share/man
+	--mandir=/usr/share/man \
+	--docdir=/usr/share/doc
 
 make world opt opt.opt
