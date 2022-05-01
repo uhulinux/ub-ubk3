@@ -44,7 +44,6 @@ mp4v2
 nomarch
 pkcs11
 pm-utils
-portsmf
 proj
 qqwing
 qstat
