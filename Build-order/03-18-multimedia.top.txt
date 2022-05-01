@@ -52,6 +52,7 @@ deadbeef
 moc
 cmus
 xawtv
+portmidi
 audacity
 handbrake
 avidemux

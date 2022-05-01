@@ -1,4 +1,21 @@
 #!/bin/sh -eux
 
-export WX_CONFIG=/usr/bin/wx-config
-ub_compile
+ub_compile \
+    -DwxWidgets_CONFIG_EXECUTABLE=/usr/bin/wx-config \
+    -DAUDACITY_BUILD_LEVEL:STRING=2 \
+    -Daudacity_conan_enabled=Off \
+    -Daudacity_has_networking=Off \
+    -Daudacity_has_crashreports=Off \
+    -Daudacity_has_updates_check=Off \
+    -Daudacity_has_sentry_reporting=Off \
+    -Daudacity_use_vamp=local \
+    -Daudacity_use_twolame=off \
+    -Daudacity_use_sbsms=local \
+    -Daudacity_use_lv2=local\
+    -Daudacity_use_ffmpeg=loaded \
+    -Daudacity_use_portmixer=local \
+    -Daudacity_use_portsmf=local \
+    -Daudacity_use_libid3tag=system \
+    -Daudacity_lib_preference=system \
+    -Daudacity_obey_system_dependencies=On \
+    -Daudacity_use_uuid=system

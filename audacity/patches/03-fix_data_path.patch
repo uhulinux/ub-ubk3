@@ -1,0 +1,42 @@
+From 77e3733af8653059b5a758e6b2260479fa6d83ef Mon Sep 17 00:00:00 2001
+From: Ian McInerney <ian.s.mcinerney@ieee.org>
+Date: Wed, 1 Dec 2021 18:00:18 +0000
+Subject: [PATCH] Remove trailing slash from directory definition to remove //
+ from install command
+
+The install directive with a directory will prepend a slash, so the
+directory installs ended up as ${_PKGDATA}//dir.
+---
+ CMakeLists.txt     | 2 +-
+ src/CMakeLists.txt | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 8fd7dc459..80d09ab97 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -336,7 +336,7 @@ set( INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}" )
+ set( _LIBDIR "${CMAKE_INSTALL_LIBDIR}" )
+ set( _DATADIR "${CMAKE_INSTALL_DATADIR}" )
+ set( _PKGLIB "${_LIBDIR}/audacity" )
+-set( _PKGDATA "${_DATADIR}/audacity/" )
++set( _PKGDATA "${_DATADIR}/audacity" )
+ set( _MANDIR "${CMAKE_INSTALL_MANDIR}" )
+ set( _MODDIR "${_DEST}/modules" )
+ set( _EXEDIR "${_DEST}" )
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 13589f5c1..af90921cc 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -1392,7 +1392,7 @@ else()
+       install( FILES "${_SRCDIR}/audacity.xml"
+                DESTINATION "${_DATADIR}/mime/packages" )
+       install( FILES "${topdir}/presets/EQDefaultCurves.xml"
+-               DESTINATION "${_PKGDATA}" )
++               DESTINATION "${_PKGDATA}/" )
+       install( PROGRAMS "${PROJECT_SOURCE_DIR}/linux/audacity.sh"
+                DESTINATION "."
+                RENAME "audacity" )
+-- 
+2.33.1
+

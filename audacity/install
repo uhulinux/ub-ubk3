@@ -3,3 +3,4 @@
 ub_install \
 	PREFIX="$UB_INSTALLDIR"/usr
 rm -rf ${UB_INSTALLDIR}/usr/share/doc/audacity
+rm  ${UB_INSTALLDIR}/usr/audacity

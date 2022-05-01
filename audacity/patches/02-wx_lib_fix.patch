@@ -1,0 +1,11 @@
+--- a/cmake-proxies/CMakeLists.txt	2021-12-01 12:01:56.445087469 +0000
++++ b/cmake-proxies/CMakeLists.txt	2021-12-01 12:01:18.524811160 +0000
+@@ -37,7 +37,7 @@
+    find_required_package( PNG "libpng-dev" )
+    set( wx_png "sys" )
+    # And, for consistency
+-   find_required_package( JPEG "libjpeg-turbo8-dev" )
++   #find_required_package( JPEG "libjpeg-turbo8-dev" )
+    set( wx_jpeg "sys" )
+ 
+    set( id3tag_zlib "system" )
