@@ -1,1 +1,2 @@
 sflist tuxguitar TuxGuitar | splitver '^TuxGuitar-([0-9.]+)' | sort -V | tail -n 1
+noupdate lilv és suil kellene már neki
