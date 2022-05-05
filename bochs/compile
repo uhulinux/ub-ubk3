@@ -1,8 +1,10 @@
 #!/bin/sh -eux
 
-ub_compile \
+# 4.X kernel is basically 3.20
+sed -i 's/2\.6\*|3\.\*)/2.6*|3.*|4.*)/' configure*
+
+ub_configure \
 	--disable-docbook \
-	--enable-plugins \
 	--enable-cpu-level=6 \
 	--enable-ne2000 \
 	--enable-pci \
@@ -25,4 +27,10 @@ ub_compile \
 	--with-x11 \
 	--with-x \
 	--with-term \
-	--with-sdl
+	--without-wx \
+	--enable-evex \
+	--enable-long-phy-address \
+	--enable-pcidev \
+
+sed -i 's/^LIBS = /LIBS = -lpthread/g' Makefile
+make -j 1
