@@ -1,0 +1,7 @@
+diff -Nur orig/bin/gufw-pkexec mod/bin/gufw-pkexec
+--- orig/bin/gufw-pkexec	2022-01-25 19:31:39.000000000 +0100
++++ mod/bin/gufw-pkexec	2022-05-06 19:54:51.723510939 +0200
+@@ -1,2 +1,2 @@
+ #!/bin/bash
+-python3 /usr/share/gufw/gufw/gufw.py $1
++gksu /usr/lib/python3.7/site-packages/gufw/gufw.py
