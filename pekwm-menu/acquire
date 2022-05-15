@@ -1,4 +1,3 @@
 #!/usr/bin/env dl
 
-master.zip pekwm-menu-master/
-	https://github.com/nfisher1226/pekwm-menu/archive/refs/heads/
+pekwm-menu.tar.gz usr/ :usr

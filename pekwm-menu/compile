@@ -1,5 +1,0 @@
-#!/bin/sh -eux
-
-export LIBS=`pkg-config --libs glib-2.0 gtk+-3.0 libmenu-cache`
-export CFLAGS+="-DWITH_SVG -g -Wall `pkg-config --cflags glib-2.0 gtk+-3.0 libmenu-cache`"
-ub_compile
