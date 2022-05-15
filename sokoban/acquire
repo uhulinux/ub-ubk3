@@ -1,4 +1,3 @@
 #!/usr/bin/env dl
 
-master.zip sokoban-master/usr :usr
-    https://github.com/attuska/sokoban/archive/refs/heads/master.zip
+sokoban.tar.gz usr/ :usr
