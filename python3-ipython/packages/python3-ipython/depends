@@ -1,10 +1,12 @@
 python3-backcall
 python3-decorator
+python3-fastjsonschema
 python3-importlib-resources
 python3-ipython-genutils
 python3-jedi
 python3-jinja2
 python3-markupsafe
+python3-matplotlib-inline
 python3-nbformat
 python3-nose
 python3-pathlib2
