@@ -1,1 +1,2 @@
-u2dpypi traitlets
+#u2dpypi traitlets
+noupdate: Az 5.2.1 fordításához már hatchling backend kellene, a pyproject.toml fájlja szerint
