@@ -1,2 +1,3 @@
-imagemagick
-sdl2-mixer-dev
+fluidsynth-dev
+libpng-dev
+sdl2-dev

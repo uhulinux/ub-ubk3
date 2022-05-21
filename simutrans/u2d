@@ -1,2 +1,6 @@
-noupdate: A hangrendszer megváltozott, nem zenél az újabb.
-https://github.com/uhulinux/ub-ubk4/issues/55
+for dir in `sflist simutrans simutrans | grep -E '^([0-4])' | sort -r`;do
+	if [ "$(sflist simutrans simutrans/$dir | grep simulinux-x64)" ];then
+		echo $dir | sed 's/-/\./g'
+		exit 0
+	fi
+done
