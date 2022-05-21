@@ -62,7 +62,6 @@ highlight
 luit
 mftrace
 ndiswrapper
-openimpi
 openobex
 packagekit-qt5
 polkit-qt
