@@ -8,3 +8,4 @@ lib2geom-${UB_VERSION_HEAD2}.tar.bz2 lib2geom-${UB_VERSION_HEAD2}/ :src/3rdparty
 
 extensions-EXTENSIONS_AT_INKSCAPE_${UB_VERSION}.tar.bz2 extensions-EXTENSIONS_AT_INKSCAPE_${UB_VERSION}/ :share/extensions
     https://gitlab.com/Moini/extensions/-/archive/EXTENSIONS_AT_INKSCAPE_${UB_VERSION}/
+    https://gitlab.com/jurgeng/inkscape-extensions/-/archive/EXTENSIONS_AT_INKSCAPE_${UB_VERSION}/
