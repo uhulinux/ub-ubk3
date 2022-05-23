@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-fbreader-sources-${UB_VERSION}.tgz fbreader-${UB_VERSION}/
-	http://www.fbreader.org/files/desktop/
+${UB_VERSION}.tar.gz fbreader-${UB_VERSION}/
+	https://github.com/geometer/FBReader/archive/refs/tags/
