@@ -1,3 +1,5 @@
-#!/bin/sh
+#!/bin/bash
 
-apt-key add /usr/share/apt/ubk.key
+if [ -e /etc/apt/trusted.gpg ]; then
+rm -f /etc/apt/trusted.gpg
+fi
