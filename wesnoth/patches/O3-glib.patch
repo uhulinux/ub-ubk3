@@ -1,6 +1,6 @@
 diff -Nur orig/CMakeLists.txt mod/CMakeLists.txt
---- orig/CMakeLists.txt	2022-01-16 19:10:36.000000000 +0100
-+++ mod/CMakeLists.txt	2022-01-18 20:27:16.087245262 +0100
+--- orig/CMakeLists.txt	2022-05-29 17:04:52.000000000 +0200
++++ mod/CMakeLists.txt	2022-06-02 17:03:38.388601523 +0200
 @@ -242,8 +242,8 @@
  			set(CMAKE_CXX_FLAGS_RELEASE "-Og")
  			set(CMAKE_C_FLAGS_RELEASE "-Og")
@@ -15,15 +15,15 @@ diff -Nur orig/CMakeLists.txt mod/CMakeLists.txt
 @@ -501,6 +501,7 @@
  	pkg_check_modules(FONTCONFIG REQUIRED fontconfig>=2.4.1)
  	pkg_check_modules(PANGO REQUIRED pango>=1.22.0)
- 	pkg_check_modules(LIBREADLINE REQUIRED readline)
+ 	pkg_check_modules(LIBREADLINE readline)
 +	pkg_check_modules( GLIB REQUIRED gobject-2.0)
  endif()
  
  if(ENABLE_TESTS)
 diff -Nur orig/src/CMakeLists.txt mod/src/CMakeLists.txt
---- orig/src/CMakeLists.txt	2022-01-18 19:42:13.000000000 +0100
-+++ mod/src/CMakeLists.txt	2022-01-18 20:23:58.754455959 +0100
-@@ -61,6 +61,7 @@
+--- orig/src/CMakeLists.txt	2022-05-29 17:04:52.000000000 +0200
++++ mod/src/CMakeLists.txt	2022-06-02 17:04:59.196853043 +0200
+@@ -59,6 +59,7 @@
  if(NOT MSVC)
  	set(game-external-libs
  		${game-external-libs}
