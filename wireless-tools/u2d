@@ -1,1 +1,1 @@
-u2d https://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html wireless_tools.
+urllist https://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html wireless_tools. | grep tar | sed s/.*tools\\.//g | sed s/\.tar\\..*// | grep -E '^[0-9]' | sort -V | tail -n 1 | sed s/\\./~/
