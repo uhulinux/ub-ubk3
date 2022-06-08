@@ -2,7 +2,4 @@
 
 ub_install
 
-mkdir -p ${UB_INSTALLDIR}/usr/share/icons/hicolor/256x256/apps
-cp src/posix/zdoom.xpm ${UB_INSTALLDIR}/usr/share/icons/hicolor/256x256/apps/gzdoom.xpm
-mkdir -p ${UB_INSTALLDIR}/usr/lib/gzdoom
-ln -s ${UB_INSTALLDIR}/usr/share/games/doom/*.pk3 ${UB_INSTALLDIR}/usr/lib/gzdoom
+cp ${UB_SRCDIR}/sources/Doom-1-icon.png "$UB_INSTALLDIR"/usr/share/pixmaps/gzdoom.png
