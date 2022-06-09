@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+harmonyv${UB_VERSION}.zip .
+      http://www.evil-soft.com/Heretic/

@@ -9,6 +9,8 @@ rinutils
 fortune
 fortune-hu
 golems
+hacx-gamedata
+harmony-gamedata
 heretic1-demodata
 hexen1-demodata
 strife-demodata
