@@ -5,4 +5,5 @@ kio
 kwindowsystem
 libpq
 mysql-common
+nss
 qt5
