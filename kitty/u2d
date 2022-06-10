@@ -1,1 +1,2 @@
-u2d https://github.com/kovidgoyal/kitty/tags/ v
+#u2d https://github.com/kovidgoyal/kitty/tags/ v
+noupdate kitty>25.1 requires python >= 3.8
