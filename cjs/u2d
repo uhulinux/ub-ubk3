@@ -1,1 +1,2 @@
 u2d https://github.com/linuxmint/cjs/tags
+noupdate glib_required_version = '>= 2.66.0' gobject-introspection-1.0', version: '>= 1.66.0',
