@@ -1,4 +1,5 @@
 #!/usr/bin/env dl
 
-pcre2-${UB_VERSION}.tar.gz pcre2-${UB_VERSION}/
-	https://ftp.exim.org/pub/pcre/
+pcre-${UB_VERSION}.tar.gz pcre-${UB_VERSION}/
+	https://ftp.pcre.org/pub/pcre/
+	https://downloads.sourceforge.net/pcre/
