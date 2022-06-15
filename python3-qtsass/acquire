@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+qtsass-${UB_VERSION}.tar.gz qtsass-${UB_VERSION}/
+	https://files.pythonhosted.org/packages/source/q/qtsass/
