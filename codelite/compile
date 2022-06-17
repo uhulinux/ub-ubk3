@@ -2,6 +2,7 @@
 
 # kiszedjük a CRLF jeleket a scriptből
 sed -i 's/\r$//' Runtime/codelite_kill_children
+git submodule update --init
 export CXXFLAGS=" -fno-devirtualize"
 ub_compile \
     -DCMAKE_INSTALL_LIBDIR=lib

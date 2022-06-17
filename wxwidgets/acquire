@@ -2,3 +2,6 @@
 
 v${UB_VERSION}.tar.gz wxWidgets-${UB_VERSION}/
 	https://github.com/wxWidgets/wxWidgets/archive/
+
+nanosvg.tar.gz	nanosvg-ccdb199/ :3rdparty/nanosvg
+	git+https://github.com/wxWidgets/nanosvg@ccdb199
