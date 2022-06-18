@@ -1,11 +1,21 @@
 diff -Nur orig/GPG mod/GPG
 --- orig/GPG	2020-03-22 00:53:55.000000000 +0100
-+++ mod/GPG	2022-05-27 09:39:51.980774345 +0200
-@@ -19,3 +19,30 @@
++++ mod/GPG	2022-06-18 13:11:10.340091094 +0200
+@@ -1,5 +1,8 @@
+ gpg-s tároló használata UBK kulcssal
+ 
++--------------------------------------------------------------------------------
++Régebbi (< 2.3.15) apt esetén:
++
+ root-ként:
+ gpg --keyserver hkp://keys.gnupg.net --recv-keys 12A3276B
+ gpg --import ubk-secret.asc
+@@ -19,3 +22,31 @@
  gpg --import utvonal/sajat.asc
  gpg --import utvonal/sajat-privat.asc
  apt-key add utvonal/sajat.asc
 +
++--------------------------------------------------------------------------------
 +apt 2.3.15-től:
 +Ha létezik az /etc/apt/trusted.gpg, töröljük.
 +
