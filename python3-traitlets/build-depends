@@ -1,2 +1,4 @@
-python3-pyproject2setuppy
-python3-setuptools
+python3-build
+python3-hatchling
+python3-hatch-vcs
+python3-installer
