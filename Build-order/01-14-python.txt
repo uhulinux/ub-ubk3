@@ -7,6 +7,7 @@ python3-fastimport
 python3-dulwich
 bzr
 python3-async-timeout
+python3-pathlib2
 python3-backcall
 python3-distro
 python3-gnupg
