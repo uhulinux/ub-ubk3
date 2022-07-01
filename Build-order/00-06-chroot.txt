@@ -34,7 +34,6 @@ fbgetty
 gtest
 kbd
 linux-firmware
-python3-six
 python3-beaker
 python3-mako
 python3-markupsafe

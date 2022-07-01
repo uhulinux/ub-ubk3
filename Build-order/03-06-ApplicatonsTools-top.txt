@@ -104,7 +104,6 @@ gtklp
 fbreader
 synergy
 gammu
-wammu
 hardinfo
 eterm
 trend
