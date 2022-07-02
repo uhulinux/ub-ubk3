@@ -18,3 +18,6 @@ ln -s /usr/lib/libncursesw.so.6 "$UB_INSTALLDIR"/usr/lib/libncursesw.so.5
 
 # ghc igényli
 ln -s libncursesw.so.6 "$UB_INSTALLDIR"/usr/lib/libtinfo.so.5
+
+#bsd-games-nek csak widechar kell, a sima nem jó
+sed 's%-lncurses%-lncurses -lncursesw'% -i $UB_INSTALLDIR/usr/lib/pkgconfig/ncurses.pc
