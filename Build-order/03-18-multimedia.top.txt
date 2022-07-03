@@ -1,3 +1,4 @@
+vorbis-tools
 mkvtoolnix
 cinelerra
 dvdauthor

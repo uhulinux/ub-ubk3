@@ -1,3 +1,4 @@
+perl-sub-qoute
 libkcddb
 libksane
 libkipi
