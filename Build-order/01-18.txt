@@ -99,6 +99,7 @@ babl
 clutter-gst2
 gdl
 glfw2
+gtksourceview
 gtksourceviewmm
 openconnect
 openvpn
