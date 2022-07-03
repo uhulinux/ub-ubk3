@@ -117,3 +117,6 @@ man-db
 fltk
 libpipeline
 mtools
+vulkan-loader
+xdg-utils
+xfsprogs
