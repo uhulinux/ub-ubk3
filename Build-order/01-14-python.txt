@@ -51,6 +51,7 @@ python3-incremental
 python3-jsonschema
 python3-jsonrpclib-pelix
 python3-ipython-genutils
+python3-six
 python3-ply
 python3-pyatspi
 python3-pyalsa
