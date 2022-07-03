@@ -59,3 +59,5 @@ zoo
 zziplib
 zsh
 fmt
+muparser
+poppler-data

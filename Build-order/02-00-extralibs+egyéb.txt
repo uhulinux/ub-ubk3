@@ -49,3 +49,5 @@ gtksourceview4
 uchardet
 libfstrcmp
 libxml++3
+libasyncns
+libmp3split
