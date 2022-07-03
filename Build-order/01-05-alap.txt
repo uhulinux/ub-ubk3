@@ -112,3 +112,5 @@ samba
 pulseaudio
 qt5
 gpgme
+man-db
+fltk

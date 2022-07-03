@@ -141,6 +141,7 @@ obexftp
 tigervnc
 xscreensaver
 dconf
+exiv2
 gexiv2
 gspell
 polkit-gnome
