@@ -17,6 +17,7 @@ desktop-file-utils
 libqrencode
 lvm
 dracut
+lua52
 lua53
 audit
 itstool
