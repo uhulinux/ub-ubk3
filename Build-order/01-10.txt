@@ -46,3 +46,5 @@ glib-networking
 subversion
 wxwidgets
 wxwidgets3.0
+glibmm
+atkmm
