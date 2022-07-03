@@ -34,6 +34,7 @@ xlsfonts
 xprop
 xwininfo
 fuse
+fuse-ntfs-3g
 librevenge
 libxerces
 libxp
