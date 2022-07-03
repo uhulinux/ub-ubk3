@@ -44,6 +44,7 @@ xev
 xkbevd
 xvinfo
 esound
+libao
 xcb-util-cursor
 xcb-util-xrm
 xdpyinfo

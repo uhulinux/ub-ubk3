@@ -48,6 +48,7 @@ e2fsprogs
 fonts-dejavu
 efivar
 efibootmgr
+uhu-pixmaps
 grub
 libedit
 nss

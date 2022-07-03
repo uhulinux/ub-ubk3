@@ -50,4 +50,4 @@ uchardet
 libfstrcmp
 libxml++3
 libasyncns
-libmp3split
+libmp3splt

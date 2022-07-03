@@ -4,6 +4,7 @@ cinnamon-translations
 python3-pyinotify
 python3-xapp
 cinnamon-menus
+timezonemap
 cinnamon-desktop
 cinnamon-screensaver
 cinnamon-session
