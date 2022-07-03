@@ -48,3 +48,4 @@ flatpak
 gtksourceview4
 uchardet
 libfstrcmp
+libxml++3
