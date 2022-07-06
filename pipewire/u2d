@@ -1,1 +1,2 @@
-u2d https://github.com/PipeWire/pipewire/tags/
+#u2d https://github.com/PipeWire/pipewire/tags/
+noupdate:  ERROR: Meson version is 0.57.1 but project requires >= 0.59.0
