@@ -1,0 +1,9 @@
+diff -Nur orig/ltris.desktop.in mod/ltris.desktop.in
+--- orig/ltris.desktop.in	2018-11-02 20:56:27.000000000 +0100
++++ mod/ltris.desktop.in	2022-07-06 14:28:07.669311951 +0200
+@@ -4,4 +4,4 @@
+ Exec=ltris
+ Icon=
+ Type=Application
+-Categories=Game;
++Categories=Game;BlocksGame;

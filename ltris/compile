@@ -1,4 +1,5 @@
 #!/bin/sh -eux
 
 export CFLAGS='-std=gnu11 '
-ub_compile
+ub_compile \
+    --localstatedir=/var/games
