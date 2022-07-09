@@ -1,3 +1,4 @@
+python3-appdirs
 python3-cython
 python3-certifi
 python3-configobj
