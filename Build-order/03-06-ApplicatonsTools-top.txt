@@ -110,6 +110,7 @@ trend
 recoll
 gparted
 easystroke
+virt-manager
 mugshot
 rapidsvn
 krb5-auth-dialog
