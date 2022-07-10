@@ -1,5 +1,4 @@
 #!/bin/sh -eux
 
-#barom
 export SETUPTOOLS_SCM_PRETEND_VERSION=$UB_VERSION
-python3 -m pyproject2setuppy.main build
+python3 -m build --wheel

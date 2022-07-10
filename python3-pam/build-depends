@@ -1,3 +1,2 @@
-python3-importlib-metadata
-python3-pyproject2setuppy
-python3-six
+python3-build
+python3-installer
