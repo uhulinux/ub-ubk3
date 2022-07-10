@@ -1,0 +1,5 @@
+#!/bin/sh -eux
+
+sitedir=${UB_INSTALLDIR}/usr/lib/python3.7/site-packages
+mkdir -p $sitedir
+python3 bootstrap_install.py --installdir $sitedir dist/flit_core-*.whl
