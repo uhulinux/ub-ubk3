@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
-${UB_VERSION}.tar.gz dulwich-upstream-${UB_VERSION}/
+${UB_VERSION}.tar.gz dulwich-upstream/
 	https://github.com/dulwich/dulwich/archive/upstream/
