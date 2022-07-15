@@ -2,6 +2,8 @@ python3-flit-core
 python3-installer
 python3-tomli-w
 python3-flit
+python3-mistune1
+python3-m2r
 python3-appdirs
 python3-cython
 python3-certifi
