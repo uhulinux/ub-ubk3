@@ -12,6 +12,8 @@ python3-watchdog
 python3-qdarkstyle
 python3-qrcode
 python3-python-socks
+python3-frozenlist
+python3-aiosignal
 python3-aiohttp
 python3-aiohttp-socks
 electrum
