@@ -2,3 +2,7 @@
 
 export DISPLAY=:0
 python3 setup.py install --prefix=${UB_INSTALLDIR}/usr
+cp -a ${UB_INSTALLDIR}/usr/lib/python3.7/site-packages/PyChess-1.0.3-py3.7.egg/share ${UB_INSTALLDIR}/usr/
+rm -rf ${UB_INSTALLDIR}/usr/lib/python3.7/site-packages/PyChess-1.0.3-py3.7.egg/share
+# FS#59882
+find "$UB_INSTALLDIR" -wholename 'external/pexpect' -type d -delete
