@@ -1,1 +1,1 @@
-u2dpypi poetry.core
+urllist https://github.com/python-poetry/poetry-core/tags/ | grep tar.gz | sort -V | tail -n 1 | sed s%.tar.*%% 
