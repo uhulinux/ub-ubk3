@@ -1,4 +1,4 @@
 #!/usr/bin/env dl
 
 setproctitle-${UB_VERSION}.tar.gz setproctitle-${UB_VERSION}/
-	https://files.pythonhosted.org/packages/source/s/setproctitle/
+	https://pypi.org/packages/source/s/setproctitle/
