@@ -1,1 +1,2 @@
-u2d http://homebank.free.fr/public/
+#u2d http://homebank.free.fr/public/
+noupdate Linkhiba: A glib-2.62 -ben még nincs g_string_replace funkció
