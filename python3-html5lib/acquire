@@ -1,4 +1,0 @@
-#!/usr/bin/env dl
-
-html5lib-${UB_VERSION}.tar.gz html5lib-${UB_VERSION}/
-	https://files.pythonhosted.org/packages/source/h/html5lib/

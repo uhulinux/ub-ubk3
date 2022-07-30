@@ -1,4 +1,0 @@
-#!/usr/bin/env dl
-
-CacheControl-${UB_VERSION}.tar.gz CacheControl-${UB_VERSION}/
-	https://files.pythonhosted.org/packages/source/C/CacheControl/

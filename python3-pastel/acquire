@@ -1,4 +1,0 @@
-#!/usr/bin/env dl
-
-pastel-${UB_VERSION}.tar.gz pastel-${UB_VERSION}/
-	https://files.pythonhosted.org/packages/source/p/pastel/

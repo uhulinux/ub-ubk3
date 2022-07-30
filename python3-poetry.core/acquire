@@ -1,4 +1,0 @@
-#!/usr/bin/env dl
-
-${UB_VERSION}.tar.gz poetry-core-${UB_VERSION}/
-	https://github.com/python-poetry/poetry-core/archive/

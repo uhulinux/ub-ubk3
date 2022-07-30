@@ -103,6 +103,7 @@ python3-apipkg
 python3-importlib-metadata
 python3-iniconfig
 python3-py
+python3-tomlkit
 python3-rencode
 python3-chardet
 python3-decorator
