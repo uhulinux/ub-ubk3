@@ -1,0 +1,13 @@
+Csak az újabb verziókhoz kell ez a workaround folt
+diff -Nur orig/Common.mak mod/Common.mak
+--- orig/Common.mak	2022-07-26 16:27:07.000000000 +0200
++++ mod/Common.mak	2022-07-31 18:14:42.116801053 +0200
+@@ -458,7 +458,7 @@
+ ##### Instantiate variables
+ 
+ COMMONFLAGS :=
+-COMPILERFLAGS := -funsigned-char -frounding-math
++COMPILERFLAGS := -funsigned-char
+ 
+ CSTD := -std=gnu11
+ CXXSTD := -std=gnu++14

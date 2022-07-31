@@ -2,3 +2,7 @@
 
 eduke32_src_${UB_VERSION//./-}.tar.xz eduke32_${UB_VERSION//./-}/
 	http://dukeworld.duke4.net/eduke32/synthesis/${UB_VERSION//./-}/
+
+#20220416-10006-8ed89a1e8 vacak
+#20220204-9957-6df591a07 még jó, de már rosszabb
+# 20211228-9887-278ba013d még jó, de használható 
