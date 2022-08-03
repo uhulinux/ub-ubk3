@@ -1,0 +1,11 @@
+diff -Nur orig/audacious.desktop mod/audacious.desktop
+--- orig/audacious.desktop	2022-07-10 03:11:00.000000000 +0200
++++ mod/audacious.desktop	2022-08-03 10:58:14.216558531 +0200
+@@ -11,7 +11,6 @@
+ StartupNotify=false
+ Terminal=false
+ MimeType=application/ogg;application/x-cue;application/x-ogg;application/xspf+xml;audio/aac;audio/flac;audio/midi;audio/mp3;audio/mp4;audio/mpeg;audio/mpegurl;audio/ogg;audio/prs.sid;audio/wav;audio/x-flac;audio/x-it;audio/x-mod;audio/x-mp3;audio/x-mpeg;audio/x-mpegurl;audio/x-ms-asx;audio/x-ms-wma;audio/x-musepack;audio/x-s3m;audio/x-scpls;audio/x-stm;audio/x-vorbis+ogg;audio/x-wav;audio/x-wavpack;audio/x-xm;x-content/audio-cdda;
+-SingleMainWindow=true
+ 
+ Comment[af]=Luister na musiek
+ Comment[ar]=استمع إلى الموسيقى
