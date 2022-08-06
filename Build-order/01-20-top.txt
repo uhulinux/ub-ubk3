@@ -34,7 +34,7 @@ lndir
 makedepend
 mdadm
 python3-cxfreeze
-python-pycodestyle
+python3-pycodestyle
 scsh
 squashfs-tools
 x.org-input-aiptek
