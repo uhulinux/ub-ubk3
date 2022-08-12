@@ -1,0 +1,10 @@
+diff -Nur orig/source/host.cpp mod/source/host.cpp
+--- orig/source/host.cpp	2022-08-12 09:10:38.000000000 +0200
++++ mod/source/host.cpp	2022-08-12 09:16:05.574696998 +0200
+@@ -747,5 +747,5 @@
+ 
+ 	SAFE_SHUTDOWN(VObject::StaticExit, ())
+ 	SAFE_SHUTDOWN(VName::StaticExit, ())
+-	SAFE_SHUTDOWN(Z_Shutdown, ())
++//	SAFE_SHUTDOWN(Z_Shutdown, ())
+ }
