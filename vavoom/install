@@ -2,4 +2,3 @@
 
 cd build
 ub_install
-cp "$UB_INSTALLDIR"/usr/share/games/vavoom/vavoom.png "$UB_INSTALLDIR"/usr/share/pixmaps/

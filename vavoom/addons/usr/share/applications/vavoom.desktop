@@ -4,6 +4,6 @@ Name=Vavoom Launcher
 Name[hu]=Vavoom indító
 GenericName=Doom Engine
 GenericName[hu]=Doom futtató motor
-Icon=vavoom
+Icon=/usr/share/games/vavoom/vavoom.png
 Exec=vlaunch
 Categories=Game;ActionGame;

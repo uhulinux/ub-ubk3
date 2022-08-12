@@ -3,7 +3,9 @@ glu-dev
 libjpeg-turbo-dev
 libmad-dev
 libmikmod-dev
+libmodplug-dev
 libpng-dev
+libvorbis-dev
 openal-dev
 sdl-dev
 sdl-mixer-dev
