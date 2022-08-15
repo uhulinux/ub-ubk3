@@ -5,5 +5,5 @@ intltool
 lcms2-dev
 libchamplain-dev
 libtiff-dev
-lirc-dev
 poppler-glib-dev
+vim
