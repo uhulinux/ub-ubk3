@@ -1,8 +1,0 @@
-#!/bin/sh -eux
-
-dirs=$(ls -d */ | sed s%/%%)
-for dir in $dirs;do
-mkdir -p ${UB_INSTALLDIR}/usr/lib/go/$dir
-cp -r $dir ${UB_INSTALLDIR}/usr/lib/go/
-done
-ln -s /usr/lib/go/bin/go ${UB_INSTALLDIR}/usr/bin/go

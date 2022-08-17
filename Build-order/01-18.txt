@@ -28,7 +28,6 @@ fonts-noto
 glee
 gloox
 rc
-go
 emptty
 goocanvas
 gtkimageview
